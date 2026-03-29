@@ -1,0 +1,13 @@
+{
+  "id": "PDF-Crosspage-Table-Normalization-to-Excel",
+  "source": "skillsbench",
+  "instruction": "",
+  "domain": "general",
+  "difficulty": "medium",
+  "has_skills": true,
+  "verification": "deterministic",
+  "metadata": {
+    "instruction_path": "tasks/PDF-Crosspage-Table-Normalization-to-Excel/instruction.md",
+    "skill_count": 0
+  }
+}

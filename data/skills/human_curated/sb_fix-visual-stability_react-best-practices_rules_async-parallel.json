@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_async-parallel",
+  "content": "---\ntitle: Promise.all() for Independent Operations\nimpact: CRITICAL\nimpactDescription: 2-10× improvement\ntags: async, parallelization, promises, waterfalls\n---\n\n## Promise.all() for Independent Operations\n\nWhen async operations have no interdependencies, execute them concurrently using `Promise.all()`.\n\n**Incorrect (sequential execution, 3 round trips):**\n\n```typescript\nconst user = await fetchUser()\nconst posts = await fetchPosts()\nconst comments = await fetchComments()\n```\n\n**Correct (parallel execution, 1 round trip):**\n\n```typescript\nconst [user, posts, comments] = await Promise.all([\n  fetchUser(),\n  fetchPosts(),\n  fetchComments()\n])\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 75,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-parallel.md"
+  }
+}

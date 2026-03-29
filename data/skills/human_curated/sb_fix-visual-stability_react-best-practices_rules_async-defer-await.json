@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_async-defer-await",
+  "content": "---\ntitle: Defer Await Until Needed\nimpact: HIGH\nimpactDescription: avoids blocking unused code paths\ntags: async, await, conditional, optimization\n---\n\n## Defer Await Until Needed\n\nMove `await` operations into the branches where they're actually used to avoid blocking code paths that don't need them.\n\n**Incorrect (blocks both branches):**\n\n```typescript\nasync function handleRequest(userId: string, skipProcessing: boolean) {\n  const userData = await fetchUserData(userId)\n\n  if (skipProcessing) {\n    // Returns immediately but still waited for userData\n    return { skipped: true }\n  }\n\n  // Only this branch uses userData\n  return processUserData(userData)\n}\n```\n\n**Correct (only blocks when needed):**\n\n```typescript\nasync function handleRequest(userId: string, skipProcessing: boolean) {\n  if (skipProcessing) {\n    // Returns immediately without waiting\n    return { skipped: true }\n  }\n\n  // Fetch only when needed\n  const userData = await fetchUserData(userId)\n  return processUserData(userData)\n}\n```\n\n**Another example (early return optimization):**\n\n```typescript\n// Incorrect: always fetches permissions\nasync function updateResource(resourceId: string, userId: string) {\n  const permissions = await fetchPermissions(userId)\n  const resource = await getResource(resourceId)\n\n  if (!resource) {\n    return { error: 'Not found' }\n  }\n\n  if (!permissions.canEdit) {\n    return { error: 'Forbidden' }\n  }\n\n  return await updateResourceData(resource, permissions)\n}\n\n// Correct: fetches only when needed\nasync function updateResource(resourceId: string, userId: string) {\n  const resource = await getResource(resourceId)\n\n  if (!resource) {\n    return { error: 'Not found' }\n  }\n\n  const permissions = await fetchPermissions(userId)\n\n  if (!permissions.canEdit) {\n    return { error: 'Forbidden' }\n  }\n\n  return await updateResourceData(resource, permissions)\n}\n```\n\nThis optimization is especially valuable when the skipped branch is frequently taken, or when the deferred operation is expensive.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 248,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-defer-await.md"
+  }
+}

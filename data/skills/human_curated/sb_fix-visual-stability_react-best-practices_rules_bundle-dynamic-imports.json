@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_bundle-dynamic-imports",
+  "content": "---\ntitle: Dynamic Imports for Heavy Components\nimpact: CRITICAL\nimpactDescription: directly affects TTI and LCP\ntags: bundle, dynamic-import, code-splitting, next-dynamic\n---\n\n## Dynamic Imports for Heavy Components\n\nUse `next/dynamic` to lazy-load large components not needed on initial render.\n\n**Incorrect (Monaco bundles with main chunk ~300KB):**\n\n```tsx\nimport { MonacoEditor } from './monaco-editor'\n\nfunction CodePanel({ code }: { code: string }) {\n  return <MonacoEditor value={code} />\n}\n```\n\n**Correct (Monaco loads on demand):**\n\n```tsx\nimport dynamic from 'next/dynamic'\n\nconst MonacoEditor = dynamic(\n  () => import('./monaco-editor').then(m => m.MonacoEditor),\n  { ssr: false }\n)\n\nfunction CodePanel({ code }: { code: string }) {\n  return <MonacoEditor value={code} />\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 106,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-dynamic-imports.md"
+  }
+}

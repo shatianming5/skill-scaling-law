@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-druid-loophole-cve_senior-java_HOW_TO_USE",
+  "content": "# How to Use the Senior Java Skill\n\n## Quick Start\n\nHey Claude—I just added the \"senior-java\" skill. Can you help me with [describe your task]?\n\n## Example Invocations\n\n### Example 1: Basic Usage\n```\nHey Claude—I just added the \"senior-java\" skill. Can you [specific task related to this skill]?\n```\n\n### Example 2: Advanced Usage\n```\nHey Claude—I just added the \"senior-java\" skill. Can you [more complex task with specific requirements]?\n```\n\n### Example 3: Integration with Other Skills\n```\nHey Claude—I just added the \"senior-java\" skill. Can you use it together with [another skill] to [combined task]?\n```\n\n## What to Provide\n\nWhen using this skill, provide:\n\n- **Primary Input**: [Describe the main input needed]\n- **Context** (optional): [What context helps improve results]\n- **Preferences** (optional): [Any customization options]\n\n## What You'll Get\n\nThis skill will provide:\n\n- **Output Format**: Results formatted according to skill specifications\n- **Analysis**: Insights and recommendations based on the input\n- **Deliverables**: spring_project_scaffolder, dependency_analyzer, entity_generator, api_endpoint_generator, security_config_generator, performance_profiler\n\n## Python Tools Available\n\nThis skill includes the following Python tools:\n\n- **spring_project_scaffolder**: Spring Project Scaffolder functionality\n- **dependency_analyzer**: Dependency Analyzer functionality\n- **entity_generator**: Entity Generator functionality\n- **api_endpoint_generator**: Api Endpoint Generator functionality\n- **security_config_generator**: Security Config Generator functionality\n- **performance_profiler**: Performance Profiler functionality\n\nYou can also run these tools directly:\n\n```bash\npython scripts/spring_project_scaffolder --help\n```\n\n## Tips for Best Results\n\n1. **Be Specific**: Provide clear, detailed requirements for better results\n2. **Provide Context**: Include relevant background information\n3. **Iterate**: Start simple, then refine based on initial results\n4. **Combine Skills**: This skill works well with other engineering skills\n\n## Related Skills\n\nConsider using these skills together:\n\n- [List related skills from the same domain]\n- [Skills that complement this one]\n\n---\n\n**Skill**: senior-java\n**Domain**: engineering-team\n**Version**: 1.0.0\n**Last Updated**: 2025-12-16\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 296,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-druid-loophole-cve",
+    "path": "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/HOW_TO_USE.md"
+  }
+}

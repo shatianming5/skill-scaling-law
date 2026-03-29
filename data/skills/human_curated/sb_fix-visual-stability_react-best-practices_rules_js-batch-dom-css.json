@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_js-batch-dom-css",
+  "content": "---\ntitle: Batch DOM CSS Changes\nimpact: MEDIUM\nimpactDescription: reduces reflows/repaints\ntags: javascript, dom, css, performance, reflow\n---\n\n## Batch DOM CSS Changes\n\nAvoid changing styles one property at a time. Group multiple CSS changes together via classes or `cssText` to minimize browser reflows.\n\n**Incorrect (multiple reflows):**\n\n```typescript\nfunction updateElementStyles(element: HTMLElement) {\n  // Each line triggers a reflow\n  element.style.width = '100px'\n  element.style.height = '200px'\n  element.style.backgroundColor = 'blue'\n  element.style.border = '1px solid black'\n}\n```\n\n**Correct (add class - single reflow):**\n\n```typescript\n// CSS file\n.highlighted-box {\n  width: 100px;\n  height: 200px;\n  background-color: blue;\n  border: 1px solid black;\n}\n\n// JavaScript\nfunction updateElementStyles(element: HTMLElement) {\n  element.classList.add('highlighted-box')\n}\n```\n\n**Correct (change cssText - single reflow):**\n\n```typescript\nfunction updateElementStyles(element: HTMLElement) {\n  element.style.cssText = `\n    width: 100px;\n    height: 200px;\n    background-color: blue;\n    border: 1px solid black;\n  `\n}\n```\n\n**React example:**\n\n```tsx\n// Incorrect: changing styles one by one\nfunction Box({ isHighlighted }: { isHighlighted: boolean }) {\n  const ref = useRef<HTMLDivElement>(null)\n\n  useEffect(() => {\n    if (ref.current && isHighlighted) {\n      ref.current.style.width = '100px'\n      ref.current.style.height = '200px'\n      ref.current.style.backgroundColor = 'blue'\n    }\n  }, [isHighlighted])\n\n  return <div ref={ref}>Content</div>\n}\n\n// Correct: toggle class\nfunction Box({ isHighlighted }: { isHighlighted: boolean }) {\n  return (\n    <div className={isHighlighted ? 'highlighted-box' : ''}>\n      Content\n    </div>\n  )\n}\n```\n\nPrefer CSS classes over inline styles when possible. Classes are cached by the browser and provide better separation of concerns.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 226,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-batch-dom-css.md"
+  }
+}

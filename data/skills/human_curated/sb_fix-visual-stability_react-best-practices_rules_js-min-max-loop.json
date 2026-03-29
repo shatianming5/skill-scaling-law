@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_js-min-max-loop",
+  "content": "---\ntitle: Use Loop for Min/Max Instead of Sort\nimpact: LOW\nimpactDescription: O(n) instead of O(n log n)\ntags: javascript, arrays, performance, sorting, algorithms\n---\n\n## Use Loop for Min/Max Instead of Sort\n\nFinding the smallest or largest element only requires a single pass through the array. Sorting is wasteful and slower.\n\n**Incorrect (O(n log n) - sort to find latest):**\n\n```typescript\ninterface Project {\n  id: string\n  name: string\n  updatedAt: number\n}\n\nfunction getLatestProject(projects: Project[]) {\n  const sorted = [...projects].sort((a, b) => b.updatedAt - a.updatedAt)\n  return sorted[0]\n}\n```\n\nSorts the entire array just to find the maximum value.\n\n**Incorrect (O(n log n) - sort for oldest and newest):**\n\n```typescript\nfunction getOldestAndNewest(projects: Project[]) {\n  const sorted = [...projects].sort((a, b) => a.updatedAt - b.updatedAt)\n  return { oldest: sorted[0], newest: sorted[sorted.length - 1] }\n}\n```\n\nStill sorts unnecessarily when only min/max are needed.\n\n**Correct (O(n) - single loop):**\n\n```typescript\nfunction getLatestProject(projects: Project[]) {\n  if (projects.length === 0) return null\n\n  let latest = projects[0]\n\n  for (let i = 1; i < projects.length; i++) {\n    if (projects[i].updatedAt > latest.updatedAt) {\n      latest = projects[i]\n    }\n  }\n\n  return latest\n}\n\nfunction getOldestAndNewest(projects: Project[]) {\n  if (projects.length === 0) return { oldest: null, newest: null }\n\n  let oldest = projects[0]\n  let newest = projects[0]\n\n  for (let i = 1; i < projects.length; i++) {\n    if (projects[i].updatedAt < oldest.updatedAt) oldest = projects[i]\n    if (projects[i].updatedAt > newest.updatedAt) newest = projects[i]\n  }\n\n  return { oldest, newest }\n}\n```\n\nSingle pass through the array, no copying, no sorting.\n\n**Alternative (Math.min/Math.max for small arrays):**\n\n```typescript\nconst numbers = [5, 2, 8, 1, 9]\nconst min = Math.min(...numbers)\nconst max = Math.max(...numbers)\n```\n\nThis works for small arrays but can be slower for very large arrays due to spread operator limitations. Use the loop approach for reliability.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 296,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-min-max-loop.md"
+  }
+}

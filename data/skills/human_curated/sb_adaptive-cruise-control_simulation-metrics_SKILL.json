@@ -1,0 +1,13 @@
+{
+  "id": "sb_adaptive-cruise-control_simulation-metrics_SKILL",
+  "content": "---\nname: simulation-metrics\ndescription: Use this skill when calculating control system performance metrics such as rise time, overshoot percentage, steady-state error, or settling time for evaluating simulation results.\n---\n\n# Control System Performance Metrics\n\n## Rise Time\n\nTime for system to go from 10% to 90% of target value.\n\n```python\ndef rise_time(times, values, target):\n    \"\"\"Calculate rise time (10% to 90% of target).\"\"\"\n    t10 = t90 = None\n\n    for t, v in zip(times, values):\n        if t10 is None and v >= 0.1 * target:\n            t10 = t\n        if t90 is None and v >= 0.9 * target:\n            t90 = t\n            break\n\n    if t10 is not None and t90 is not None:\n        return t90 - t10\n    return None\n```\n\n## Overshoot\n\nHow much response exceeds target, as percentage.\n\n```python\ndef overshoot_percent(values, target):\n    \"\"\"Calculate overshoot percentage.\"\"\"\n    max_val = max(values)\n    if max_val <= target:\n        return 0.0\n    return ((max_val - target) / target) * 100\n```\n\n## Steady-State Error\n\nDifference between target and final settled value.\n\n```python\ndef steady_state_error(values, target, final_fraction=0.1):\n    \"\"\"Calculate steady-state error using final portion of data.\"\"\"\n    n = len(values)\n    start = int(n * (1 - final_fraction))\n    final_avg = sum(values[start:]) / len(values[start:])\n    return abs(target - final_avg)\n```\n\n## Settling Time\n\nTime to stay within tolerance band of target.\n\n```python\ndef settling_time(times, values, target, tolerance=0.02):\n    \"\"\"Time to settle within tolerance of target.\"\"\"\n    band = target * tolerance\n    lower, upper = target - band, target + band\n\n    settled_at = None\n    for t, v in zip(times, values):\n        if v < lower or v > upper:\n            settled_at = None\n        elif settled_at is None:\n            settled_at = t\n\n    return settled_at\n```\n\n## Usage\n\n```python\ntimes = [row['time'] for row in results]\nvalues = [row['value'] for row in results]\ntarget = 30.0\n\nprint(f\"Rise time: {rise_time(times, values, target)}\")\nprint(f\"Overshoot: {overshoot_percent(values, target)}%\")\nprint(f\"SS Error: {steady_state_error(values, target)}\")\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 295,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "adaptive-cruise-control",
+    "path": "tasks-no-skills/adaptive-cruise-control/environment/skills/simulation-metrics/SKILL.md"
+  }
+}

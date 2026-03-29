@@ -1,0 +1,11 @@
+{
+  "id": "django__django-16082",
+  "instance_id": "django__django-16082",
+  "repo": "django/django",
+  "problem_statement": "Resolve output_field when combining numeric expressions with MOD operator.\nDescription\n\t\nWhen writing a Django expression for a query that does MOD, if the types of the query are different (Decimal and Integer), it doesn't resolve the result to a Decimal type, like it does for other mathematical operators.\n",
+  "test_patch": "diff --git a/tests/expressions/tests.py b/tests/expressions/tests.py\n--- a/tests/expressions/tests.py\n+++ b/tests/expressions/tests.py\n@@ -2416,7 +2416,13 @@ def test_resolve_output_field_number(self):\n             (IntegerField, FloatField, FloatField),\n             (FloatField, IntegerField, FloatField),\n         ]\n-        connectors = [Combinable.ADD, Combinable.SUB, Combinable.MUL, Combinable.DIV]\n+        connectors = [\n+            Combinable.ADD,\n+            Combinable.SUB,\n+            Combinable.MUL,\n+            Combinable.DIV,\n+            Combinable.MOD,\n+        ]\n         for lhs, rhs, combined in tests:\n             for connector in connectors:\n                 with self.subTest(\n",
+  "hints_text": "Duplicate of #33397.\nI'm pretty sure the changes committed as part of #33397, while closely related, doesn't actually address this case. I think it's best to handle this as a separate ticket.\nHasn't this been addressed by ​https://github.com/django/django/pull/15271/files#diff-359ab56295cce36b9597e1d65185f695f271955617b40f43df58ce3fe76fd0c8R492? Removing the marked line will make expressions.tests.ExpressionOperatorTests.test_lefthand_modulo_null fail with a Cannot infer type of '%%' expression involving these types: IntegerField, IntegerField. You must set output_field. Which sounds pretty close to what is described in the issue here. Or what am I missing? :)\nReplying to David Wobrock: Hasn't this been addressed by ​https://github.com/django/django/pull/15271/files#diff-359ab56295cce36b9597e1d65185f695f271955617b40f43df58ce3fe76fd0c8R492? No, this issue is for mixed numeric types, e.g. DecimalField and IntegerField.",
+  "difficulty": "15 min - 1 hour",
+  "base_commit": "bf47c719719d0e190a99fa2e7f959d5bbb7caf8a",
+  "created_at": "2022-09-21T18:49:40Z"
+}

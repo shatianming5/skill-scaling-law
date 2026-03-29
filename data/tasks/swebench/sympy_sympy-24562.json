@@ -1,0 +1,11 @@
+{
+  "id": "sympy__sympy-24562",
+  "instance_id": "sympy__sympy-24562",
+  "repo": "sympy/sympy",
+  "problem_statement": "Rational calc value error\npython 3.11, sympy 1.11.1\r\nwhen calc Rational('0.5', '100'), the value is 1/100100; but Rational(0.5, 100) the value is 1/200, this value is the true value, and the version of sympy 1.8 is normal\n",
+  "test_patch": "diff --git a/sympy/core/tests/test_numbers.py b/sympy/core/tests/test_numbers.py\n--- a/sympy/core/tests/test_numbers.py\n+++ b/sympy/core/tests/test_numbers.py\n@@ -366,6 +366,13 @@ def test_Rational_new():\n     assert n.q == 4\n     assert n.p == -2\n \n+def test_issue_24543():\n+    for p in ('1.5', 1.5, 2):\n+        for q in ('1.5', 1.5, 2):\n+            assert Rational(p, q).as_numer_denom() == Rational('%s/%s'%(p,q)).as_numer_denom()\n+\n+    assert Rational('0.5', '100') == Rational(1, 200)\n+\n \n def test_Number_new():\n     \"\"\"\"\n",
+  "hints_text": "This should probably raise an error. The expected way to do this is:\r\n```python\r\nIn [1]: Rational('0.5/100')\r\nOut[1]: 1/200\r\n\r\nIn [2]: Rational('0.5') / Rational('100')\r\nOut[2]: 1/200\r\n```\nActually, this should be a flaw in the logic because string is multiplied somewhere in \r\nhttps://github.com/sympy/sympy/blob/68803e50d9d76a8b14eaf2a537f90cb86d0a87be/sympy/core/numbers.py#L1628-L1640\nThe logic should like like this:\r\n```python\r\n        Q = 1\r\n        gcd = 1\r\n\r\n        if not isinstance(p, SYMPY_INTS):\r\n            p = Rational(p)\r\n            Q *= p.q\r\n            p = p.p\r\n        else:\r\n            p = int(p)\r\n\r\n        if not isinstance(q, SYMPY_INTS):\r\n            q = Rational(q)\r\n            p *= q.q\r\n            Q *= q.p\r\n        else:\r\n            Q *= int(q)\r\n        q = Q\r\n```\r\nA test can be added:\r\n```python\r\nfor p in ('1.5', 1.5, 2):\r\n    for q in ('1.5', 1.5, 2):\r\n        assert Rational(p, q).as_numer_denom() == Rational('%s/%s'%(p,q)).as_numer_denom()\r\n```",
+  "difficulty": "<15 min fix",
+  "base_commit": "b1cb676cf92dd1a48365b731979833375b188bf2",
+  "created_at": "2023-01-21T12:06:36Z"
+}

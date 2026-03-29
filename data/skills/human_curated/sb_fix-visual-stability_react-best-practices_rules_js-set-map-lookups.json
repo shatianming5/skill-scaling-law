@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_js-set-map-lookups",
+  "content": "---\ntitle: Use Set/Map for O(1) Lookups\nimpact: LOW-MEDIUM\nimpactDescription: O(n) to O(1)\ntags: javascript, set, map, data-structures, performance\n---\n\n## Use Set/Map for O(1) Lookups\n\nConvert arrays to Set/Map for repeated membership checks.\n\n**Incorrect (O(n) per check):**\n\n```typescript\nconst allowedIds = ['a', 'b', 'c', ...]\nitems.filter(item => allowedIds.includes(item.id))\n```\n\n**Correct (O(1) per check):**\n\n```typescript\nconst allowedIds = new Set(['a', 'b', 'c', ...])\nitems.filter(item => allowedIds.has(item.id))\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 67,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-set-map-lookups.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_client-localstorage-schema",
+  "content": "---\ntitle: Version and Minimize localStorage Data\nimpact: MEDIUM\nimpactDescription: prevents schema conflicts, reduces storage size\ntags: client, localStorage, storage, versioning, data-minimization\n---\n\n## Version and Minimize localStorage Data\n\nAdd version prefix to keys and store only needed fields. Prevents schema conflicts and accidental storage of sensitive data.\n\n**Incorrect:**\n\n```typescript\n// No version, stores everything, no error handling\nlocalStorage.setItem('userConfig', JSON.stringify(fullUserObject))\nconst data = localStorage.getItem('userConfig')\n```\n\n**Correct:**\n\n```typescript\nconst VERSION = 'v2'\n\nfunction saveConfig(config: { theme: string; language: string }) {\n  try {\n    localStorage.setItem(`userConfig:${VERSION}`, JSON.stringify(config))\n  } catch {\n    // Throws in incognito/private browsing, quota exceeded, or disabled\n  }\n}\n\nfunction loadConfig() {\n  try {\n    const data = localStorage.getItem(`userConfig:${VERSION}`)\n    return data ? JSON.parse(data) : null\n  } catch {\n    return null\n  }\n}\n\n// Migration from v1 to v2\nfunction migrate() {\n  try {\n    const v1 = localStorage.getItem('userConfig:v1')\n    if (v1) {\n      const old = JSON.parse(v1)\n      saveConfig({ theme: old.darkMode ? 'dark' : 'light', language: old.lang })\n      localStorage.removeItem('userConfig:v1')\n    }\n  } catch {}\n}\n```\n\n**Store minimal fields from server responses:**\n\n```typescript\n// User object has 20+ fields, only store what UI needs\nfunction cachePrefs(user: FullUser) {\n  try {\n    localStorage.setItem('prefs:v1', JSON.stringify({\n      theme: user.preferences.theme,\n      notifications: user.preferences.notifications\n    }))\n  } catch {}\n}\n```\n\n**Always wrap in try-catch:** `getItem()` and `setItem()` throw in incognito/private browsing (Safari, Firefox), when quota exceeded, or when disabled.\n\n**Benefits:** Schema evolution via versioning, reduced storage size, prevents storing tokens/PII/internal flags.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 226,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/client-localstorage-schema.md"
+  }
+}

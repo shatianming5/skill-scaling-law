@@ -1,0 +1,11 @@
+{
+  "id": "django__django-15467",
+  "instance_id": "django__django-15467",
+  "repo": "django/django",
+  "problem_statement": "ModelAdmin with defined radio_fields override empty_label\nDescription\n\t\nModelAdmin drops my \"empty_label\" and set \"default_empty_label\". For example:\nclass MyModelAdmin(ModelAdmin):\n\tradio_fields = 'myfield',\n\tdef formfield_for_foreignkey(self, db_field, *args, **kwargs):\n\t\tif db_field.name == 'myfield':\n\t\t\tkwargs['empty_label'] = \"I WANT TO SET MY OWN EMPTY LABEL\"\n\t\treturn super().formfield_for_foreignkey(db_field, *args, **kwargs)\nYou get never the \"I WANT TO SET MY OWN EMPTY LABEL\"\nHow to fix it:\nIn django\\contrib\\admin\\options.py, row 234:\nkwargs['empty_label'] = _('None') if db_field.blank else None\nShould be changed on:\nkwargs['empty_label'] = (kwargs.get('empty_label') or _('None')) if db_field.blank else None\n",
+  "test_patch": "diff --git a/tests/admin_widgets/tests.py b/tests/admin_widgets/tests.py\n--- a/tests/admin_widgets/tests.py\n+++ b/tests/admin_widgets/tests.py\n@@ -21,6 +21,7 @@\n     CharField,\n     DateField,\n     DateTimeField,\n+    ForeignKey,\n     ManyToManyField,\n     UUIDField,\n )\n@@ -141,6 +142,17 @@ def test_radio_fields_ForeignKey(self):\n         )\n         self.assertIsNone(ff.empty_label)\n \n+    def test_radio_fields_foreignkey_formfield_overrides_empty_label(self):\n+        class MyModelAdmin(admin.ModelAdmin):\n+            radio_fields = {\"parent\": admin.VERTICAL}\n+            formfield_overrides = {\n+                ForeignKey: {\"empty_label\": \"Custom empty label\"},\n+            }\n+\n+        ma = MyModelAdmin(Inventory, admin.site)\n+        ff = ma.formfield_for_dbfield(Inventory._meta.get_field(\"parent\"), request=None)\n+        self.assertEqual(ff.empty_label, \"Custom empty label\")\n+\n     def test_many_to_many(self):\n         self.assertFormfield(Band, \"members\", forms.SelectMultiple)\n \n",
+  "hints_text": "Agreed, empty_label from kwargs should take precedence over _('None').\nI want to work on this to get familiarised with contributing process. Assigning this to me.",
+  "difficulty": "<15 min fix",
+  "base_commit": "e0442a628eb480eac6a7888aed5a86f83499e299",
+  "created_at": "2022-02-27T03:00:31Z"
+}

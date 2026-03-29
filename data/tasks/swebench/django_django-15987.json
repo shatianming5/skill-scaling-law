@@ -1,0 +1,11 @@
+{
+  "id": "django__django-15987",
+  "instance_id": "django__django-15987",
+  "repo": "django/django",
+  "problem_statement": "Fixture dirs duplicates undetected if dir is Path instance\nDescription\n\t\nWhen FIXTURE_DIRS contains Path instances, the duplicate check in loaddata does not detect duplicates.\n",
+  "test_patch": "diff --git a/tests/fixtures_regress/tests.py b/tests/fixtures_regress/tests.py\n--- a/tests/fixtures_regress/tests.py\n+++ b/tests/fixtures_regress/tests.py\n@@ -569,6 +569,20 @@ def test_fixture_dirs_with_default_fixture_path(self):\n         with self.assertRaisesMessage(ImproperlyConfigured, msg):\n             management.call_command(\"loaddata\", \"absolute.json\", verbosity=0)\n \n+    @override_settings(FIXTURE_DIRS=[Path(_cur_dir) / \"fixtures\"])\n+    def test_fixture_dirs_with_default_fixture_path_as_pathlib(self):\n+        \"\"\"\n+        settings.FIXTURE_DIRS cannot contain a default fixtures directory\n+        for application (app/fixtures) in order to avoid repeated fixture loading.\n+        \"\"\"\n+        msg = (\n+            \"'%s' is a default fixture directory for the '%s' app \"\n+            \"and cannot be listed in settings.FIXTURE_DIRS.\"\n+            % (os.path.join(_cur_dir, \"fixtures\"), \"fixtures_regress\")\n+        )\n+        with self.assertRaisesMessage(ImproperlyConfigured, msg):\n+            management.call_command(\"loaddata\", \"absolute.json\", verbosity=0)\n+\n     @override_settings(\n         FIXTURE_DIRS=[\n             os.path.join(_cur_dir, \"fixtures_1\"),\n",
+  "hints_text": "",
+  "difficulty": "<15 min fix",
+  "base_commit": "7e6b537f5b92be152779fc492bb908d27fe7c52a",
+  "created_at": "2022-08-23T10:07:03Z"
+}

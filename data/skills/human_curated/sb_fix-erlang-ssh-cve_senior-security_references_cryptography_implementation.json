@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-erlang-ssh-cve_senior-security_references_cryptography_implementation",
+  "content": "# Cryptography Implementation\n\n## Overview\n\nThis reference guide provides comprehensive information for senior security.\n\n## Patterns and Practices\n\n### Pattern 1: Best Practice Implementation\n\n**Description:**\nDetailed explanation of the pattern.\n\n**When to Use:**\n- Scenario 1\n- Scenario 2\n- Scenario 3\n\n**Implementation:**\n```typescript\n// Example code implementation\nexport class Example {\n  // Implementation details\n}\n```\n\n**Benefits:**\n- Benefit 1\n- Benefit 2\n- Benefit 3\n\n**Trade-offs:**\n- Consider 1\n- Consider 2\n- Consider 3\n\n### Pattern 2: Advanced Technique\n\n**Description:**\nAnother important pattern for senior security.\n\n**Implementation:**\n```typescript\n// Advanced example\nasync function advancedExample() {\n  // Code here\n}\n```\n\n## Guidelines\n\n### Code Organization\n- Clear structure\n- Logical separation\n- Consistent naming\n- Proper documentation\n\n### Performance Considerations\n- Optimization strategies\n- Bottleneck identification\n- Monitoring approaches\n- Scaling techniques\n\n### Security Best Practices\n- Input validation\n- Authentication\n- Authorization\n- Data protection\n\n## Common Patterns\n\n### Pattern A\nImplementation details and examples.\n\n### Pattern B\nImplementation details and examples.\n\n### Pattern C\nImplementation details and examples.\n\n## Anti-Patterns to Avoid\n\n### Anti-Pattern 1\nWhat not to do and why.\n\n### Anti-Pattern 2\nWhat not to do and why.\n\n## Tools and Resources\n\n### Recommended Tools\n- Tool 1: Purpose\n- Tool 2: Purpose\n- Tool 3: Purpose\n\n### Further Reading\n- Resource 1\n- Resource 2\n- Resource 3\n\n## Conclusion\n\nKey takeaways for using this reference guide effectively.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 236,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-erlang-ssh-cve",
+    "path": "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/senior-security/references/cryptography_implementation.md"
+  }
+}

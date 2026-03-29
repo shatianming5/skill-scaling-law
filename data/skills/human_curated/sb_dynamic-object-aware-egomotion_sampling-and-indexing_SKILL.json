@@ -1,0 +1,13 @@
+{
+  "id": "sb_dynamic-object-aware-egomotion_sampling-and-indexing_SKILL",
+  "content": "---\nname: sampling-and-indexing\ndescription: \"Standardize video sampling and frame indexing so interval instructions and mask frames stay aligned with a valid key/index scheme.\"\n---\n\n# When to use\n- You need to decide a sampling stride/FPS and ensure *all downstream outputs* (interval instructions, per-frame artifacts, etc.) cover the same frame range with consistent indices.\n\n# Core steps\n- Read video metadata: frame count, fps, resolution.\n- Choose a sampling strategy (e.g., every 10 frames or target ~10–15 fps) to produce `sample_ids`.\n- Only produce instructions and masks for `sample_ids`; the max index must be `< total_frames`.\n- Use a strict interval key format such as `\"{start}->{end}\"` (integers only). Decide (and document) whether `end` is inclusive or exclusive, and be consistent.\n\n# Pseudocode\n```python\nimport cv2\nVIDEO_PATH = \"<path/to/video>\"\ncap=cv2.VideoCapture(VIDEO_PATH)\nn=int(cap.get(cv2.CAP_PROP_FRAME_COUNT))\nfps=cap.get(cv2.CAP_PROP_FPS)\nstep=10  # example\nsample_ids=list(range(0, n, step))\nif sample_ids[-1] != n-1:\n    sample_ids.append(n-1)\n# Generate all downstream outputs only for sample_ids\n```\n\n# Self-check list\n- [ ] `sample_ids` strictly increasing, all < total frame count.\n- [ ] Output coverage max index matches `sample_ids[-1]` (or matches your documented sampling policy).\n- [ ] JSON keys are plain `start->end`, no extra text.\n- [ ] Any per-frame artifact store (e.g., NPZ) contains exactly the sampled frames and no extras.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 208,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "dynamic-object-aware-egomotion",
+    "path": "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/sampling-and-indexing/SKILL.md"
+  }
+}

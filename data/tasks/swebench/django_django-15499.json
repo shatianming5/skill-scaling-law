@@ -1,0 +1,11 @@
+{
+  "id": "django__django-15499",
+  "instance_id": "django__django-15499",
+  "repo": "django/django",
+  "problem_statement": "Optimize CreateModel + AlterModelManagers to CreateModel\nDescription\n\t\nDuring migration optimization, CreateModel + AlterModelOptions is reduced to just CreateModel, with the model options. Similarly, CreateModel + AlterModelManagers can become just CreateModel.\n",
+  "test_patch": "diff --git a/tests/migrations/test_optimizer.py b/tests/migrations/test_optimizer.py\n--- a/tests/migrations/test_optimizer.py\n+++ b/tests/migrations/test_optimizer.py\n@@ -129,6 +129,30 @@ def test_create_alter_model_options(self):\n             ],\n         )\n \n+    def test_create_alter_model_managers(self):\n+        self.assertOptimizesTo(\n+            [\n+                migrations.CreateModel(\"Foo\", fields=[]),\n+                migrations.AlterModelManagers(\n+                    name=\"Foo\",\n+                    managers=[\n+                        (\"objects\", models.Manager()),\n+                        (\"things\", models.Manager()),\n+                    ],\n+                ),\n+            ],\n+            [\n+                migrations.CreateModel(\n+                    \"Foo\",\n+                    fields=[],\n+                    managers=[\n+                        (\"objects\", models.Manager()),\n+                        (\"things\", models.Manager()),\n+                    ],\n+                ),\n+            ],\n+        )\n+\n     def test_create_model_and_remove_model_options(self):\n         self.assertOptimizesTo(\n             [\n",
+  "hints_text": "",
+  "difficulty": "<15 min fix",
+  "base_commit": "d90e34c61b27fba2527834806639eebbcfab9631",
+  "created_at": "2022-03-10T22:32:35Z"
+}

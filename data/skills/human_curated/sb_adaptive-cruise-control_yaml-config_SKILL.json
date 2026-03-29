@@ -1,0 +1,13 @@
+{
+  "id": "sb_adaptive-cruise-control_yaml-config_SKILL",
+  "content": "---\nname: yaml-config\ndescription: Use this skill when reading or writing YAML configuration files, loading vehicle parameters, or handling config file parsing with proper error handling.\n---\n\n# YAML Configuration Files\n\n## Reading YAML\n\nAlways use `safe_load` to prevent code execution vulnerabilities:\n\n```python\nimport yaml\n\nwith open('config.yaml', 'r') as f:\n    config = yaml.safe_load(f)\n\n# Access nested values\nvalue = config['section']['key']\n```\n\n## Writing YAML\n\n```python\nimport yaml\n\ndata = {\n    'settings': {\n        'param1': 1.5,\n        'param2': 0.1\n    }\n}\n\nwith open('output.yaml', 'w') as f:\n    yaml.dump(data, f, default_flow_style=False, sort_keys=False)\n```\n\n## Options\n\n- `default_flow_style=False`: Use block style (readable)\n- `sort_keys=False`: Preserve insertion order\n- `allow_unicode=True`: Support unicode characters\n\n## Error Handling\n\n```python\nimport yaml\n\ntry:\n    with open('config.yaml', 'r') as f:\n        config = yaml.safe_load(f)\nexcept FileNotFoundError:\n    config = {}  # Use defaults\nexcept yaml.YAMLError as e:\n    print(f\"YAML parse error: {e}\")\n    config = {}\n```\n\n## Optional Config Loading\n\n```python\nimport os\nimport yaml\n\ndef load_config(filepath, defaults=None):\n    \"\"\"Load config file, return defaults if missing.\"\"\"\n    if defaults is None:\n        defaults = {}\n\n    if not os.path.exists(filepath):\n        return defaults\n\n    with open(filepath, 'r') as f:\n        loaded = yaml.safe_load(f) or {}\n\n    # Merge loaded values over defaults\n    result = defaults.copy()\n    result.update(loaded)\n    return result\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 195,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "adaptive-cruise-control",
+    "path": "tasks-no-skills/adaptive-cruise-control/environment/skills/yaml-config/SKILL.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-build-agentops_analyze-ci_SKILL",
+  "content": "---\nname: analyze-ci\ndescription: Analyze failed GitHub Action jobs for a pull request.\nallowed-tools:\n  - Bash(uv run skills analyze-ci:*)\n---\n\n# Analyze CI Failures\n\nThis skill analyzes logs from failed GitHub Action jobs using Claude.\n\n## Prerequisites\n\n- **GitHub Token**: Auto-detected via `gh auth token`, or set `GITHUB_TOKEN` env var\n\n## Usage\n\n```bash\n# Analyze all failed jobs in a PR\nuv run skills analyze-ci <pr_url>\n\n# Analyze specific job URLs directly\nuv run skills analyze-ci <job_url> [job_url ...]\n\n# Show debug info (tokens and costs)\nuv run skills analyze-ci <pr_url> --debug\n```\n\nOutput: A concise failure summary with root cause, error messages, test names, and relevant log snippets.\n\n## Examples\n\n```bash\n# Analyze CI failures for a PR\nuv run skills analyze-ci https://github.com/mlflow/mlflow/pull/19601\n\n# Analyze specific job URLs directly\nuv run skills analyze-ci https://github.com/mlflow/mlflow/actions/runs/12345/job/67890\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 136,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-build-agentops",
+    "path": "tasks-no-skills/fix-build-agentops/environment/skills/analyze-ci/SKILL.md"
+  }
+}

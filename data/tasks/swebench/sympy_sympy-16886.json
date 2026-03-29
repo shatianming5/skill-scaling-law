@@ -1,0 +1,11 @@
+{
+  "id": "sympy__sympy-16886",
+  "instance_id": "sympy__sympy-16886",
+  "repo": "sympy/sympy",
+  "problem_statement": "Morse encoding for \"1\" is not correct\nThe current Morse mapping in simpy.crypto.crypto contains an incorrect mapping of \r\n`\"----\": \"1\"`   \r\n\r\nThe correct mapping is `\".----\": \"1\"`.\r\n\r\n\n",
+  "test_patch": "diff --git a/sympy/crypto/tests/test_crypto.py b/sympy/crypto/tests/test_crypto.py\n--- a/sympy/crypto/tests/test_crypto.py\n+++ b/sympy/crypto/tests/test_crypto.py\n@@ -247,6 +247,8 @@ def test_encode_morse():\n     assert encode_morse(' ', sep='`') == '``'\n     assert encode_morse(' ', sep='``') == '````'\n     assert encode_morse('!@#$%^&*()_+') == '-.-.--|.--.-.|...-..-|-.--.|-.--.-|..--.-|.-.-.'\n+    assert encode_morse('12345') == '.----|..---|...--|....-|.....'\n+    assert encode_morse('67890') == '-....|--...|---..|----.|-----'\n \n \n def test_decode_morse():\n",
+  "hints_text": "",
+  "difficulty": "<15 min fix",
+  "base_commit": "c50643a49811e9fe2f4851adff4313ad46f7325e",
+  "created_at": "2019-05-25T05:55:25Z"
+}

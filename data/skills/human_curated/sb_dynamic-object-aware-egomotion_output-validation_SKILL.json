@@ -1,0 +1,13 @@
+{
+  "id": "sb_dynamic-object-aware-egomotion_output-validation_SKILL",
+  "content": "---\nname: output-validation\ndescription: \"Local self-check of instructions and mask outputs (format/range/consistency) without using GT.\"\n---\n\n# When to use\n- After generating your outputs (interval instructions, masks, etc.), before submission/hand-off.\n\n# Checks\n- **Key format**: every key is `\"{start}->{end}\"`, integers only, `start<=end`.\n- **Coverage**: max frame index ≤ video total-1; consistent with your sampling policy.\n- **Frame count**: NPZ `f_{i}_*` count equals sampled frame count; no gaps or missing components.\n- **CSR integrity**: each frame has `data/indices/indptr`; `len(indptr)==H+1`; `indptr[-1]==indices.size`; indices within `[0,W)`.\n- **Value validity**: JSON values are non-empty string lists; labels in the allowed set.\n\n# Reference snippet\n```python\nimport json, numpy as np, cv2\nVIDEO_PATH = \"<path/to/video>\"\nINSTRUCTIONS_PATH = \"<path/to/interval_instructions.json>\"\nMASKS_PATH = \"<path/to/masks.npz>\"\ncap=cv2.VideoCapture(VIDEO_PATH)\nn=int(cap.get(cv2.CAP_PROP_FRAME_COUNT)); H=int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)); W=int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))\nj=json.load(open(INSTRUCTIONS_PATH))\nnpz=np.load(MASKS_PATH)\nfor k,v in j.items():\n    s,e=k.split(\"->\"); assert s.isdigit() and e.isdigit()\n    s=int(s); e=int(e); assert 0<=s<=e<n\n    for lbl in v: assert isinstance(lbl,str)\nframes=0\nwhile f\"f_{frames}_data\" in npz: frames+=1\nassert frames>0\nassert npz[\"shape\"][0]==H and npz[\"shape\"][1]==W\nindptr=npz[\"f_0_indptr\"]; indices=npz[\"f_0_indices\"]\nassert indptr.shape[0]==H+1 and indptr[-1]==indices.size\nassert indices.size==0 or (indices.min()>=0 and indices.max()<W)\n```\n\n# Self-check list\n- [ ] JSON keys/values pass format checks.\n- [ ] Max frame index within video range and near sampled max.\n- [ ] NPZ frame count matches sampling; keys consecutive.\n- [ ] CSR structure and `shape` validated. \n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 208,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "dynamic-object-aware-egomotion",
+    "path": "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/output-validation/SKILL.md"
+  }
+}

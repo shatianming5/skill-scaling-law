@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_advanced-event-handler-refs",
+  "content": "---\ntitle: Store Event Handlers in Refs\nimpact: LOW\nimpactDescription: stable subscriptions\ntags: advanced, hooks, refs, event-handlers, optimization\n---\n\n## Store Event Handlers in Refs\n\nStore callbacks in refs when used in effects that shouldn't re-subscribe on callback changes.\n\n**Incorrect (re-subscribes on every render):**\n\n```tsx\nfunction useWindowEvent(event: string, handler: () => void) {\n  useEffect(() => {\n    window.addEventListener(event, handler)\n    return () => window.removeEventListener(event, handler)\n  }, [event, handler])\n}\n```\n\n**Correct (stable subscription):**\n\n```tsx\nfunction useWindowEvent(event: string, handler: () => void) {\n  const handlerRef = useRef(handler)\n  useEffect(() => {\n    handlerRef.current = handler\n  }, [handler])\n\n  useEffect(() => {\n    const listener = () => handlerRef.current()\n    window.addEventListener(event, listener)\n    return () => window.removeEventListener(event, listener)\n  }, [event])\n}\n```\n\n**Alternative: use `useEffectEvent` if you're on latest React:**\n\n```tsx\nimport { useEffectEvent } from 'react'\n\nfunction useWindowEvent(event: string, handler: () => void) {\n  const onEvent = useEffectEvent(handler)\n\n  useEffect(() => {\n    window.addEventListener(event, onEvent)\n    return () => window.removeEventListener(event, onEvent)\n  }, [event])\n}\n```\n\n`useEffectEvent` provides a cleaner API for the same pattern: it creates a stable function reference that always calls the latest version of the handler.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 177,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/advanced-event-handler-refs.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_js-cache-function-results",
+  "content": "---\ntitle: Cache Repeated Function Calls\nimpact: MEDIUM\nimpactDescription: avoid redundant computation\ntags: javascript, cache, memoization, performance\n---\n\n## Cache Repeated Function Calls\n\nUse a module-level Map to cache function results when the same function is called repeatedly with the same inputs during render.\n\n**Incorrect (redundant computation):**\n\n```typescript\nfunction ProjectList({ projects }: { projects: Project[] }) {\n  return (\n    <div>\n      {projects.map(project => {\n        // slugify() called 100+ times for same project names\n        const slug = slugify(project.name)\n\n        return <ProjectCard key={project.id} slug={slug} />\n      })}\n    </div>\n  )\n}\n```\n\n**Correct (cached results):**\n\n```typescript\n// Module-level cache\nconst slugifyCache = new Map<string, string>()\n\nfunction cachedSlugify(text: string): string {\n  if (slugifyCache.has(text)) {\n    return slugifyCache.get(text)!\n  }\n  const result = slugify(text)\n  slugifyCache.set(text, result)\n  return result\n}\n\nfunction ProjectList({ projects }: { projects: Project[] }) {\n  return (\n    <div>\n      {projects.map(project => {\n        // Computed only once per unique project name\n        const slug = cachedSlugify(project.name)\n\n        return <ProjectCard key={project.id} slug={slug} />\n      })}\n    </div>\n  )\n}\n```\n\n**Simpler pattern for single-value functions:**\n\n```typescript\nlet isLoggedInCache: boolean | null = null\n\nfunction isLoggedIn(): boolean {\n  if (isLoggedInCache !== null) {\n    return isLoggedInCache\n  }\n\n  isLoggedInCache = document.cookie.includes('auth=')\n  return isLoggedInCache\n}\n\n// Clear cache when auth changes\nfunction onAuthChange() {\n  isLoggedInCache = null\n}\n```\n\nUse a Map (not a hook) so it works everywhere: utilities, event handlers, not just React components.\n\nReference: [How we made the Vercel Dashboard twice as fast](https://vercel.com/blog/how-we-made-the-vercel-dashboard-twice-as-fast)\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 228,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-function-results.md"
+  }
+}

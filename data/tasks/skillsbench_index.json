@@ -1,0 +1,1641 @@
+{
+  "3d-scan-calc": {
+    "skill_paths": [
+      "tasks-no-skills/3d-scan-calc/environment/skills/mesh-analysis/SKILL.md",
+      "tasks/3d-scan-calc/environment/skills/mesh-analysis/SKILL.md"
+    ],
+    "instruction_sha": "5591c00d5124f4724783d921c441b42889d2b5b2",
+    "instruction_path": "tasks/3d-scan-calc/instruction.md",
+    "toml_sha": "8fc569d2b645c557998a156b3bbfc170f2681d1c",
+    "toml_path": "tasks/3d-scan-calc/task.toml"
+  },
+  "adaptive-cruise-control": {
+    "skill_paths": [
+      "tasks-no-skills/adaptive-cruise-control/environment/skills/csv-processing/SKILL.md",
+      "tasks-no-skills/adaptive-cruise-control/environment/skills/pid-controller/SKILL.md",
+      "tasks-no-skills/adaptive-cruise-control/environment/skills/simulation-metrics/SKILL.md",
+      "tasks-no-skills/adaptive-cruise-control/environment/skills/vehicle-dynamics/SKILL.md",
+      "tasks-no-skills/adaptive-cruise-control/environment/skills/yaml-config/SKILL.md",
+      "tasks/adaptive-cruise-control/environment/skills/csv-processing/SKILL.md",
+      "tasks/adaptive-cruise-control/environment/skills/pid-controller/SKILL.md",
+      "tasks/adaptive-cruise-control/environment/skills/simulation-metrics/SKILL.md",
+      "tasks/adaptive-cruise-control/environment/skills/vehicle-dynamics/SKILL.md",
+      "tasks/adaptive-cruise-control/environment/skills/yaml-config/SKILL.md"
+    ],
+    "instruction_sha": "908846d1252c54b3edd5e946c823caafa43f5cbf",
+    "instruction_path": "tasks/adaptive-cruise-control/instruction.md",
+    "toml_sha": "bdee087d93d617a5f5022ead90b926c04c148309",
+    "toml_path": "tasks/adaptive-cruise-control/task.toml"
+  },
+  "azure-bgp-oscillation-route-leak": {
+    "skill_paths": [
+      "tasks-no-skills/azure-bgp-oscillation-route-leak/environment/skills/azure-bgp/SKILL.md",
+      "tasks/azure-bgp-oscillation-route-leak/environment/skills/azure-bgp/SKILL.md"
+    ],
+    "instruction_sha": "21e1f5e022d3558394eabb0027212c0b85954b64",
+    "instruction_path": "tasks/azure-bgp-oscillation-route-leak/instruction.md",
+    "toml_sha": "9f88f8e8cda94f8e8102b57a8903149d2d2b723f",
+    "toml_path": "tasks/azure-bgp-oscillation-route-leak/task.toml"
+  },
+  "citation-check": {
+    "skill_paths": [
+      "tasks-no-skills/citation-check/environment/skills/citation-management/SKILL.md",
+      "tasks-no-skills/citation-check/environment/skills/citation-management/assets/citation_checklist.md",
+      "tasks-no-skills/citation-check/environment/skills/citation-management/references/bibtex_formatting.md",
+      "tasks-no-skills/citation-check/environment/skills/citation-management/references/citation_validation.md",
+      "tasks-no-skills/citation-check/environment/skills/citation-management/references/google_scholar_search.md",
+      "tasks-no-skills/citation-check/environment/skills/citation-management/references/metadata_extraction.md",
+      "tasks-no-skills/citation-check/environment/skills/citation-management/references/pubmed_search.md",
+      "tasks/citation-check/environment/skills/citation-management/SKILL.md",
+      "tasks/citation-check/environment/skills/citation-management/assets/citation_checklist.md",
+      "tasks/citation-check/environment/skills/citation-management/references/bibtex_formatting.md",
+      "tasks/citation-check/environment/skills/citation-management/references/citation_validation.md",
+      "tasks/citation-check/environment/skills/citation-management/references/google_scholar_search.md",
+      "tasks/citation-check/environment/skills/citation-management/references/metadata_extraction.md",
+      "tasks/citation-check/environment/skills/citation-management/references/pubmed_search.md"
+    ],
+    "instruction_sha": "2ed19e78eb509d511a6a06ba2f8dfd276f0659b8",
+    "instruction_path": "tasks/citation-check/instruction.md",
+    "toml_sha": "7dd053d30e50ccf42807fdd4ad08b1aa36859db9",
+    "toml_path": "tasks/citation-check/task.toml"
+  },
+  "civ6-adjacency-optimizer": {
+    "skill_paths": [
+      "tasks-no-skills/civ6-adjacency-optimizer/environment/skills/civ6lib/SKILL.md",
+      "tasks-no-skills/civ6-adjacency-optimizer/environment/skills/hex-grid-spatial/SKILL.md",
+      "tasks-no-skills/civ6-adjacency-optimizer/environment/skills/map-optimization-strategy/SKILL.md",
+      "tasks-no-skills/civ6-adjacency-optimizer/environment/skills/sqlite-map-parser/SKILL.md",
+      "tasks/civ6-adjacency-optimizer/environment/skills/civ6lib/SKILL.md",
+      "tasks/civ6-adjacency-optimizer/environment/skills/hex-grid-spatial/SKILL.md",
+      "tasks/civ6-adjacency-optimizer/environment/skills/map-optimization-strategy/SKILL.md",
+      "tasks/civ6-adjacency-optimizer/environment/skills/sqlite-map-parser/SKILL.md"
+    ],
+    "instruction_sha": "ea0012a9b2d4c18fc56306f527d9a9ce79fda891",
+    "instruction_path": "tasks/civ6-adjacency-optimizer/instruction.md",
+    "toml_sha": "fb94b722f5c342308c901e665a7ffdfc03c33fc2",
+    "toml_path": "tasks/civ6-adjacency-optimizer/task.toml"
+  },
+  "court-form-filling": {
+    "skill_paths": [
+      "tasks-no-skills/court-form-filling/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/court-form-filling/environment/skills/pdf/forms.md",
+      "tasks-no-skills/court-form-filling/environment/skills/pdf/reference.md",
+      "tasks/court-form-filling/environment/skills/pdf/SKILL.md",
+      "tasks/court-form-filling/environment/skills/pdf/forms.md",
+      "tasks/court-form-filling/environment/skills/pdf/reference.md"
+    ],
+    "instruction_sha": "4cd5c49dce858b5db3b546051a0b5014d6c0fd5d",
+    "instruction_path": "tasks/court-form-filling/instruction.md",
+    "toml_sha": "a0a5d3ab32aade4468ac20e6afef739b4bc5de7e",
+    "toml_path": "tasks/court-form-filling/task.toml"
+  },
+  "crystallographic-wyckoff-position-analysis": {
+    "skill_paths": [
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/SKILL.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/analysis_modules.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/core_classes.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/io_formats.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/materials_project_api.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/transformations_workflows.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/SKILL.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/advanced-topics.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/code-generation-printing.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/core-capabilities.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/matrices-linear-algebra.md",
+      "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/physics-mechanics.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/SKILL.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/analysis_modules.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/core_classes.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/io_formats.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/materials_project_api.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/references/transformations_workflows.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/SKILL.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/advanced-topics.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/code-generation-printing.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/core-capabilities.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/matrices-linear-algebra.md",
+      "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/physics-mechanics.md"
+    ],
+    "instruction_sha": "6f64c76fa41450603145832c188045db7160bbe4",
+    "instruction_path": "tasks/crystallographic-wyckoff-position-analysis/instruction.md",
+    "toml_sha": "c52fa042ea05b7ceec04f5a99152a0df014a629a",
+    "toml_path": "tasks/crystallographic-wyckoff-position-analysis/task.toml"
+  },
+  "dapt-intrusion-detection": {
+    "skill_paths": [
+      "tasks-no-skills/dapt-intrusion-detection/environment/skills/pcap-analysis/SKILL.md",
+      "tasks-no-skills/dapt-intrusion-detection/environment/skills/threat-detection/SKILL.md",
+      "tasks/dapt-intrusion-detection/environment/skills/pcap-analysis/SKILL.md",
+      "tasks/dapt-intrusion-detection/environment/skills/threat-detection/SKILL.md"
+    ],
+    "instruction_sha": "120608236ea2a2f01a735eb2691115f3a17d4e42",
+    "instruction_path": "tasks/dapt-intrusion-detection/instruction.md",
+    "toml_sha": "4589d84ec6dbe2cbc8fc7fc7fb64523af0b11897",
+    "toml_path": "tasks/dapt-intrusion-detection/task.toml"
+  },
+  "data-to-d3": {
+    "skill_paths": [
+      "tasks-no-skills/data-to-d3/environment/skills/d3-visualization/SKILL.md",
+      "tasks/data-to-d3/environment/skills/d3-visualization/SKILL.md"
+    ],
+    "instruction_sha": "9e6ee2ced9adb383b976a010d69b5fc2bfeb5464",
+    "instruction_path": "tasks/data-to-d3/instruction.md",
+    "toml_sha": "e84cb3a82a496448dbca4566bfbcd24e5024271a",
+    "toml_path": "tasks/data-to-d3/task.toml"
+  },
+  "dialogue-parser": {
+    "skill_paths": [
+      "tasks-no-skills/dialogue-parser/environment/skills/dialogue_graph/SKILL.md",
+      "tasks/dialogue-parser/environment/skills/dialogue_graph/SKILL.md"
+    ],
+    "instruction_sha": "42358c8c27a96d6ba7e76e67cb734a49d26d4ace",
+    "instruction_path": "tasks/dialogue-parser/instruction.md",
+    "toml_sha": "cf456f48dc56b5b747c9f59963ec16f71cbc9091",
+    "toml_path": "tasks/dialogue-parser/task.toml"
+  },
+  "dynamic-object-aware-egomotion": {
+    "skill_paths": [
+      "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/dyn-object-masks/SKILL.md",
+      "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/egomotion-estimation/SKILL.md",
+      "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/output-validation/SKILL.md",
+      "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/sampling-and-indexing/SKILL.md",
+      "tasks/dynamic-object-aware-egomotion/environment/skills/dyn-object-masks/SKILL.md",
+      "tasks/dynamic-object-aware-egomotion/environment/skills/egomotion-estimation/SKILL.md",
+      "tasks/dynamic-object-aware-egomotion/environment/skills/output-validation/SKILL.md",
+      "tasks/dynamic-object-aware-egomotion/environment/skills/sampling-and-indexing/SKILL.md"
+    ],
+    "instruction_sha": "1cf3a098df54a9ac3d39b4970f66a3aa99b2c565",
+    "instruction_path": "tasks/dynamic-object-aware-egomotion/instruction.md",
+    "toml_sha": "bc56a4add5d648266bb46f4e10bf12c7b2b310bb",
+    "toml_path": "tasks/dynamic-object-aware-egomotion/task.toml"
+  },
+  "earthquake-phase-association": {
+    "skill_paths": [
+      "tasks-no-skills/earthquake-phase-association/environment/skills/gamma-phase-associator/SKILL.md",
+      "tasks-no-skills/earthquake-phase-association/environment/skills/obspy-data-api/SKILL.md",
+      "tasks-no-skills/earthquake-phase-association/environment/skills/seisbench-model-api/SKILL.md",
+      "tasks-no-skills/earthquake-phase-association/environment/skills/seismic-picker-selection/SKILL.md",
+      "tasks/earthquake-phase-association/environment/skills/gamma-phase-associator/SKILL.md",
+      "tasks/earthquake-phase-association/environment/skills/obspy-data-api/SKILL.md",
+      "tasks/earthquake-phase-association/environment/skills/seisbench-model-api/SKILL.md",
+      "tasks/earthquake-phase-association/environment/skills/seismic-picker-selection/SKILL.md"
+    ],
+    "instruction_sha": "a0a645579d22ad3605dcc268922f30cc0e231211",
+    "instruction_path": "tasks/earthquake-phase-association/instruction.md",
+    "toml_sha": "a07f70407db514585e94f8aa666f3d4fe06fa3c3",
+    "toml_path": "tasks/earthquake-phase-association/task.toml"
+  },
+  "earthquake-plate-calculation": {
+    "skill_paths": [
+      "tasks-no-skills/earthquake-plate-calculation/environment/skills/geospatial-analysis/SKILL.md",
+      "tasks/earthquake-plate-calculation/environment/skills/geospatial-analysis/SKILL.md"
+    ],
+    "instruction_sha": "462bf38cdeec400c948a177ea0cd78c396064ddb",
+    "instruction_path": "tasks/earthquake-plate-calculation/instruction.md",
+    "toml_sha": "df0abcabf7a26adaef007e3db47878b0b1b992d6",
+    "toml_path": "tasks/earthquake-plate-calculation/task.toml"
+  },
+  "econ-detrending-correlation": {
+    "skill_paths": [
+      "tasks-no-skills/econ-detrending-correlation/environment/skills/timeseries-detrending/SKILL.md",
+      "tasks/econ-detrending-correlation/environment/skills/timeseries-detrending/SKILL.md"
+    ],
+    "instruction_sha": "a17991cb48a4840e62b7ddc74e7659ab8f28500c",
+    "instruction_path": "tasks/econ-detrending-correlation/instruction.md",
+    "toml_sha": "29c0e15bd49d988280cd64f15c03964f267a4cfe",
+    "toml_path": "tasks/econ-detrending-correlation/task.toml"
+  },
+  "energy-ac-optimal-power-flow": {
+    "skill_paths": [
+      "tasks-no-skills/energy-ac-optimal-power-flow/environment/skills/ac-branch-pi-model/SKILL.md",
+      "tasks-no-skills/energy-ac-optimal-power-flow/environment/skills/casadi-ipopt-nlp/SKILL.md",
+      "tasks-no-skills/energy-ac-optimal-power-flow/environment/skills/power-flow-data/SKILL.md",
+      "tasks/energy-ac-optimal-power-flow/environment/skills/ac-branch-pi-model/SKILL.md",
+      "tasks/energy-ac-optimal-power-flow/environment/skills/casadi-ipopt-nlp/SKILL.md",
+      "tasks/energy-ac-optimal-power-flow/environment/skills/power-flow-data/SKILL.md"
+    ],
+    "instruction_sha": "66a630c1ce2d1a475d4d77c5bf91cd3231a80b2f",
+    "instruction_path": "tasks/energy-ac-optimal-power-flow/instruction.md",
+    "toml_sha": "546e5c16ef0a688166c4b419e70ef9b39cee33a1",
+    "toml_path": "tasks/energy-ac-optimal-power-flow/task.toml"
+  },
+  "energy-market-pricing": {
+    "skill_paths": [
+      "tasks-no-skills/energy-market-pricing/environment/skills/dc-power-flow/SKILL.md",
+      "tasks-no-skills/energy-market-pricing/environment/skills/economic-dispatch/SKILL.md",
+      "tasks-no-skills/energy-market-pricing/environment/skills/economic-dispatch/references/cost-functions.md",
+      "tasks-no-skills/energy-market-pricing/environment/skills/locational-marginal-prices/SKILL.md",
+      "tasks-no-skills/energy-market-pricing/environment/skills/power-flow-data/SKILL.md",
+      "tasks/energy-market-pricing/environment/skills/dc-power-flow/SKILL.md",
+      "tasks/energy-market-pricing/environment/skills/economic-dispatch/SKILL.md",
+      "tasks/energy-market-pricing/environment/skills/economic-dispatch/references/cost-functions.md",
+      "tasks/energy-market-pricing/environment/skills/locational-marginal-prices/SKILL.md",
+      "tasks/energy-market-pricing/environment/skills/power-flow-data/SKILL.md"
+    ],
+    "instruction_sha": "1901730629db623c154f43da604329e3b623675c",
+    "instruction_path": "tasks/energy-market-pricing/instruction.md",
+    "toml_sha": "ec32448e52db2d8646f69cc50541cadbf66bb106",
+    "toml_path": "tasks/energy-market-pricing/task.toml"
+  },
+  "enterprise-information-search": {
+    "skill_paths": [
+      "tasks-no-skills/enterprise-information-search/environment/skills/enterprise-artifact-search/SKILL.md",
+      "tasks/enterprise-information-search/environment/skills/enterprise-artifact-search/SKILL.md"
+    ],
+    "instruction_sha": "f6b78aef10206b4506c9bc125d51c4d2c0bb019a",
+    "instruction_path": "tasks/enterprise-information-search/instruction.md",
+    "toml_sha": "f085cb398a22994addd064029e6053b4ef10274f",
+    "toml_path": "tasks/enterprise-information-search/task.toml"
+  },
+  "exceltable-in-ppt": {
+    "skill_paths": [
+      "tasks-no-skills/exceltable-in-ppt/environment/skills/pptx/SKILL.md",
+      "tasks-no-skills/exceltable-in-ppt/environment/skills/pptx/html2pptx.md",
+      "tasks-no-skills/exceltable-in-ppt/environment/skills/pptx/ooxml.md",
+      "tasks-no-skills/exceltable-in-ppt/environment/skills/xlsx/SKILL.md",
+      "tasks/exceltable-in-ppt/environment/skills/pptx/SKILL.md",
+      "tasks/exceltable-in-ppt/environment/skills/pptx/html2pptx.md",
+      "tasks/exceltable-in-ppt/environment/skills/pptx/ooxml.md",
+      "tasks/exceltable-in-ppt/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "e13dd936db97a37ea86f2215553acd978d064b95",
+    "instruction_path": "tasks/exceltable-in-ppt/instruction.md",
+    "toml_sha": "3545ade4d9d24b447f986995f0913133db311f5f",
+    "toml_path": "tasks/exceltable-in-ppt/task.toml"
+  },
+  "exoplanet-detection-period": {
+    "skill_paths": [
+      "tasks-no-skills/exoplanet-detection-period/environment/skills/box-least-squares/SKILL.md",
+      "tasks-no-skills/exoplanet-detection-period/environment/skills/exoplanet-workflows/SKILL.md",
+      "tasks-no-skills/exoplanet-detection-period/environment/skills/light-curve-preprocessing/SKILL.md",
+      "tasks-no-skills/exoplanet-detection-period/environment/skills/lomb-scargle-periodogram/SKILL.md",
+      "tasks-no-skills/exoplanet-detection-period/environment/skills/transit-least-squares/SKILL.md",
+      "tasks/exoplanet-detection-period/environment/skills/box-least-squares/SKILL.md",
+      "tasks/exoplanet-detection-period/environment/skills/exoplanet-workflows/SKILL.md",
+      "tasks/exoplanet-detection-period/environment/skills/light-curve-preprocessing/SKILL.md",
+      "tasks/exoplanet-detection-period/environment/skills/lomb-scargle-periodogram/SKILL.md",
+      "tasks/exoplanet-detection-period/environment/skills/transit-least-squares/SKILL.md"
+    ],
+    "instruction_sha": "68f59b37b6a0999d439a2a50e652cf80b0e70dac",
+    "instruction_path": "tasks/exoplanet-detection-period/instruction.md",
+    "toml_sha": "2b94c30ff8ae77538316db73cfe9fe72b88cfcb7",
+    "toml_path": "tasks/exoplanet-detection-period/task.toml"
+  },
+  "financial-modeling-qa": {
+    "skill_paths": [
+      "tasks-no-skills/financial-modeling-qa/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/financial-modeling-qa/environment/skills/pdf/references/forms.md",
+      "tasks-no-skills/financial-modeling-qa/environment/skills/pdf/references/reference.md",
+      "tasks-no-skills/financial-modeling-qa/environment/skills/xlsx/SKILL.md",
+      "tasks/financial-modeling-qa/environment/skills/pdf/SKILL.md",
+      "tasks/financial-modeling-qa/environment/skills/pdf/references/forms.md",
+      "tasks/financial-modeling-qa/environment/skills/pdf/references/reference.md",
+      "tasks/financial-modeling-qa/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "ea26f7ef20588c3fd3a72d67cd7edf6436fcc771",
+    "instruction_path": "tasks/financial-modeling-qa/instruction.md",
+    "toml_sha": "7a4353b7e3de263a8a5d8f0291d1eccd8914342e",
+    "toml_path": "tasks/financial-modeling-qa/task.toml"
+  },
+  "find-topk-similiar-chemicals": {
+    "skill_paths": [
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/pdf/forms.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/pdf/reference.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/pubchem-database/SKILL.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/pubchem-database/references/api_reference.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/rdkit/SKILL.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/rdkit/references/api_reference.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/rdkit/references/descriptors_reference.md",
+      "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/rdkit/references/smarts_patterns.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/pdf/SKILL.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/pdf/forms.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/pdf/reference.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/pubchem-database/SKILL.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/pubchem-database/references/api_reference.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/rdkit/SKILL.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/rdkit/references/api_reference.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/rdkit/references/descriptors_reference.md",
+      "tasks/find-topk-similiar-chemicals/environment/skills/rdkit/references/smarts_patterns.md"
+    ],
+    "instruction_sha": "85d94e45cf05f150d5f4e2872dafcfbc4fbd4fbd",
+    "instruction_path": "tasks/find-topk-similiar-chemicals/instruction.md",
+    "toml_sha": "d23fa918564820c8256cc25edd4e5dcb8f6edb58",
+    "toml_path": "tasks/find-topk-similiar-chemicals/task.toml"
+  },
+  "fix-build-agentops": {
+    "skill_paths": [
+      "tasks-no-skills/fix-build-agentops/environment/skills/analyze-ci/SKILL.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/temporal-python-testing/SKILL.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/temporal-python-testing/resources/integration-testing.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/temporal-python-testing/resources/local-setup.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/temporal-python-testing/resources/replay-testing.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/temporal-python-testing/resources/unit-testing.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/testing-python/SKILL.md",
+      "tasks-no-skills/fix-build-agentops/environment/skills/uv-package-manager/SKILL.md",
+      "tasks/fix-build-agentops/environment/skills/analyze-ci/SKILL.md",
+      "tasks/fix-build-agentops/environment/skills/temporal-python-testing/SKILL.md",
+      "tasks/fix-build-agentops/environment/skills/temporal-python-testing/resources/integration-testing.md",
+      "tasks/fix-build-agentops/environment/skills/temporal-python-testing/resources/local-setup.md",
+      "tasks/fix-build-agentops/environment/skills/temporal-python-testing/resources/replay-testing.md",
+      "tasks/fix-build-agentops/environment/skills/temporal-python-testing/resources/unit-testing.md",
+      "tasks/fix-build-agentops/environment/skills/testing-python/SKILL.md",
+      "tasks/fix-build-agentops/environment/skills/uv-package-manager/SKILL.md"
+    ],
+    "instruction_sha": "89e3767e7992441aaa36bc3bc566975c26f49a66",
+    "instruction_path": "tasks/fix-build-agentops/instruction.md",
+    "toml_sha": "2e66af74ecebc022eb17afff06e81e93cd90609a",
+    "toml_path": "tasks/fix-build-agentops/task.toml"
+  },
+  "fix-build-google-auto": {
+    "skill_paths": [
+      "tasks-no-skills/fix-build-google-auto/environment/skills/maven-build-lifecycle/SKILL.md",
+      "tasks-no-skills/fix-build-google-auto/environment/skills/maven-dependency-management/SKILL.md",
+      "tasks-no-skills/fix-build-google-auto/environment/skills/maven-plugin-configuration/SKILL.md",
+      "tasks/fix-build-google-auto/environment/skills/maven-build-lifecycle/SKILL.md",
+      "tasks/fix-build-google-auto/environment/skills/maven-dependency-management/SKILL.md",
+      "tasks/fix-build-google-auto/environment/skills/maven-plugin-configuration/SKILL.md"
+    ],
+    "instruction_sha": "bcd2dda436770c7ea7ce0bdf29a85c13d19b38e6",
+    "instruction_path": "tasks/fix-build-google-auto/instruction.md",
+    "toml_sha": "950e59e2ed02db3064ff10e8ce8ac9012bc03956",
+    "toml_path": "tasks/fix-build-google-auto/task.toml"
+  },
+  "fix-druid-loophole-cve": {
+    "skill_paths": [
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/jackson-security/SKILL.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/HOW_TO_USE.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/SKILL.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/references/java-performance-tuning.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/references/jpa-hibernate-guide.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/references/microservices-patterns.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/references/spring-boot-best-practices.md",
+      "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/references/spring-security-reference.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/jackson-security/SKILL.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/HOW_TO_USE.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/SKILL.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/references/java-performance-tuning.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/references/jpa-hibernate-guide.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/references/microservices-patterns.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/references/spring-boot-best-practices.md",
+      "tasks/fix-druid-loophole-cve/environment/skills/senior-java/references/spring-security-reference.md"
+    ],
+    "instruction_sha": "3cfa64d9a4d24b57f652341081365538c0f9f1d6",
+    "instruction_path": "tasks/fix-druid-loophole-cve/instruction.md",
+    "toml_sha": "0bd6eaaa6c09308308f7226dd16517a21f446fd5",
+    "toml_path": "tasks/fix-druid-loophole-cve/task.toml"
+  },
+  "fix-erlang-ssh-cve": {
+    "skill_paths": [
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/erlang-concurrency/SKILL.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/erlang-distribution/SKILL.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/erlang-otp-behaviors/SKILL.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/find-bugs/SKILL.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/senior-security/SKILL.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/senior-security/references/cryptography_implementation.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/senior-security/references/penetration_testing_guide.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/senior-security/references/security_architecture_patterns.md",
+      "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/ssh-penetration-testing/SKILL.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/erlang-concurrency/SKILL.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/erlang-distribution/SKILL.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/erlang-otp-behaviors/SKILL.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/find-bugs/SKILL.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/senior-security/SKILL.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/senior-security/references/cryptography_implementation.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/senior-security/references/penetration_testing_guide.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/senior-security/references/security_architecture_patterns.md",
+      "tasks/fix-erlang-ssh-cve/environment/skills/ssh-penetration-testing/SKILL.md"
+    ],
+    "instruction_sha": "98ea8df2cc73710aded0d43ceb670875e696c45e",
+    "instruction_path": "tasks/fix-erlang-ssh-cve/instruction.md",
+    "toml_sha": "abaaf28a7485a89887de6af73a6aa8c1d8427d86",
+    "toml_path": "tasks/fix-erlang-ssh-cve/task.toml"
+  },
+  "fix-visual-stability": {
+    "skill_paths": [
+      "tasks-no-skills/fix-visual-stability/environment/skills/browser-testing/SKILL.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/SKILL.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/_sections.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/_template.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/advanced-use-latest.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-api-routes.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-defer-await.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-dependencies.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-parallel.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/async-suspense-boundaries.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-barrel-imports.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-conditional.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-defer-third-party.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-preload.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/client-event-listeners.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/client-localstorage-schema.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/client-passive-event-listeners.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/client-swr-dedup.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-batch-dom-css.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-function-results.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-property-access.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-storage.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-combine-iterations.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-early-exit.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-hoist-regexp.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-index-maps.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-length-check-first.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-min-max-loop.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-set-map-lookups.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-tosorted-immutable.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-activity.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-conditional-render.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-content-visibility.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-svg-precision.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-defer-reads.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-dependencies.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-derived-state.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-functional-setstate.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-memo.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-transitions.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-after-nonblocking.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-cache-lru.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-cache-react.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-parallel-fetching.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-serialization.md",
+      "tasks-no-skills/fix-visual-stability/environment/skills/web-interface-guidelines/SKILL.md",
+      "tasks/fix-visual-stability/environment/skills/browser-testing/SKILL.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/SKILL.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/_sections.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/_template.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/advanced-use-latest.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/async-api-routes.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/async-defer-await.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/async-dependencies.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/async-parallel.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/async-suspense-boundaries.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-barrel-imports.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-conditional.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-defer-third-party.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/bundle-preload.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/client-event-listeners.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/client-localstorage-schema.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/client-passive-event-listeners.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/client-swr-dedup.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-batch-dom-css.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-function-results.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-property-access.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-cache-storage.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-combine-iterations.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-early-exit.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-hoist-regexp.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-index-maps.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-length-check-first.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-min-max-loop.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-set-map-lookups.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/js-tosorted-immutable.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-activity.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-conditional-render.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-content-visibility.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-svg-precision.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-defer-reads.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-dependencies.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-derived-state.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-functional-setstate.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-memo.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-transitions.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/server-after-nonblocking.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/server-cache-lru.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/server-cache-react.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/server-parallel-fetching.md",
+      "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/server-serialization.md",
+      "tasks/fix-visual-stability/environment/skills/web-interface-guidelines/SKILL.md"
+    ],
+    "instruction_sha": "9fddf65b22a343f16c4e228fc6024efa1b5963ad",
+    "instruction_path": "tasks/fix-visual-stability/instruction.md",
+    "toml_sha": "a86f4430ffec06591429c8b6b2f5e0a76e9684c0",
+    "toml_path": "tasks/fix-visual-stability/task.toml"
+  },
+  "flink-query": {
+    "skill_paths": [
+      "tasks-no-skills/flink-query/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/flink-query/environment/skills/pdf/forms.md",
+      "tasks-no-skills/flink-query/environment/skills/pdf/reference.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/HOW_TO_USE.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/SKILL.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/assets/data-quality-checklist.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/assets/pipeline-design-template.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/references/frameworks.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/references/templates.md",
+      "tasks-no-skills/flink-query/environment/skills/senior-data-engineer/references/tools.md",
+      "tasks/flink-query/environment/skills/pdf/SKILL.md",
+      "tasks/flink-query/environment/skills/pdf/forms.md",
+      "tasks/flink-query/environment/skills/pdf/reference.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/HOW_TO_USE.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/SKILL.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/assets/data-quality-checklist.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/assets/pipeline-design-template.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/references/frameworks.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/references/templates.md",
+      "tasks/flink-query/environment/skills/senior-data-engineer/references/tools.md"
+    ],
+    "instruction_sha": "599e86e020c09e4a9302896ca763f0f11e1b55c0",
+    "instruction_path": "tasks/flink-query/instruction.md",
+    "toml_sha": "1fb66a1ebb72a0efe762ac9562db19b085269637",
+    "toml_path": "tasks/flink-query/task.toml"
+  },
+  "flood-risk-analysis": {
+    "skill_paths": [
+      "tasks-no-skills/flood-risk-analysis/environment/skills/flood-detection/SKILL.md",
+      "tasks-no-skills/flood-risk-analysis/environment/skills/nws-flood-thresholds/SKILL.md",
+      "tasks-no-skills/flood-risk-analysis/environment/skills/usgs-data-download/SKILL.md",
+      "tasks/flood-risk-analysis/environment/skills/flood-detection/SKILL.md",
+      "tasks/flood-risk-analysis/environment/skills/nws-flood-thresholds/SKILL.md",
+      "tasks/flood-risk-analysis/environment/skills/usgs-data-download/SKILL.md"
+    ],
+    "instruction_sha": "77b5267746b8e10167875f71b9e98eb709b4aac3",
+    "instruction_path": "tasks/flood-risk-analysis/instruction.md",
+    "toml_sha": "d8068195cd146a605be89968591c209b8720fffd",
+    "toml_path": "tasks/flood-risk-analysis/task.toml"
+  },
+  "gh-repo-analytics": {
+    "skill_paths": [
+      "tasks-no-skills/gh-repo-analytics/environment/skills/gh-cli/SKILL.md",
+      "tasks/gh-repo-analytics/environment/skills/gh-cli/SKILL.md"
+    ],
+    "instruction_sha": "72326c3bb79808c24cae7c93c82dd5c7c8f28695",
+    "instruction_path": "tasks/gh-repo-analytics/instruction.md",
+    "toml_sha": "f95dbb7422a2384f1d722ae82043a85c7444bdf0",
+    "toml_path": "tasks/gh-repo-analytics/task.toml"
+  },
+  "glm-lake-mendota": {
+    "skill_paths": [
+      "tasks-no-skills/glm-lake-mendota/environment/skills/glm-basics/SKILL.md",
+      "tasks-no-skills/glm-lake-mendota/environment/skills/glm-calibration/SKILL.md",
+      "tasks-no-skills/glm-lake-mendota/environment/skills/glm-output/SKILL.md",
+      "tasks/glm-lake-mendota/environment/skills/glm-basics/SKILL.md",
+      "tasks/glm-lake-mendota/environment/skills/glm-calibration/SKILL.md",
+      "tasks/glm-lake-mendota/environment/skills/glm-output/SKILL.md"
+    ],
+    "instruction_sha": "afedab624ff036920009b35af27fc26cdd5e8d5b",
+    "instruction_path": "tasks/glm-lake-mendota/instruction.md",
+    "toml_sha": "382148b37a47ea01850ba28b2d40b6bf2efebd7f",
+    "toml_path": "tasks/glm-lake-mendota/task.toml"
+  },
+  "gravitational-wave-detection": {
+    "skill_paths": [
+      "tasks-no-skills/gravitational-wave-detection/environment/skills/conditioning/SKILL.md",
+      "tasks-no-skills/gravitational-wave-detection/environment/skills/matched-filtering/SKILL.md",
+      "tasks/gravitational-wave-detection/environment/skills/conditioning/SKILL.md",
+      "tasks/gravitational-wave-detection/environment/skills/matched-filtering/SKILL.md"
+    ],
+    "instruction_sha": "cb3be340f2293c06dc7398efaad4e4e1eca81173",
+    "instruction_path": "tasks/gravitational-wave-detection/instruction.md",
+    "toml_sha": "e1f96083d460cf0bfe23793bab648ee2c91bbba7",
+    "toml_path": "tasks/gravitational-wave-detection/task.toml"
+  },
+  "grid-dispatch-operator": {
+    "skill_paths": [
+      "tasks-no-skills/grid-dispatch-operator/environment/skills/dc-power-flow/SKILL.md",
+      "tasks-no-skills/grid-dispatch-operator/environment/skills/economic-dispatch/SKILL.md",
+      "tasks-no-skills/grid-dispatch-operator/environment/skills/economic-dispatch/references/cost-functions.md",
+      "tasks-no-skills/grid-dispatch-operator/environment/skills/power-flow-data/SKILL.md",
+      "tasks/grid-dispatch-operator/environment/skills/dc-power-flow/SKILL.md",
+      "tasks/grid-dispatch-operator/environment/skills/economic-dispatch/SKILL.md",
+      "tasks/grid-dispatch-operator/environment/skills/economic-dispatch/references/cost-functions.md",
+      "tasks/grid-dispatch-operator/environment/skills/power-flow-data/SKILL.md"
+    ],
+    "instruction_sha": "e416582acf2cbae435ad041af50200d01e3b3b5c",
+    "instruction_path": "tasks/grid-dispatch-operator/instruction.md",
+    "toml_sha": "1c2c542b9370403dcce6c6e3dc370c4df62c3afb",
+    "toml_path": "tasks/grid-dispatch-operator/task.toml"
+  },
+  "hvac-control": {
+    "skill_paths": [
+      "tasks-no-skills/hvac-control/environment/skills/excitation-signal-design/SKILL.md",
+      "tasks-no-skills/hvac-control/environment/skills/first-order-model-fitting/SKILL.md",
+      "tasks-no-skills/hvac-control/environment/skills/imc-tuning-rules/SKILL.md",
+      "tasks-no-skills/hvac-control/environment/skills/safety-interlocks/SKILL.md",
+      "tasks-no-skills/hvac-control/environment/skills/scipy-curve-fit/SKILL.md",
+      "tasks/hvac-control/environment/skills/excitation-signal-design/SKILL.md",
+      "tasks/hvac-control/environment/skills/first-order-model-fitting/SKILL.md",
+      "tasks/hvac-control/environment/skills/imc-tuning-rules/SKILL.md",
+      "tasks/hvac-control/environment/skills/safety-interlocks/SKILL.md",
+      "tasks/hvac-control/environment/skills/scipy-curve-fit/SKILL.md"
+    ],
+    "instruction_sha": "6227a746565498150842ef3c6992e62db79c8417",
+    "instruction_path": "tasks/hvac-control/instruction.md",
+    "toml_sha": "3675ffa386fe9f574ce7e12ca20faf9d8acbcd97",
+    "toml_path": "tasks/hvac-control/task.toml"
+  },
+  "invoice-fraud-detection": {
+    "skill_paths": [
+      "tasks-no-skills/invoice-fraud-detection/environment/skills/fuzzy-match/SKILL.md",
+      "tasks-no-skills/invoice-fraud-detection/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/invoice-fraud-detection/environment/skills/pdf/forms.md",
+      "tasks-no-skills/invoice-fraud-detection/environment/skills/pdf/reference.md",
+      "tasks-no-skills/invoice-fraud-detection/environment/skills/xlsx/SKILL.md",
+      "tasks/invoice-fraud-detection/environment/skills/fuzzy-match/SKILL.md",
+      "tasks/invoice-fraud-detection/environment/skills/pdf/SKILL.md",
+      "tasks/invoice-fraud-detection/environment/skills/pdf/forms.md",
+      "tasks/invoice-fraud-detection/environment/skills/pdf/reference.md",
+      "tasks/invoice-fraud-detection/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "7c732ecd7cdb945b996aa6d6cea84c7928cdff57",
+    "instruction_path": "tasks/invoice-fraud-detection/instruction.md",
+    "toml_sha": "1080d1244e4bf85c6133252027c9592f5582c67b",
+    "toml_path": "tasks/invoice-fraud-detection/task.toml"
+  },
+  "jax-computing-basics": {
+    "skill_paths": [
+      "tasks-no-skills/jax-computing-basics/environment/skills/jax-skills/SKILL.md",
+      "tasks/jax-computing-basics/environment/skills/jax-skills/SKILL.md"
+    ],
+    "instruction_sha": "b7f51272b65fad92a0aaf359cd7866c768748f5b",
+    "instruction_path": "tasks/jax-computing-basics/instruction.md",
+    "toml_sha": "4aa0e8a51497aef22b09cfe4427944afecedf111",
+    "toml_path": "tasks/jax-computing-basics/task.toml"
+  },
+  "jpg-ocr-stat": {
+    "skill_paths": [
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/image-ocr/SKILL.md",
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/openai-vision/SKILL.md",
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/pdf/forms.md",
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/pdf/reference.md",
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/video-frame-extraction/SKILL.md",
+      "tasks-no-skills/jpg-ocr-stat/environment/skills/xlsx/SKILL.md",
+      "tasks/jpg-ocr-stat/environment/skills/image-ocr/SKILL.md",
+      "tasks/jpg-ocr-stat/environment/skills/openai-vision/SKILL.md",
+      "tasks/jpg-ocr-stat/environment/skills/pdf/SKILL.md",
+      "tasks/jpg-ocr-stat/environment/skills/pdf/forms.md",
+      "tasks/jpg-ocr-stat/environment/skills/pdf/reference.md",
+      "tasks/jpg-ocr-stat/environment/skills/video-frame-extraction/SKILL.md",
+      "tasks/jpg-ocr-stat/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "24efaa30eb0dc63dcbf6664a3dceb8592447f7c0",
+    "instruction_path": "tasks/jpg-ocr-stat/instruction.md",
+    "toml_sha": "244c3bf0a97c82f07d05694728cc01150dbaf3bc",
+    "toml_path": "tasks/jpg-ocr-stat/task.toml"
+  },
+  "lab-unit-harmonization": {
+    "skill_paths": [
+      "tasks-no-skills/lab-unit-harmonization/environment/skills/lab-unit-harmonization/SKILL.md",
+      "tasks-no-skills/lab-unit-harmonization/environment/skills/lab-unit-harmonization/reference/ckd_lab_features.md",
+      "tasks/lab-unit-harmonization/environment/skills/lab-unit-harmonization/SKILL.md",
+      "tasks/lab-unit-harmonization/environment/skills/lab-unit-harmonization/reference/ckd_lab_features.md"
+    ],
+    "instruction_sha": "17b7e63e2fe4841f9ad62bc61ea0813e538bacbb",
+    "instruction_path": "tasks/lab-unit-harmonization/instruction.md",
+    "toml_sha": "cf86e8f3131cebf19d79284d9aaad7978b236481",
+    "toml_path": "tasks/lab-unit-harmonization/task.toml"
+  },
+  "lake-warming-attribution": {
+    "skill_paths": [
+      "tasks-no-skills/lake-warming-attribution/environment/skills/contribution-analysis/SKILL.md",
+      "tasks-no-skills/lake-warming-attribution/environment/skills/meteorology-driver-classification/SKILL.md",
+      "tasks-no-skills/lake-warming-attribution/environment/skills/pca-decomposition/SKILL.md",
+      "tasks-no-skills/lake-warming-attribution/environment/skills/trend-analysis/SKILL.md",
+      "tasks/lake-warming-attribution/environment/skills/contribution-analysis/SKILL.md",
+      "tasks/lake-warming-attribution/environment/skills/meteorology-driver-classification/SKILL.md",
+      "tasks/lake-warming-attribution/environment/skills/pca-decomposition/SKILL.md",
+      "tasks/lake-warming-attribution/environment/skills/trend-analysis/SKILL.md"
+    ],
+    "instruction_sha": "aa5966704c21746ee0bfaedb61f583ad87517584",
+    "instruction_path": "tasks/lake-warming-attribution/instruction.md",
+    "toml_sha": "e27756f9419742c4256efe5bf6e8ab96387d439a",
+    "toml_path": "tasks/lake-warming-attribution/task.toml"
+  },
+  "latex-formula-extraction": {
+    "skill_paths": [
+      "tasks-no-skills/latex-formula-extraction/environment/skills/marker/SKILL.md",
+      "tasks-no-skills/latex-formula-extraction/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/latex-formula-extraction/environment/skills/pdf/forms.md",
+      "tasks-no-skills/latex-formula-extraction/environment/skills/pdf/reference.md",
+      "tasks/latex-formula-extraction/environment/skills/marker/SKILL.md",
+      "tasks/latex-formula-extraction/environment/skills/pdf/SKILL.md",
+      "tasks/latex-formula-extraction/environment/skills/pdf/forms.md",
+      "tasks/latex-formula-extraction/environment/skills/pdf/reference.md"
+    ],
+    "instruction_sha": "fda58de93dd52f02e9b56534b3d77c7d86c9695d",
+    "instruction_path": "tasks/latex-formula-extraction/instruction.md",
+    "toml_sha": "38f6aad19fa5496a985ee4228251146d11bc87de",
+    "toml_path": "tasks/latex-formula-extraction/task.toml"
+  },
+  "lean4-proof": {
+    "skill_paths": [
+      "tasks-no-skills/lean4-proof/environment/skills/INSTALLATION.md",
+      "tasks-no-skills/lean4-proof/environment/skills/README.md",
+      "tasks-no-skills/lean4-proof/environment/skills/TESTING.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-memories/SKILL.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-memories/references/memory-patterns.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/SKILL.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/axiom-elimination.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/calc-patterns.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/compilation-errors.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/compiler-guided-repair.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/domain-patterns.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/instance-pollution.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/lean-lsp-server.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/lean-lsp-tools-api.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/lean-phrasebook.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/mathlib-guide.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/mathlib-style.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/measure-theory.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/performance-optimization.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-golfing-patterns.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-golfing-safety.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-golfing.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-refactoring.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/sorry-filling.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/subagent-workflows.md",
+      "tasks-no-skills/lean4-proof/environment/skills/lean4-theorem-proving/references/tactics-reference.md",
+      "tasks/lean4-proof/environment/skills/INSTALLATION.md",
+      "tasks/lean4-proof/environment/skills/README.md",
+      "tasks/lean4-proof/environment/skills/TESTING.md",
+      "tasks/lean4-proof/environment/skills/lean4-memories/SKILL.md",
+      "tasks/lean4-proof/environment/skills/lean4-memories/references/memory-patterns.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/SKILL.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/axiom-elimination.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/calc-patterns.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/compilation-errors.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/compiler-guided-repair.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/domain-patterns.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/instance-pollution.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/lean-lsp-server.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/lean-lsp-tools-api.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/lean-phrasebook.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/mathlib-guide.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/mathlib-style.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/measure-theory.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/performance-optimization.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-golfing-patterns.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-golfing-safety.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-golfing.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/proof-refactoring.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/sorry-filling.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/subagent-workflows.md",
+      "tasks/lean4-proof/environment/skills/lean4-theorem-proving/references/tactics-reference.md"
+    ],
+    "instruction_sha": "78038f0d970e32b0dc9d1969d741a0851d225ecb",
+    "instruction_path": "tasks/lean4-proof/instruction.md",
+    "toml_sha": "d0c38c5d0507e9fb14d4440ea1fe22c53cb7b75e",
+    "toml_path": "tasks/lean4-proof/task.toml"
+  },
+  "manufacturing-codebook-normalization": {
+    "skill_paths": [
+      "tasks-no-skills/manufacturing-codebook-normalization/environment/skills/manufacturing-failure-reason-codebook-normalization/SKILL.md",
+      "tasks-no-skills/manufacturing-codebook-normalization/environment/skills/reference.md",
+      "tasks/manufacturing-codebook-normalization/environment/skills/manufacturing-failure-reason-codebook-normalization/SKILL.md",
+      "tasks/manufacturing-codebook-normalization/environment/skills/reference.md"
+    ],
+    "instruction_sha": "6b57bb714cd7c2a7833f7a2d35eb7bcfad6b93b1",
+    "instruction_path": "tasks/manufacturing-codebook-normalization/instruction.md",
+    "toml_sha": "b9bb7d09e0ab88bb6b8f07246bff2a5f93fe045a",
+    "toml_path": "tasks/manufacturing-codebook-normalization/task.toml"
+  },
+  "manufacturing-equipment-maintenance": {
+    "skill_paths": [
+      "tasks-no-skills/manufacturing-equipment-maintenance/environment/skills/reference.md",
+      "tasks-no-skills/manufacturing-equipment-maintenance/environment/skills/reflow-profile-compliance-toolkit/SKILL.md",
+      "tasks-no-skills/manufacturing-equipment-maintenance/environment/skills/reflow_machine_maintenance_guidance/SKILL.md",
+      "tasks/manufacturing-equipment-maintenance/environment/skills/reference.md",
+      "tasks/manufacturing-equipment-maintenance/environment/skills/reflow-profile-compliance-toolkit/SKILL.md",
+      "tasks/manufacturing-equipment-maintenance/environment/skills/reflow_machine_maintenance_guidance/SKILL.md"
+    ],
+    "instruction_sha": "6488e96ac018bdccf4d754862a756fc0d186b8c4",
+    "instruction_path": "tasks/manufacturing-equipment-maintenance/instruction.md",
+    "toml_sha": "c75fb71f0600ee1bcb522ca4c3b93790a704ad1a",
+    "toml_path": "tasks/manufacturing-equipment-maintenance/task.toml"
+  },
+  "manufacturing-fjsp-optimization": {
+    "skill_paths": [
+      "tasks-no-skills/manufacturing-fjsp-optimization/environment/skills/fjsp-baseline-repair-with-downtime-and-policy/SKILL.md",
+      "tasks-no-skills/manufacturing-fjsp-optimization/environment/skills/reference.md",
+      "tasks/manufacturing-fjsp-optimization/environment/skills/fjsp-baseline-repair-with-downtime-and-policy/SKILL.md",
+      "tasks/manufacturing-fjsp-optimization/environment/skills/reference.md"
+    ],
+    "instruction_sha": "3f830a4a89a16c8755a5b6b908a4311912898209",
+    "instruction_path": "tasks/manufacturing-fjsp-optimization/instruction.md",
+    "toml_sha": "b54eb33b8dd572370da4cff62b45a9203995c9ba",
+    "toml_path": "tasks/manufacturing-fjsp-optimization/task.toml"
+  },
+  "mario-coin-counting": {
+    "skill_paths": [
+      "tasks-no-skills/mario-coin-counting/environment/skills/ffmpeg/SKILL.md",
+      "tasks-no-skills/mario-coin-counting/environment/skills/image_editing/SKILL.md",
+      "tasks-no-skills/mario-coin-counting/environment/skills/object_counter/SKILL.md",
+      "tasks/mario-coin-counting/environment/skills/ffmpeg/SKILL.md",
+      "tasks/mario-coin-counting/environment/skills/image_editing/SKILL.md",
+      "tasks/mario-coin-counting/environment/skills/object_counter/SKILL.md"
+    ],
+    "instruction_sha": "5aeaf18f2e0a1789e800f23aa06752cb7d63c3b0",
+    "instruction_path": "tasks/mario-coin-counting/instruction.md",
+    "toml_sha": "fa57a72a5683abd5e114d506a7dd8d62f481482f",
+    "toml_path": "tasks/mario-coin-counting/task.toml"
+  },
+  "mars-clouds-clustering": {
+    "skill_paths": [
+      "tasks-no-skills/mars-clouds-clustering/environment/skills/custom-distance-metrics/SKILL.md",
+      "tasks-no-skills/mars-clouds-clustering/environment/skills/parallel-processing/SKILL.md",
+      "tasks-no-skills/mars-clouds-clustering/environment/skills/pareto-optimization/SKILL.md",
+      "tasks/mars-clouds-clustering/environment/skills/custom-distance-metrics/SKILL.md",
+      "tasks/mars-clouds-clustering/environment/skills/parallel-processing/SKILL.md",
+      "tasks/mars-clouds-clustering/environment/skills/pareto-optimization/SKILL.md"
+    ],
+    "instruction_sha": "599fffaa252368d3abb43eb692e83194f370db5d",
+    "instruction_path": "tasks/mars-clouds-clustering/instruction.md",
+    "toml_sha": "fe0548101205f1938854355cf3c6429178c3a027",
+    "toml_path": "tasks/mars-clouds-clustering/task.toml"
+  },
+  "mhc-layer-impl": {
+    "skill_paths": [
+      "tasks-no-skills/mhc-layer-impl/environment/skills/mhc-algorithm/SKILL.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/mhc-algorithm/references/core-concepts.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/mhc-algorithm/references/gpt-integration.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/mhc-algorithm/references/module-implementation.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/mhc-algorithm/references/pitfalls.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/mhc-algorithm/references/sinkhorn-knopp.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/modal-gpu/SKILL.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/modal-gpu/references/common-issues.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/modal-gpu/references/data-download.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/modal-gpu/references/getting-started.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/modal-gpu/references/gpu-selection.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/modal-gpu/references/results.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/SKILL.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/references/fineweb-data.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/references/gpt-architecture.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/references/hyperparameters.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/references/optimizers.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/references/tokenized-data.md",
+      "tasks-no-skills/mhc-layer-impl/environment/skills/nanogpt-training/references/training-loop.md",
+      "tasks/mhc-layer-impl/environment/skills/mhc-algorithm/SKILL.md",
+      "tasks/mhc-layer-impl/environment/skills/mhc-algorithm/references/core-concepts.md",
+      "tasks/mhc-layer-impl/environment/skills/mhc-algorithm/references/gpt-integration.md",
+      "tasks/mhc-layer-impl/environment/skills/mhc-algorithm/references/module-implementation.md",
+      "tasks/mhc-layer-impl/environment/skills/mhc-algorithm/references/pitfalls.md",
+      "tasks/mhc-layer-impl/environment/skills/mhc-algorithm/references/sinkhorn-knopp.md",
+      "tasks/mhc-layer-impl/environment/skills/modal-gpu/SKILL.md",
+      "tasks/mhc-layer-impl/environment/skills/modal-gpu/references/common-issues.md",
+      "tasks/mhc-layer-impl/environment/skills/modal-gpu/references/data-download.md",
+      "tasks/mhc-layer-impl/environment/skills/modal-gpu/references/getting-started.md",
+      "tasks/mhc-layer-impl/environment/skills/modal-gpu/references/gpu-selection.md",
+      "tasks/mhc-layer-impl/environment/skills/modal-gpu/references/results.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/SKILL.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/references/fineweb-data.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/references/gpt-architecture.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/references/hyperparameters.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/references/optimizers.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/references/tokenized-data.md",
+      "tasks/mhc-layer-impl/environment/skills/nanogpt-training/references/training-loop.md"
+    ],
+    "instruction_sha": "dd06899950e1a52a17a3ed81a11ce3f93c7227b3",
+    "instruction_path": "tasks/mhc-layer-impl/instruction.md",
+    "toml_sha": "a6212c1c0034ace852bd2451e4904ddb2a822835",
+    "toml_path": "tasks/mhc-layer-impl/task.toml"
+  },
+  "multilingual-video-dubbing": {
+    "skill_paths": [
+      "tasks-no-skills/multilingual-video-dubbing/environment/skills/ffmpeg-audio-processing/SKILL.md",
+      "tasks-no-skills/multilingual-video-dubbing/environment/skills/ffmpeg-format-conversion/SKILL.md",
+      "tasks-no-skills/multilingual-video-dubbing/environment/skills/ffmpeg-media-info/SKILL.md",
+      "tasks-no-skills/multilingual-video-dubbing/environment/skills/ffmpeg-video-editing/SKILL.md",
+      "tasks-no-skills/multilingual-video-dubbing/environment/skills/ffmpeg-video-filters/SKILL.md",
+      "tasks-no-skills/multilingual-video-dubbing/environment/skills/text-to-speech/SKILL.md",
+      "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-audio-processing/SKILL.md",
+      "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-format-conversion/SKILL.md",
+      "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-media-info/SKILL.md",
+      "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-video-editing/SKILL.md",
+      "tasks/multilingual-video-dubbing/environment/skills/ffmpeg-video-filters/SKILL.md",
+      "tasks/multilingual-video-dubbing/environment/skills/text-to-speech/SKILL.md"
+    ],
+    "instruction_sha": "60f3ad91dd1647ac844c1f446cfe34db94f32f40",
+    "instruction_path": "tasks/multilingual-video-dubbing/instruction.md",
+    "toml_sha": "203c231d80b79dd0405530bb921a7b91b1a3054f",
+    "toml_path": "tasks/multilingual-video-dubbing/task.toml"
+  },
+  "offer-letter-generator": {
+    "skill_paths": [
+      "tasks-no-skills/offer-letter-generator/environment/skills/docx/SKILL.md",
+      "tasks/offer-letter-generator/environment/skills/docx/SKILL.md"
+    ],
+    "instruction_sha": "3942d1d24e3be6f7c286a9a1c387c4e5e6d3218a",
+    "instruction_path": "tasks/offer-letter-generator/instruction.md",
+    "toml_sha": "9846bd94e2b2f7fb770ee98780dbcf599ba9f8fc",
+    "toml_path": "tasks/offer-letter-generator/task.toml"
+  },
+  "organize-messy-files": {
+    "skill_paths": [
+      "tasks-no-skills/organize-messy-files/environment/skills/docx/SKILL.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/docx/docx-js.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/docx/ooxml.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/file-organizer/SKILL.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/pdf/forms.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/pdf/reference.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/planning-with-files/SKILL.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/planning-with-files/examples.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/planning-with-files/reference.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/planning-with-files/templates/findings.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/planning-with-files/templates/progress.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/planning-with-files/templates/task_plan.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/pptx/SKILL.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/pptx/html2pptx.md",
+      "tasks-no-skills/organize-messy-files/environment/skills/pptx/ooxml.md",
+      "tasks/organize-messy-files/environment/skills/docx/SKILL.md",
+      "tasks/organize-messy-files/environment/skills/docx/docx-js.md",
+      "tasks/organize-messy-files/environment/skills/docx/ooxml.md",
+      "tasks/organize-messy-files/environment/skills/file-organizer/SKILL.md",
+      "tasks/organize-messy-files/environment/skills/pdf/SKILL.md",
+      "tasks/organize-messy-files/environment/skills/pdf/forms.md",
+      "tasks/organize-messy-files/environment/skills/pdf/reference.md",
+      "tasks/organize-messy-files/environment/skills/planning-with-files/SKILL.md",
+      "tasks/organize-messy-files/environment/skills/planning-with-files/examples.md",
+      "tasks/organize-messy-files/environment/skills/planning-with-files/reference.md",
+      "tasks/organize-messy-files/environment/skills/planning-with-files/templates/findings.md",
+      "tasks/organize-messy-files/environment/skills/planning-with-files/templates/progress.md",
+      "tasks/organize-messy-files/environment/skills/planning-with-files/templates/task_plan.md",
+      "tasks/organize-messy-files/environment/skills/pptx/SKILL.md",
+      "tasks/organize-messy-files/environment/skills/pptx/html2pptx.md",
+      "tasks/organize-messy-files/environment/skills/pptx/ooxml.md"
+    ],
+    "instruction_sha": "b25340f296fac22e40304b600ca823018bd53353",
+    "instruction_path": "tasks/organize-messy-files/instruction.md",
+    "toml_sha": "7122fd29a7576ddb2556227629186df0ab2cf15b",
+    "toml_path": "tasks/organize-messy-files/task.toml"
+  },
+  "paper-anonymizer": {
+    "skill_paths": [
+      "tasks-no-skills/paper-anonymizer/environment/skills/academic-pdf-redaction/SKILL.md",
+      "tasks-no-skills/paper-anonymizer/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/paper-anonymizer/environment/skills/pdf/forms.md",
+      "tasks-no-skills/paper-anonymizer/environment/skills/pdf/reference.md",
+      "tasks/paper-anonymizer/environment/skills/academic-pdf-redaction/SKILL.md",
+      "tasks/paper-anonymizer/environment/skills/pdf/SKILL.md",
+      "tasks/paper-anonymizer/environment/skills/pdf/forms.md",
+      "tasks/paper-anonymizer/environment/skills/pdf/reference.md"
+    ],
+    "instruction_sha": "b3b371940ca496b65d5d24e0164f10ecc893c50b",
+    "instruction_path": "tasks/paper-anonymizer/instruction.md",
+    "toml_sha": "69aebcc252a732212972d87deb3cefa26b98f1a5",
+    "toml_path": "tasks/paper-anonymizer/task.toml"
+  },
+  "parallel-tfidf-search": {
+    "skill_paths": [
+      "tasks-no-skills/parallel-tfidf-search/environment/skills/memory-optimization/SKILL.md",
+      "tasks-no-skills/parallel-tfidf-search/environment/skills/memory-optimization/references/advanced_techniques.md",
+      "tasks-no-skills/parallel-tfidf-search/environment/skills/python-parallelization/SKILL.md",
+      "tasks-no-skills/parallel-tfidf-search/environment/skills/python-parallelization/references/advanced_techniques.md",
+      "tasks-no-skills/parallel-tfidf-search/environment/skills/workload-balancing/SKILL.md",
+      "tasks-no-skills/parallel-tfidf-search/environment/skills/workload-balancing/references/advanced_techniques.md",
+      "tasks/parallel-tfidf-search/environment/skills/memory-optimization/SKILL.md",
+      "tasks/parallel-tfidf-search/environment/skills/memory-optimization/references/advanced_techniques.md",
+      "tasks/parallel-tfidf-search/environment/skills/python-parallelization/SKILL.md",
+      "tasks/parallel-tfidf-search/environment/skills/python-parallelization/references/advanced_techniques.md",
+      "tasks/parallel-tfidf-search/environment/skills/workload-balancing/SKILL.md",
+      "tasks/parallel-tfidf-search/environment/skills/workload-balancing/references/advanced_techniques.md"
+    ],
+    "instruction_sha": "8ba6f03424d78ecc1b90a6c3cdd78bf8631fbe9b",
+    "instruction_path": "tasks/parallel-tfidf-search/instruction.md",
+    "toml_sha": "45a53177bf365f771ab3b550f6a354f2de5d0882",
+    "toml_path": "tasks/parallel-tfidf-search/task.toml"
+  },
+  "pddl-tpp-planning": {
+    "skill_paths": [
+      "tasks-no-skills/pddl-tpp-planning/environment/skills/pddl-skills/SKILL.md",
+      "tasks/pddl-tpp-planning/environment/skills/pddl-skills/SKILL.md"
+    ],
+    "instruction_sha": "5bbde3e2b029a3208efbfb62f016a41ff216ef91",
+    "instruction_path": "tasks/pddl-tpp-planning/instruction.md",
+    "toml_sha": "bd863f73a020368b4aed3c2d518aea753309536f",
+    "toml_path": "tasks/pddl-tpp-planning/task.toml"
+  },
+  "pdf-excel-diff": {
+    "skill_paths": [
+      "tasks-no-skills/pdf-excel-diff/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/pdf-excel-diff/environment/skills/pdf/forms.md",
+      "tasks-no-skills/pdf-excel-diff/environment/skills/pdf/reference.md",
+      "tasks-no-skills/pdf-excel-diff/environment/skills/xlsx/SKILL.md",
+      "tasks/pdf-excel-diff/environment/skills/pdf/SKILL.md",
+      "tasks/pdf-excel-diff/environment/skills/pdf/forms.md",
+      "tasks/pdf-excel-diff/environment/skills/pdf/reference.md",
+      "tasks/pdf-excel-diff/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "3ded8ce6e52633931b1cee96e3385bcbf0115991",
+    "instruction_path": "tasks/pdf-excel-diff/instruction.md",
+    "toml_sha": "d224106d960a774017b9656f3e7e110400c05ed8",
+    "toml_path": "tasks/pdf-excel-diff/task.toml"
+  },
+  "pedestrian-traffic-counting": {
+    "skill_paths": [
+      "tasks-no-skills/pedestrian-traffic-counting/environment/skills/gemini-count-in-video/SKILL.md",
+      "tasks-no-skills/pedestrian-traffic-counting/environment/skills/gemini-video-understanding/SKILL.md",
+      "tasks-no-skills/pedestrian-traffic-counting/environment/skills/gpt-multimodal/SKILL.md",
+      "tasks-no-skills/pedestrian-traffic-counting/environment/skills/video-frame-extraction/SKILL.md",
+      "tasks/pedestrian-traffic-counting/environment/skills/gemini-count-in-video/SKILL.md",
+      "tasks/pedestrian-traffic-counting/environment/skills/gemini-video-understanding/SKILL.md",
+      "tasks/pedestrian-traffic-counting/environment/skills/gpt-multimodal/SKILL.md",
+      "tasks/pedestrian-traffic-counting/environment/skills/video-frame-extraction/SKILL.md"
+    ],
+    "instruction_sha": "b1413da5f62e09a6d0987886c54530d4923c465f",
+    "instruction_path": "tasks/pedestrian-traffic-counting/instruction.md",
+    "toml_sha": "d75db75ff9d7d68cb8e2ef78dd5eec591f266b8e",
+    "toml_path": "tasks/pedestrian-traffic-counting/task.toml"
+  },
+  "pg-essay-to-audiobook": {
+    "skill_paths": [
+      "tasks-no-skills/pg-essay-to-audiobook/environment/skills/audiobook/SKILL.md",
+      "tasks-no-skills/pg-essay-to-audiobook/environment/skills/elevenlabs-tts/SKILL.md",
+      "tasks-no-skills/pg-essay-to-audiobook/environment/skills/gtts/SKILL.md",
+      "tasks-no-skills/pg-essay-to-audiobook/environment/skills/openai-tts/SKILL.md",
+      "tasks/pg-essay-to-audiobook/environment/skills/audiobook/SKILL.md",
+      "tasks/pg-essay-to-audiobook/environment/skills/elevenlabs-tts/SKILL.md",
+      "tasks/pg-essay-to-audiobook/environment/skills/gtts/SKILL.md",
+      "tasks/pg-essay-to-audiobook/environment/skills/openai-tts/SKILL.md"
+    ],
+    "instruction_sha": "2ce3844731ee8768c25a3c0403ad70100c2067d9",
+    "instruction_path": "tasks/pg-essay-to-audiobook/instruction.md",
+    "toml_sha": "b2a8c68fcdb3853f353178e33417b482ad237650",
+    "toml_path": "tasks/pg-essay-to-audiobook/task.toml"
+  },
+  "powerlifting-coef-calc": {
+    "skill_paths": [
+      "tasks-no-skills/powerlifting-coef-calc/environment/skills/powerlifting/SKILL.md",
+      "tasks-no-skills/powerlifting-coef-calc/environment/skills/senior-data-scientist/SKILL.md",
+      "tasks-no-skills/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/experiment_design_frameworks.md",
+      "tasks-no-skills/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/feature_engineering_patterns.md",
+      "tasks-no-skills/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/statistical_methods_advanced.md",
+      "tasks-no-skills/powerlifting-coef-calc/environment/skills/xlsx/SKILL.md",
+      "tasks/powerlifting-coef-calc/environment/skills/powerlifting/SKILL.md",
+      "tasks/powerlifting-coef-calc/environment/skills/senior-data-scientist/SKILL.md",
+      "tasks/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/experiment_design_frameworks.md",
+      "tasks/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/feature_engineering_patterns.md",
+      "tasks/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/statistical_methods_advanced.md",
+      "tasks/powerlifting-coef-calc/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "ed804c53b1a3427e9b93132409c6d7c16ecb6afc",
+    "instruction_path": "tasks/powerlifting-coef-calc/instruction.md",
+    "toml_sha": "f60994b16ba508279de6891408dc988e2189740b",
+    "toml_path": "tasks/powerlifting-coef-calc/task.toml"
+  },
+  "pptx-reference-formatting": {
+    "skill_paths": [
+      "tasks-no-skills/pptx-reference-formatting/environment/skills/pptx/SKILL.md",
+      "tasks-no-skills/pptx-reference-formatting/environment/skills/pptx/html2pptx.md",
+      "tasks-no-skills/pptx-reference-formatting/environment/skills/pptx/ooxml.md",
+      "tasks/pptx-reference-formatting/environment/skills/pptx/SKILL.md",
+      "tasks/pptx-reference-formatting/environment/skills/pptx/html2pptx.md",
+      "tasks/pptx-reference-formatting/environment/skills/pptx/ooxml.md"
+    ],
+    "instruction_sha": "d5bc3f338d7775541722a8aa96b15249af5d7352",
+    "instruction_path": "tasks/pptx-reference-formatting/instruction.md",
+    "toml_sha": "6ae3668044b305a9faab1fb700af24c30cedd491",
+    "toml_path": "tasks/pptx-reference-formatting/task.toml"
+  },
+  "protein-expression-analysis": {
+    "skill_paths": [
+      "tasks-no-skills/protein-expression-analysis/environment/skills/xlsx/SKILL.md",
+      "tasks/protein-expression-analysis/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "616b99f2c9777654168c9ba94658d3e358339ad6",
+    "instruction_path": "tasks/protein-expression-analysis/instruction.md",
+    "toml_sha": "e54d6a29ed2254fd8f1d608d3ad2afaeebaab86c",
+    "toml_path": "tasks/protein-expression-analysis/task.toml"
+  },
+  "python-scala-translation": {
+    "skill_paths": [
+      "tasks-no-skills/python-scala-translation/environment/skills/python-scala-collections/SKILL.md",
+      "tasks-no-skills/python-scala-translation/environment/skills/python-scala-functional/SKILL.md",
+      "tasks-no-skills/python-scala-translation/environment/skills/python-scala-idioms/SKILL.md",
+      "tasks-no-skills/python-scala-translation/environment/skills/python-scala-libraries/SKILL.md",
+      "tasks-no-skills/python-scala-translation/environment/skills/python-scala-oop/SKILL.md",
+      "tasks-no-skills/python-scala-translation/environment/skills/python-scala-syntax-mapping/SKILL.md",
+      "tasks/python-scala-translation/environment/skills/python-scala-collections/SKILL.md",
+      "tasks/python-scala-translation/environment/skills/python-scala-functional/SKILL.md",
+      "tasks/python-scala-translation/environment/skills/python-scala-idioms/SKILL.md",
+      "tasks/python-scala-translation/environment/skills/python-scala-libraries/SKILL.md",
+      "tasks/python-scala-translation/environment/skills/python-scala-oop/SKILL.md",
+      "tasks/python-scala-translation/environment/skills/python-scala-syntax-mapping/SKILL.md"
+    ],
+    "instruction_sha": "d4f1163a5505a04b7321a8b112e0cb3f0b42837b",
+    "instruction_path": "tasks/python-scala-translation/instruction.md",
+    "toml_sha": "fcffeabecb838312503e0378fa55d92891fdeeb3",
+    "toml_path": "tasks/python-scala-translation/task.toml"
+  },
+  "quantum-numerical-simulation": {
+    "skill_paths": [
+      "tasks-no-skills/quantum-numerical-simulation/environment/skills/qutip/SKILL.md",
+      "tasks-no-skills/quantum-numerical-simulation/environment/skills/qutip/references/advanced.md",
+      "tasks-no-skills/quantum-numerical-simulation/environment/skills/qutip/references/analysis.md",
+      "tasks-no-skills/quantum-numerical-simulation/environment/skills/qutip/references/core_concepts.md",
+      "tasks-no-skills/quantum-numerical-simulation/environment/skills/qutip/references/time_evolution.md",
+      "tasks-no-skills/quantum-numerical-simulation/environment/skills/qutip/references/visualization.md",
+      "tasks/quantum-numerical-simulation/environment/skills/qutip/SKILL.md",
+      "tasks/quantum-numerical-simulation/environment/skills/qutip/references/advanced.md",
+      "tasks/quantum-numerical-simulation/environment/skills/qutip/references/analysis.md",
+      "tasks/quantum-numerical-simulation/environment/skills/qutip/references/core_concepts.md",
+      "tasks/quantum-numerical-simulation/environment/skills/qutip/references/time_evolution.md",
+      "tasks/quantum-numerical-simulation/environment/skills/qutip/references/visualization.md"
+    ],
+    "instruction_sha": "9064acfefd6f19abcbbc83007b56c2ed7d3ff981",
+    "instruction_path": "tasks/quantum-numerical-simulation/instruction.md",
+    "toml_sha": "73336d2c12f9417d7173d875d2c675f99ad11e0f",
+    "toml_path": "tasks/quantum-numerical-simulation/task.toml"
+  },
+  "r2r-mpc-control": {
+    "skill_paths": [
+      "tasks-no-skills/r2r-mpc-control/environment/skills/finite-horizon-lqr/SKILL.md",
+      "tasks-no-skills/r2r-mpc-control/environment/skills/integral-action-design/SKILL.md",
+      "tasks-no-skills/r2r-mpc-control/environment/skills/mpc-horizon-tuning/SKILL.md",
+      "tasks-no-skills/r2r-mpc-control/environment/skills/state-space-linearization/SKILL.md",
+      "tasks/r2r-mpc-control/environment/skills/finite-horizon-lqr/SKILL.md",
+      "tasks/r2r-mpc-control/environment/skills/integral-action-design/SKILL.md",
+      "tasks/r2r-mpc-control/environment/skills/mpc-horizon-tuning/SKILL.md",
+      "tasks/r2r-mpc-control/environment/skills/state-space-linearization/SKILL.md"
+    ],
+    "instruction_sha": "7adb468c47c47c382ce054e243fce152e3f856a9",
+    "instruction_path": "tasks/r2r-mpc-control/instruction.md",
+    "toml_sha": "b124d800d6ec85550905bac60fc8d750ef10c2d2",
+    "toml_path": "tasks/r2r-mpc-control/task.toml"
+  },
+  "react-performance-debugging": {
+    "skill_paths": [
+      "tasks-no-skills/react-performance-debugging/environment/skills/browser-testing/SKILL.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/AGENTS.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/README.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/SKILL.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/_sections.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/_template.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/advanced-use-latest.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/async-api-routes.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/async-defer-await.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/async-dependencies.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/async-parallel.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/async-suspense-boundaries.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-barrel-imports.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-conditional.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-defer-third-party.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-preload.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/client-event-listeners.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/client-swr-dedup.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-batch-dom-css.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-function-results.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-property-access.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-storage.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-combine-iterations.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-early-exit.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-hoist-regexp.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-index-maps.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-length-check-first.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-min-max-loop.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-set-map-lookups.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-tosorted-immutable.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-activity.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-conditional-render.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-content-visibility.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-svg-precision.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-defer-reads.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-dependencies.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-derived-state.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-functional-setstate.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-memo.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-transitions.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-after-nonblocking.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-cache-lru.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-cache-react.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-parallel-fetching.md",
+      "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-serialization.md",
+      "tasks/react-performance-debugging/environment/skills/browser-testing/SKILL.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/AGENTS.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/README.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/SKILL.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/_sections.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/_template.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/advanced-use-latest.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/async-api-routes.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/async-defer-await.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/async-dependencies.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/async-parallel.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/async-suspense-boundaries.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-barrel-imports.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-conditional.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-defer-third-party.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-preload.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/client-event-listeners.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/client-swr-dedup.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-batch-dom-css.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-function-results.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-property-access.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-storage.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-combine-iterations.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-early-exit.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-hoist-regexp.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-index-maps.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-length-check-first.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-min-max-loop.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-set-map-lookups.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/js-tosorted-immutable.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-activity.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-conditional-render.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-content-visibility.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-svg-precision.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-defer-reads.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-dependencies.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-derived-state.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-functional-setstate.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-memo.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-transitions.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/server-after-nonblocking.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/server-cache-lru.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/server-cache-react.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/server-parallel-fetching.md",
+      "tasks/react-performance-debugging/environment/skills/react-best-practices/rules/server-serialization.md"
+    ],
+    "instruction_sha": "22278028ccbfee326bda6475690ddb8e33bf3201",
+    "instruction_path": "tasks/react-performance-debugging/instruction.md",
+    "toml_sha": "0cb1b477dd713a67f28d37e111e8909755c4957f",
+    "toml_path": "tasks/react-performance-debugging/task.toml"
+  },
+  "reserves-at-risk-calc": {
+    "skill_paths": [
+      "tasks-no-skills/reserves-at-risk-calc/environment/skills/xlsx/SKILL.md",
+      "tasks/reserves-at-risk-calc/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "f7f8018af4475ca7e31413dea307e2024ed64fea",
+    "instruction_path": "tasks/reserves-at-risk-calc/instruction.md",
+    "toml_sha": "6442f1434529ab9260beb8e883e4e63ec02af834",
+    "toml_path": "tasks/reserves-at-risk-calc/task.toml"
+  },
+  "sales-pivot-analysis": {
+    "skill_paths": [
+      "tasks-no-skills/sales-pivot-analysis/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/sales-pivot-analysis/environment/skills/xlsx/SKILL.md",
+      "tasks/sales-pivot-analysis/environment/skills/pdf/SKILL.md",
+      "tasks/sales-pivot-analysis/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "4896beb995ed30cce6f45a6ab80b3248d0d643b2",
+    "instruction_path": "tasks/sales-pivot-analysis/instruction.md",
+    "toml_sha": "4e0a2dbeb9589cbf2d9cb65b548f2ec288eaa51d",
+    "toml_path": "tasks/sales-pivot-analysis/task.toml"
+  },
+  "scheduling-email-assistant": {
+    "skill_paths": [
+      "tasks-no-skills/scheduling-email-assistant/environment/skills/constraint-parser/SKILL.md",
+      "tasks-no-skills/scheduling-email-assistant/environment/skills/gmail-skill/README.md",
+      "tasks-no-skills/scheduling-email-assistant/environment/skills/gmail-skill/SKILL.md",
+      "tasks-no-skills/scheduling-email-assistant/environment/skills/gmail-skill/docs/google-cloud-setup.md",
+      "tasks-no-skills/scheduling-email-assistant/environment/skills/google-calendar-skill/docs/google-cloud-setup.md",
+      "tasks/scheduling-email-assistant/environment/skills/constraint-parser/SKILL.md",
+      "tasks/scheduling-email-assistant/environment/skills/gmail-skill/README.md",
+      "tasks/scheduling-email-assistant/environment/skills/gmail-skill/SKILL.md",
+      "tasks/scheduling-email-assistant/environment/skills/gmail-skill/docs/google-cloud-setup.md",
+      "tasks/scheduling-email-assistant/environment/skills/google-calendar-skill/docs/google-cloud-setup.md"
+    ],
+    "instruction_sha": "f35fe544d30088c61b0056d09b73c86f2cc90227",
+    "instruction_path": "tasks/scheduling-email-assistant/instruction.md",
+    "toml_sha": "998d69f057808f512f248982045ea005ace116b2",
+    "toml_path": "tasks/scheduling-email-assistant/task.toml"
+  },
+  "sec-financial-report": {
+    "skill_paths": [
+      "tasks-no-skills/sec-financial-report/environment/skills/13f-analyzer/SKILL.md",
+      "tasks-no-skills/sec-financial-report/environment/skills/fuzzy-name-search/SKILL.md",
+      "tasks/sec-financial-report/environment/skills/13f-analyzer/SKILL.md",
+      "tasks/sec-financial-report/environment/skills/fuzzy-name-search/SKILL.md"
+    ],
+    "instruction_sha": "746120c0d4381b98f296606c026105eb41a47226",
+    "instruction_path": "tasks/sec-financial-report/instruction.md",
+    "toml_sha": "a7e75901f69d1a6bf5568f18fe54d213663eb363",
+    "toml_path": "tasks/sec-financial-report/task.toml"
+  },
+  "seismic-phase-picking": {
+    "skill_paths": [
+      "tasks-no-skills/seismic-phase-picking/environment/skills/obspy-data-api/SKILL.md",
+      "tasks-no-skills/seismic-phase-picking/environment/skills/obspy-datacenter-client/SKILL.md",
+      "tasks-no-skills/seismic-phase-picking/environment/skills/obspy-datacenter-client/obspy-clients-fdsn.md",
+      "tasks-no-skills/seismic-phase-picking/environment/skills/seisbench-model-api/SKILL.md",
+      "tasks-no-skills/seismic-phase-picking/environment/skills/seismic-picker-selection/SKILL.md",
+      "tasks/seismic-phase-picking/environment/skills/obspy-data-api/SKILL.md",
+      "tasks/seismic-phase-picking/environment/skills/obspy-datacenter-client/SKILL.md",
+      "tasks/seismic-phase-picking/environment/skills/obspy-datacenter-client/obspy-clients-fdsn.md",
+      "tasks/seismic-phase-picking/environment/skills/seisbench-model-api/SKILL.md",
+      "tasks/seismic-phase-picking/environment/skills/seismic-picker-selection/SKILL.md"
+    ],
+    "instruction_sha": "39c7f03d2ae2d31a231c1df2fab45185cb20545a",
+    "instruction_path": "tasks/seismic-phase-picking/instruction.md",
+    "toml_sha": "baa68381e28f8fd8effbcbe212a9bc0120f6925e",
+    "toml_path": "tasks/seismic-phase-picking/task.toml"
+  },
+  "setup-fuzzing-py": {
+    "skill_paths": [
+      "tasks-no-skills/setup-fuzzing-py/environment/skills/discover-important-function/SKILL.md",
+      "tasks-no-skills/setup-fuzzing-py/environment/skills/fuzzing-python/SKILL.md",
+      "tasks-no-skills/setup-fuzzing-py/environment/skills/setup-env/SKILL.md",
+      "tasks/setup-fuzzing-py/environment/skills/discover-important-function/SKILL.md",
+      "tasks/setup-fuzzing-py/environment/skills/fuzzing-python/SKILL.md",
+      "tasks/setup-fuzzing-py/environment/skills/setup-env/SKILL.md"
+    ],
+    "instruction_sha": "9ec15f63edb4ba46e5c548e4779326fea0bcf3ed",
+    "instruction_path": "tasks/setup-fuzzing-py/instruction.md",
+    "toml_sha": "9dbf838e60c21997d514f33d43a48325c1798571",
+    "toml_path": "tasks/setup-fuzzing-py/task.toml"
+  },
+  "shock-analysis-demand": {
+    "skill_paths": [
+      "tasks-no-skills/shock-analysis-demand/environment/skills/xlsx/SKILL.md",
+      "tasks/shock-analysis-demand/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "63edec2f2a68cee4f97e2741abbb5731e65b9593",
+    "instruction_path": "tasks/shock-analysis-demand/instruction.md",
+    "toml_sha": "7acdd241ea1bf3073af0fba2d99e38b105f276bb",
+    "toml_path": "tasks/shock-analysis-demand/task.toml"
+  },
+  "shock-analysis-supply": {
+    "skill_paths": [
+      "tasks-no-skills/shock-analysis-supply/environment/skills/xlsx/SKILL.md",
+      "tasks/shock-analysis-supply/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "07b650dcc62ec37d9b901ac8881d08f69f2ffc11",
+    "instruction_path": "tasks/shock-analysis-supply/instruction.md",
+    "toml_sha": "bedead27a4bbc3856e3a1241a39730bb9b48e599",
+    "toml_path": "tasks/shock-analysis-supply/task.toml"
+  },
+  "simpo-code-reproduction": {
+    "skill_paths": [
+      "tasks-no-skills/simpo-code-reproduction/environment/skills/nlp-research-repo-package-installment/SKILL.md",
+      "tasks-no-skills/simpo-code-reproduction/environment/skills/pdf/SKILL.md",
+      "tasks-no-skills/simpo-code-reproduction/environment/skills/pdf/forms.md",
+      "tasks-no-skills/simpo-code-reproduction/environment/skills/pdf/reference.md",
+      "tasks/simpo-code-reproduction/environment/skills/nlp-research-repo-package-installment/SKILL.md",
+      "tasks/simpo-code-reproduction/environment/skills/pdf/SKILL.md",
+      "tasks/simpo-code-reproduction/environment/skills/pdf/forms.md",
+      "tasks/simpo-code-reproduction/environment/skills/pdf/reference.md"
+    ],
+    "instruction_sha": "58d1aac94360c37f54960cdda72806865adbb237",
+    "instruction_path": "tasks/simpo-code-reproduction/instruction.md",
+    "toml_sha": "8fa0ef2643526667b080a62fefdfb86931e00cc7",
+    "toml_path": "tasks/simpo-code-reproduction/task.toml"
+  },
+  "software-dependency-audit": {
+    "skill_paths": [
+      "tasks-no-skills/software-dependency-audit/environment/skills/cvss-score-extraction/SKILL.md",
+      "tasks-no-skills/software-dependency-audit/environment/skills/trivy-offline-vulnerability-scanning/SKILL.md",
+      "tasks-no-skills/software-dependency-audit/environment/skills/vulnerability-csv-reporting/SKILL.md",
+      "tasks/software-dependency-audit/environment/skills/cvss-score-extraction/SKILL.md",
+      "tasks/software-dependency-audit/environment/skills/trivy-offline-vulnerability-scanning/SKILL.md",
+      "tasks/software-dependency-audit/environment/skills/vulnerability-csv-reporting/SKILL.md"
+    ],
+    "instruction_sha": "08c4a2310013fdcb9b5af164a5b2af59fa052bd1",
+    "instruction_path": "tasks/software-dependency-audit/instruction.md",
+    "toml_sha": "7f60ef6cce104a8fb07731548952d85ac82f512e",
+    "toml_path": "tasks/software-dependency-audit/task.toml"
+  },
+  "speaker-diarization-subtitles": {
+    "skill_paths": [
+      "tasks-no-skills/speaker-diarization-subtitles/environment/skills/automatic-speech-recognition/SKILL.md",
+      "tasks-no-skills/speaker-diarization-subtitles/environment/skills/multimodal-fusion/SKILL.md",
+      "tasks-no-skills/speaker-diarization-subtitles/environment/skills/speaker-clustering/SKILL.md",
+      "tasks-no-skills/speaker-diarization-subtitles/environment/skills/voice-activity-detection/SKILL.md",
+      "tasks/speaker-diarization-subtitles/environment/skills/automatic-speech-recognition/SKILL.md",
+      "tasks/speaker-diarization-subtitles/environment/skills/multimodal-fusion/SKILL.md",
+      "tasks/speaker-diarization-subtitles/environment/skills/speaker-clustering/SKILL.md",
+      "tasks/speaker-diarization-subtitles/environment/skills/voice-activity-detection/SKILL.md"
+    ],
+    "instruction_sha": "930ad7348d6bec66a0b08e72dd36315998becc96",
+    "instruction_path": "tasks/speaker-diarization-subtitles/instruction.md",
+    "toml_sha": "2f7d7eb4abaef6c7450821ded5dc7d7305175946",
+    "toml_path": "tasks/speaker-diarization-subtitles/task.toml"
+  },
+  "spring-boot-jakarta-migration": {
+    "skill_paths": [
+      "tasks-no-skills/spring-boot-jakarta-migration/environment/skills/hibernate-upgrade/SKILL.md",
+      "tasks-no-skills/spring-boot-jakarta-migration/environment/skills/jakarta-namespace/SKILL.md",
+      "tasks-no-skills/spring-boot-jakarta-migration/environment/skills/restclient-migration/SKILL.md",
+      "tasks-no-skills/spring-boot-jakarta-migration/environment/skills/spring-boot-migration/SKILL.md",
+      "tasks-no-skills/spring-boot-jakarta-migration/environment/skills/spring-security-6/SKILL.md",
+      "tasks/spring-boot-jakarta-migration/environment/skills/hibernate-upgrade/SKILL.md",
+      "tasks/spring-boot-jakarta-migration/environment/skills/jakarta-namespace/SKILL.md",
+      "tasks/spring-boot-jakarta-migration/environment/skills/restclient-migration/SKILL.md",
+      "tasks/spring-boot-jakarta-migration/environment/skills/spring-boot-migration/SKILL.md",
+      "tasks/spring-boot-jakarta-migration/environment/skills/spring-security-6/SKILL.md"
+    ],
+    "instruction_sha": "75e2faef4b7fb365f60964453ce44bec48d45cc4",
+    "instruction_path": "tasks/spring-boot-jakarta-migration/instruction.md",
+    "toml_sha": "1ef54f0774bb2197b85ff196d4ece3aff1de5fdb",
+    "toml_path": "tasks/spring-boot-jakarta-migration/task.toml"
+  },
+  "suricata-custom-exfil": {
+    "skill_paths": [
+      "tasks-no-skills/suricata-custom-exfil/environment/skills/pcap-triage-tshark/SKILL.md",
+      "tasks-no-skills/suricata-custom-exfil/environment/skills/suricata-offline-evejson/SKILL.md",
+      "tasks-no-skills/suricata-custom-exfil/environment/skills/suricata-rules-basics/SKILL.md",
+      "tasks/suricata-custom-exfil/environment/skills/pcap-triage-tshark/SKILL.md",
+      "tasks/suricata-custom-exfil/environment/skills/suricata-offline-evejson/SKILL.md",
+      "tasks/suricata-custom-exfil/environment/skills/suricata-rules-basics/SKILL.md"
+    ],
+    "instruction_sha": "fb6213a9b728c2555d4e9ea328120494dfbe6196",
+    "instruction_path": "tasks/suricata-custom-exfil/instruction.md",
+    "toml_sha": "9c1e0a10d38dd84374d8ad54ed9d0786682c7a5a",
+    "toml_path": "tasks/suricata-custom-exfil/task.toml"
+  },
+  "syzkaller-ppdev-syzlang": {
+    "skill_paths": [
+      "tasks-no-skills/syzkaller-ppdev-syzlang/environment/skills/syz-extract-constants/SKILL.md",
+      "tasks-no-skills/syzkaller-ppdev-syzlang/environment/skills/syzkaller-build-loop/SKILL.md",
+      "tasks-no-skills/syzkaller-ppdev-syzlang/environment/skills/syzlang-ioctl-basics/SKILL.md",
+      "tasks/syzkaller-ppdev-syzlang/environment/skills/syz-extract-constants/SKILL.md",
+      "tasks/syzkaller-ppdev-syzlang/environment/skills/syzkaller-build-loop/SKILL.md",
+      "tasks/syzkaller-ppdev-syzlang/environment/skills/syzlang-ioctl-basics/SKILL.md"
+    ],
+    "instruction_sha": "8564c0262549752090838a12da3560d989130c56",
+    "instruction_path": "tasks/syzkaller-ppdev-syzlang/instruction.md",
+    "toml_sha": "8f05331442403bbdd3a79f580be32f4af6a6b9af",
+    "toml_path": "tasks/syzkaller-ppdev-syzlang/task.toml"
+  },
+  "taxonomy-tree-merge": {
+    "skill_paths": [
+      "tasks-no-skills/taxonomy-tree-merge/environment/skills/hierarchical-taxonomy-clustering/SKILL.md",
+      "tasks/taxonomy-tree-merge/environment/skills/hierarchical-taxonomy-clustering/SKILL.md"
+    ],
+    "instruction_sha": "7e16af975d2db6782c35c91068be6aadb0f953a3",
+    "instruction_path": "tasks/taxonomy-tree-merge/instruction.md",
+    "toml_sha": "53dbe8af18625fb85b480cde42ee33fb24801bb4",
+    "toml_path": "tasks/taxonomy-tree-merge/task.toml"
+  },
+  "threejs-structure-parser": {
+    "skill_paths": [
+      "tasks-no-skills/threejs-structure-parser/environment/skills/obj-exporter/SKILL.md",
+      "tasks-no-skills/threejs-structure-parser/environment/skills/threejs/SKILL.md",
+      "tasks-no-skills/threejs-structure-parser/environment/skills/threejs/references/joint-type-heuristics.md",
+      "tasks-no-skills/threejs-structure-parser/environment/skills/threejs/references/link-export-rules.md",
+      "tasks-no-skills/threejs-structure-parser/environment/skills/threejs/references/urdf-minimal.md",
+      "tasks/threejs-structure-parser/environment/skills/obj-exporter/SKILL.md",
+      "tasks/threejs-structure-parser/environment/skills/threejs/SKILL.md",
+      "tasks/threejs-structure-parser/environment/skills/threejs/references/joint-type-heuristics.md",
+      "tasks/threejs-structure-parser/environment/skills/threejs/references/link-export-rules.md",
+      "tasks/threejs-structure-parser/environment/skills/threejs/references/urdf-minimal.md"
+    ],
+    "instruction_sha": "bb60232e3f70f55a4a82b4e872b380e962753153",
+    "instruction_path": "tasks/threejs-structure-parser/instruction.md",
+    "toml_sha": "19db97ec374055a0fd1a60f3cb01a55ab4b2dd78",
+    "toml_path": "tasks/threejs-structure-parser/task.toml"
+  },
+  "threejs-to-obj": {
+    "skill_paths": [
+      "tasks-no-skills/threejs-to-obj/environment/skills/obj-exporter/SKILL.md",
+      "tasks-no-skills/threejs-to-obj/environment/skills/threejs/SKILL.md",
+      "tasks-no-skills/threejs-to-obj/environment/skills/threejs/references/joint-type-heuristics.md",
+      "tasks-no-skills/threejs-to-obj/environment/skills/threejs/references/link-export-rules.md",
+      "tasks-no-skills/threejs-to-obj/environment/skills/threejs/references/urdf-minimal.md",
+      "tasks/threejs-to-obj/environment/skills/obj-exporter/SKILL.md",
+      "tasks/threejs-to-obj/environment/skills/threejs/SKILL.md",
+      "tasks/threejs-to-obj/environment/skills/threejs/references/joint-type-heuristics.md",
+      "tasks/threejs-to-obj/environment/skills/threejs/references/link-export-rules.md",
+      "tasks/threejs-to-obj/environment/skills/threejs/references/urdf-minimal.md"
+    ],
+    "instruction_sha": "975e5709d61c15e6808c8945abbe18728a7d357e",
+    "instruction_path": "tasks/threejs-to-obj/instruction.md",
+    "toml_sha": "de9656fd27ab2e25cf439949171a58084620c4ee",
+    "toml_path": "tasks/threejs-to-obj/task.toml"
+  },
+  "travel-planning": {
+    "skill_paths": [
+      "tasks-no-skills/travel-planning/environment/skills/search-accommodations/SKILL.md",
+      "tasks-no-skills/travel-planning/environment/skills/search-attractions/SKILL.md",
+      "tasks-no-skills/travel-planning/environment/skills/search-cities/SKILL.md",
+      "tasks-no-skills/travel-planning/environment/skills/search-driving-distance/SKILL.md",
+      "tasks-no-skills/travel-planning/environment/skills/search-flights/SKILL.md",
+      "tasks-no-skills/travel-planning/environment/skills/search-restaurants/SKILL.md",
+      "tasks/travel-planning/environment/skills/search-accommodations/SKILL.md",
+      "tasks/travel-planning/environment/skills/search-attractions/SKILL.md",
+      "tasks/travel-planning/environment/skills/search-cities/SKILL.md",
+      "tasks/travel-planning/environment/skills/search-driving-distance/SKILL.md",
+      "tasks/travel-planning/environment/skills/search-flights/SKILL.md",
+      "tasks/travel-planning/environment/skills/search-restaurants/SKILL.md"
+    ],
+    "instruction_sha": "dc495fff078e807f726de5994d1612aa00bbf41f",
+    "instruction_path": "tasks/travel-planning/instruction.md",
+    "toml_sha": "71f029666f72156565088617a53d77720e3e179f",
+    "toml_path": "tasks/travel-planning/task.toml"
+  },
+  "trend-anomaly-causal-inference": {
+    "skill_paths": [
+      "tasks-no-skills/trend-anomaly-causal-inference/environment/skills/data_cleaning/SKILL.md",
+      "tasks-no-skills/trend-anomaly-causal-inference/environment/skills/did_causal_analysis/SKILL.md",
+      "tasks-no-skills/trend-anomaly-causal-inference/environment/skills/feature_engineering/SKILL.md",
+      "tasks-no-skills/trend-anomaly-causal-inference/environment/skills/time_series_anomaly_detection/SKILL.md",
+      "tasks/trend-anomaly-causal-inference/environment/skills/data_cleaning/SKILL.md",
+      "tasks/trend-anomaly-causal-inference/environment/skills/did_causal_analysis/SKILL.md",
+      "tasks/trend-anomaly-causal-inference/environment/skills/feature_engineering/SKILL.md",
+      "tasks/trend-anomaly-causal-inference/environment/skills/time_series_anomaly_detection/SKILL.md"
+    ],
+    "instruction_sha": "7f5a7018621c9965f1e3ea10159df23b22087eb7",
+    "instruction_path": "tasks/trend-anomaly-causal-inference/instruction.md",
+    "toml_sha": "d217e0b37a75c53e9f1b48480a119827ddaf41c4",
+    "toml_path": "tasks/trend-anomaly-causal-inference/task.toml"
+  },
+  "video-filler-word-remover": {
+    "skill_paths": [
+      "tasks-no-skills/video-filler-word-remover/environment/skills/ffmpeg-video-editing/SKILL.md",
+      "tasks-no-skills/video-filler-word-remover/environment/skills/filler-word-processing/SKILL.md",
+      "tasks-no-skills/video-filler-word-remover/environment/skills/whisper-transcription/SKILL.md",
+      "tasks/video-filler-word-remover/environment/skills/ffmpeg-video-editing/SKILL.md",
+      "tasks/video-filler-word-remover/environment/skills/filler-word-processing/SKILL.md",
+      "tasks/video-filler-word-remover/environment/skills/whisper-transcription/SKILL.md"
+    ],
+    "instruction_sha": "e55305596b31b023568f2aa1bef2b60de9a457df",
+    "instruction_path": "tasks/video-filler-word-remover/instruction.md",
+    "toml_sha": "595c9ade7eea76036b5ec53c5b4d54dbe62f4c6c",
+    "toml_path": "tasks/video-filler-word-remover/task.toml"
+  },
+  "video-tutorial-indexer": {
+    "skill_paths": [
+      "tasks-no-skills/video-tutorial-indexer/environment/skills/speech-to-text/SKILL.md",
+      "tasks/video-tutorial-indexer/environment/skills/speech-to-text/SKILL.md"
+    ],
+    "instruction_sha": "19b463ad2d6f4f5e5a7bd386731b2658ec662c33",
+    "instruction_path": "tasks/video-tutorial-indexer/instruction.md",
+    "toml_sha": "f7b74c5ed47398675c88e5c6fc9b04fb6162ea9a",
+    "toml_path": "tasks/video-tutorial-indexer/task.toml"
+  },
+  "virtualhome-agent-planning": {
+    "skill_paths": [
+      "tasks-no-skills/virtualhome-agent-planning/environment/skills/pddl-skills/SKILL.md",
+      "tasks/virtualhome-agent-planning/environment/skills/pddl-skills/SKILL.md"
+    ],
+    "instruction_sha": "a62036ff803206c3c15ced6a45bd8ad9d167d33a",
+    "instruction_path": "tasks/virtualhome-agent-planning/instruction.md",
+    "toml_sha": "bd863f73a020368b4aed3c2d518aea753309536f",
+    "toml_path": "tasks/virtualhome-agent-planning/task.toml"
+  },
+  "weighted-gdp-calc": {
+    "skill_paths": [
+      "tasks-no-skills/weighted-gdp-calc/environment/skills/xlsx/SKILL.md",
+      "tasks/weighted-gdp-calc/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "bc746974d14c2a6a3c3f047aff5c1794721f0df3",
+    "instruction_path": "tasks/weighted-gdp-calc/instruction.md",
+    "toml_sha": "9e18d86a8739d89457e944d3826370cdfa606c8d",
+    "toml_path": "tasks/weighted-gdp-calc/task.toml"
+  },
+  "xlsx-recover-data": {
+    "skill_paths": [
+      "tasks-no-skills/xlsx-recover-data/environment/skills/data-reconciliation/SKILL.md",
+      "tasks-no-skills/xlsx-recover-data/environment/skills/xlsx/SKILL.md",
+      "tasks/xlsx-recover-data/environment/skills/data-reconciliation/SKILL.md",
+      "tasks/xlsx-recover-data/environment/skills/xlsx/SKILL.md"
+    ],
+    "instruction_sha": "0e90e43e1e58f2482edc76ff2f931cc61aa03f5c",
+    "instruction_path": "tasks/xlsx-recover-data/instruction.md",
+    "toml_sha": "be7ef67cc0649e01df1d7a3f899e6d12da038f41",
+    "toml_path": "tasks/xlsx-recover-data/task.toml"
+  },
+  "PDF-Crosspage-Table-Normalization-to-Excel": {
+    "instruction_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "instruction_path": "tasks/PDF-Crosspage-Table-Normalization-to-Excel/instruction.md"
+  },
+  "edit-pdf": {
+    "skill_paths": [
+      "tasks/edit-pdf/environment/skills/pdf-editing/SKILL.md",
+      "tasks/edit-pdf/environment/skills/text-parser/SKILL.md"
+    ],
+    "instruction_sha": "3d88a18d5f2683fffc805a1680fba48b06a94d12",
+    "instruction_path": "tasks/edit-pdf/instruction.md",
+    "toml_sha": "aa1c3a6a9f619a0460cf3a5f3b6ecf5e0df625fc",
+    "toml_path": "tasks/edit-pdf/task.toml"
+  },
+  "video-silence-remover": {
+    "skill_paths": [
+      "tasks/video-silence-remover/environment/skills/audio-extractor/SKILL.md",
+      "tasks/video-silence-remover/environment/skills/energy-calculator/SKILL.md",
+      "tasks/video-silence-remover/environment/skills/pause-detector/SKILL.md",
+      "tasks/video-silence-remover/environment/skills/report-generator/SKILL.md",
+      "tasks/video-silence-remover/environment/skills/segment-combiner/SKILL.md",
+      "tasks/video-silence-remover/environment/skills/silence-detector/SKILL.md",
+      "tasks/video-silence-remover/environment/skills/video-processor/SKILL.md"
+    ],
+    "instruction_sha": "6bc2b7faa520cbd945697fca0296b3f5f27e1064",
+    "instruction_path": "tasks/video-silence-remover/instruction.md",
+    "toml_sha": "56be3f8111c7625d413fc0646355e247f47762fa",
+    "toml_path": "tasks/video-silence-remover/task.toml"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_adaptive-cruise-control_vehicle-dynamics_SKILL",
+  "content": "---\nname: vehicle-dynamics\ndescription: Use this skill when simulating vehicle motion, calculating safe following distances, time-to-collision, speed/position updates, or implementing vehicle state machines for cruise control modes.\n---\n\n# Vehicle Dynamics Simulation\n\n## Basic Kinematic Model\n\nFor vehicle simulations, use discrete-time kinematic equations.\n\n**Speed Update:**\n```python\nnew_speed = current_speed + acceleration * dt\nnew_speed = max(0, new_speed)  # Speed cannot be negative\n```\n\n**Position Update:**\n```python\nnew_position = current_position + speed * dt\n```\n\n**Distance Between Vehicles:**\n```python\n# When following another vehicle\nrelative_speed = ego_speed - lead_speed\nnew_distance = current_distance - relative_speed * dt\n```\n\n## Safe Following Distance\n\nThe time headway model calculates safe following distance:\n\n```python\ndef safe_following_distance(speed, time_headway, min_distance):\n    \"\"\"\n    Calculate safe distance based on current speed.\n\n    Args:\n        speed: Current vehicle speed (m/s)\n        time_headway: Time gap to maintain (seconds)\n        min_distance: Minimum distance at standstill (meters)\n    \"\"\"\n    return speed * time_headway + min_distance\n```\n\n## Time-to-Collision (TTC)\n\nTTC estimates time until collision at current velocities:\n\n```python\ndef time_to_collision(distance, ego_speed, lead_speed):\n    \"\"\"\n    Calculate time to collision.\n\n    Returns None if not approaching (ego slower than lead).\n    \"\"\"\n    relative_speed = ego_speed - lead_speed\n\n    if relative_speed <= 0:\n        return None  # Not approaching\n\n    return distance / relative_speed\n```\n\n## Acceleration Limits\n\nReal vehicles have physical constraints:\n\n```python\ndef clamp_acceleration(accel, max_accel, max_decel):\n    \"\"\"Constrain acceleration to physical limits.\"\"\"\n    return max(max_decel, min(accel, max_accel))\n```\n\n## State Machine Pattern\n\nVehicle control often uses mode-based logic:\n\n```python\ndef determine_mode(lead_present, ttc, ttc_threshold):\n    \"\"\"\n    Determine operating mode based on conditions.\n\n    Returns one of: 'cruise', 'follow', 'emergency'\n    \"\"\"\n    if not lead_present:\n        return 'cruise'\n\n    if ttc is not None and ttc < ttc_threshold:\n        return 'emergency'\n\n    return 'follow'\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 268,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "adaptive-cruise-control",
+    "path": "tasks-no-skills/adaptive-cruise-control/environment/skills/vehicle-dynamics/SKILL.md"
+  }
+}

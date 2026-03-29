@@ -1,0 +1,11 @@
+{
+  "id": "django__django-15930",
+  "instance_id": "django__django-15930",
+  "repo": "django/django",
+  "problem_statement": "Case() crashes with ~Q(pk__in=[]).\nDescription\n\t\nThe following code generates a syntax error. \nUser.objects.annotate(\n\t_a=Case(\n\t\tWhen(~Q(pk__in=[]), then=Value(True)),\n\t\tdefault=Value(False),\n\t\toutput_field=BooleanField(),\n\t)\n).order_by(\"-a\").values(\"pk\")\nThe error is: \nProgrammingError: syntax error at or near \"THEN\"\nLINE 1: ..._user\".\"id\" FROM \"users_user\" ORDER BY CASE WHEN THEN true ...\nThe generated SQL is: \nSELECT \"users_user\".\"id\" FROM \"users_user\" ORDER BY CASE WHEN THEN True ELSE False END ASC\nI expected behavior to annotate all rows with the value True since they all match.\nRelevant because ~Q(pkin=[]) is a sentinel value that is sometimes returned by application code.\n",
+  "test_patch": "diff --git a/tests/expressions_case/tests.py b/tests/expressions_case/tests.py\n--- a/tests/expressions_case/tests.py\n+++ b/tests/expressions_case/tests.py\n@@ -415,6 +415,16 @@ def test_annotate_with_empty_when(self):\n         self.assertEqual(len(objects), CaseTestModel.objects.count())\n         self.assertTrue(all(obj.selected == \"not selected\" for obj in objects))\n \n+    def test_annotate_with_full_when(self):\n+        objects = CaseTestModel.objects.annotate(\n+            selected=Case(\n+                When(~Q(pk__in=[]), then=Value(\"selected\")),\n+                default=Value(\"not selected\"),\n+            )\n+        )\n+        self.assertEqual(len(objects), CaseTestModel.objects.count())\n+        self.assertTrue(all(obj.selected == \"selected\" for obj in objects))\n+\n     def test_combined_expression(self):\n         self.assertQuerysetEqual(\n             CaseTestModel.objects.annotate(\n",
+  "hints_text": "Thanks for the report (similar to the #33374 and #26517).",
+  "difficulty": "<15 min fix",
+  "base_commit": "63884829acd207404f2a5c3cc1d6b4cd0a822b70",
+  "created_at": "2022-08-07T15:26:41Z"
+}

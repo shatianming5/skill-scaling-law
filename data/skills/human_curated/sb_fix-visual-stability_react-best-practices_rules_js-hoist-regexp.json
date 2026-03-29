@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_js-hoist-regexp",
+  "content": "---\ntitle: Hoist RegExp Creation\nimpact: LOW-MEDIUM\nimpactDescription: avoids recreation\ntags: javascript, regexp, optimization, memoization\n---\n\n## Hoist RegExp Creation\n\nDon't create RegExp inside render. Hoist to module scope or memoize with `useMemo()`.\n\n**Incorrect (new RegExp every render):**\n\n```tsx\nfunction Highlighter({ text, query }: Props) {\n  const regex = new RegExp(`(${query})`, 'gi')\n  const parts = text.split(regex)\n  return <>{parts.map((part, i) => ...)}</>\n}\n```\n\n**Correct (memoize or hoist):**\n\n```tsx\nconst EMAIL_REGEX = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/\n\nfunction Highlighter({ text, query }: Props) {\n  const regex = useMemo(\n    () => new RegExp(`(${escapeRegex(query)})`, 'gi'),\n    [query]\n  )\n  const parts = text.split(regex)\n  return <>{parts.map((part, i) => ...)}</>\n}\n```\n\n**Warning (global regex has mutable state):**\n\nGlobal regex (`/g`) has mutable `lastIndex` state:\n\n```typescript\nconst regex = /foo/g\nregex.test('foo')  // true, lastIndex = 3\nregex.test('foo')  // false, lastIndex = 0\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 132,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/js-hoist-regexp.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "django__django-16819",
+  "instance_id": "django__django-16819",
+  "repo": "django/django",
+  "problem_statement": "Reduce Add/RemoveIndex migration operations.\nDescription\n\t\nWe should reduce AddIndex/RemoveIndex operations when optimizing migration operations.\n",
+  "test_patch": "diff --git a/tests/migrations/test_optimizer.py b/tests/migrations/test_optimizer.py\n--- a/tests/migrations/test_optimizer.py\n+++ b/tests/migrations/test_optimizer.py\n@@ -1158,3 +1158,17 @@ def test_rename_index(self):\n                 ),\n             ]\n         )\n+\n+    def test_add_remove_index(self):\n+        self.assertOptimizesTo(\n+            [\n+                migrations.AddIndex(\n+                    \"Pony\",\n+                    models.Index(\n+                        fields=[\"weight\", \"pink\"], name=\"idx_pony_weight_pink\"\n+                    ),\n+                ),\n+                migrations.RemoveIndex(\"Pony\", \"idx_pony_weight_pink\"),\n+            ],\n+            [],\n+        )\n",
+  "hints_text": "",
+  "difficulty": "15 min - 1 hour",
+  "base_commit": "0b0998dc151feb77068e2387c34cc50ef6b356ae",
+  "created_at": "2023-05-01T15:20:04Z"
+}
