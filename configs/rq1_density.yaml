@@ -1,0 +1,73 @@
+# RQ1: Skill 信息密度实验配置
+_base_: base.yaml
+
+experiment:
+  name: rq1_information_density
+  description: 测量不同颗粒度级别的 Skill 对 Agent 性能的影响
+
+# --- 任务采样 ---
+task_sampling:
+  n_tasks: 50
+  strategy: stratified  # 按领域分层抽样
+  seed: 42
+
+# --- 颗粒度级别 ---
+granularity_levels:
+  L1:
+    name: one_liner
+    target_tokens: 50
+    structure: "单句提示"
+  L2:
+    name: checklist
+    target_tokens: 200
+    structure: "3-5 条要点（what + why）"
+  L3:
+    name: focused_sop
+    target_tokens: 500
+    structure: "Background + Steps(3-5) + Verification"
+  L4:
+    name: comprehensive_guide
+    target_tokens: 1500
+    structure: "完整 SKILL.md 含 edge cases + examples"
+  L5:
+    name: documentation
+    target_tokens: 3000
+    structure: "原始文档级，含历史背景 + 代码示例"
+
+# --- 生成控制 ---
+generation:
+  model: gpt-4.1
+  ensure_containment: true  # 严格包含关系 L(n+1) ⊃ L(n)
+  validation:
+    check_token_range: true   # 验证 token 数在目标 ±30% 内
+    check_containment: true   # 验证信息包含关系
+
+# --- 实验条件 ---
+conditions:
+  - name: baseline
+    skills: none
+  - name: L1
+    granularity: L1
+  - name: L2
+    granularity: L2
+  - name: L3
+    granularity: L3
+  - name: L4
+    granularity: L4
+  - name: L5
+    granularity: L5
+
+# --- 分析 ---
+analysis:
+  plots:
+    - type: density_performance_curve
+      x: token_count_log
+      y: pass_rate
+      ci: true
+    - type: optimal_by_difficulty
+      group_by: difficulty
+    - type: optimal_by_domain
+      group_by: domain
+    - type: information_efficiency
+      metric: delta_rate_per_token
+  output_dir: results/rq1/

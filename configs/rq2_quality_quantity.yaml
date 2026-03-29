@@ -1,0 +1,108 @@
+# RQ2: Quality vs Quantity 实验配置
+_base_: base.yaml
+
+experiment:
+  name: rq2_quality_quantity
+  description: 对比高质量少量 vs 低质量大量 Skill 对 Agent 性能的影响
+
+# --- 任务采样 ---
+task_sampling:
+  n_tasks: 50
+  strategy: stratified
+  seed: 42
+
+# --- Skill 池 ---
+skill_pools:
+  human_curated:
+    path: data/skills/human_curated/
+    target_size: 300
+    quality_threshold: 4.0  # 4维度均分 ≥ 4.0
+    annotation:
+      dimensions:
+        - correctness
+        - specificity
+        - actionability
+        - completeness
+      scale: [1, 2, 3, 4, 5]
+      min_annotators: 3
+      agreement_threshold: 0.7  # Krippendorff's alpha
+  auto_generated:
+    path: data/skills/auto_generated/
+    target_size: 50000
+    quality_gate:
+      format_check: true
+      deduplication: true
+      min_tokens: 20
+      max_tokens: 5000
+
+# --- 检索 ---
+retrieval:
+  algorithm: bm25
+  top_k: 3
+  evaluation:
+    ground_truth_annotation: true
+    metrics: [recall_at_3, ndcg_at_3]
+
+# --- 固定数量实验条件 ---
+fixed_count_conditions:
+  - name: HC-small
+    pool: human_curated
+    size: 100
+  - name: HC-medium
+    pool: human_curated
+    size: 200
+  - name: AG-small
+    pool: auto_generated
+    size: 100
+    sampling: random
+  - name: AG-medium
+    pool: auto_generated
+    size: 1000
+    sampling: random
+  - name: AG-large
+    pool: auto_generated
+    size: 10000
+    sampling: random
+  - name: Mix-7030
+    size: 1000
+    composition:
+      auto_generated: 0.7
+      human_curated: 0.3
+  - name: Mix-5050
+    size: 1000
+    composition:
+      auto_generated: 0.5
+      human_curated: 0.5
+  - name: Baseline
+    pool: none
+
+# --- 固定 Token Budget 实验条件 ---
+fixed_budget_conditions:
+  token_budget: 1500
+  conditions:
+    - name: 1xL4-HC
+      n_skills: 1
+      granularity: L4
+      pool: human_curated
+    - name: 3xL2-Mixed
+      n_skills: 3
+      granularity: L2
+      pool: mixed
+    - name: 5xL1-AG
+      n_skills: 5
+      granularity: L1
+      pool: auto_generated
+
+# --- 分析 ---
+analysis:
+  plots:
+    - type: pareto_frontier
+      description: HC vs AG scaling 对比
+    - type: mix_ratio_curve
+      fixed_size: 1000
+      ratios: [0, 0.1, 0.3, 0.5, 0.7, 1.0]
+    - type: noise_tolerance
+      base_pool: human_curated
+      noise_ratios: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+    - type: cross_domain_heatmap
+  output_dir: results/rq2/

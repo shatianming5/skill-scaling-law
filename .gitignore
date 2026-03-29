@@ -1,0 +1,50 @@
+# Data & Results (large files)
+data/tasks/*
+data/skills/human_curated/*
+data/skills/auto_generated/*
+data/annotations/*
+results/rq1/*
+results/rq2/*
+results/rq3/*
+
+# Keep directory structure
+!data/tasks/.gitkeep
+!data/skills/human_curated/.gitkeep
+!data/skills/auto_generated/.gitkeep
+!data/annotations/.gitkeep
+!results/rq1/.gitkeep
+!results/rq2/.gitkeep
+!results/rq3/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# API keys
+.env
+.env.local

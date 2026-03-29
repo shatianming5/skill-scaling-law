@@ -1,0 +1,96 @@
+# RQ3: Scaling Law 实验配置
+_base_: base.yaml
+
+experiment:
+  name: rq3_scaling_law
+  description: 拟合 Agent 性能随 Skill 规模变化的 Scaling Law
+
+# --- 任务采样 ---
+task_sampling:
+  n_tasks: 100
+  strategy: full  # 使用全部任务集
+  seed: 42
+
+# --- 数量 Scaling ---
+quantity_scaling:
+  pool: human_curated
+  size_gradient: [0, 10, 25, 50, 100, 200, 500, 1000, 2000, 5000]
+  subset_samples: 5  # 每规模随机采样 5 次
+  retrieval_top_k: 3  # 固定检索数
+  # 简化策略：中等模型全量，强/开源模型仅关键点
+  model_schedule:
+    claude-sonnet: all
+    claude-opus: [0, 50, 200, 1000, 5000]
+    qwen-2.5-72b: [0, 50, 200, 1000, 5000]
+
+# --- 曲线拟合 ---
+curve_fitting:
+  functions:
+    - name: power_law
+      formula: "P = a * N^alpha + b"
+      params: [a, alpha, b]
+    - name: logarithmic
+      formula: "P = a * log(N) + b"
+      params: [a, b]
+    - name: sigmoid
+      formula: "P = L / (1 + exp(-k * (N - N0)))"
+      params: [L, k, N0]
+    - name: composite_decay
+      formula: "Li 2026 capacity threshold model"
+      params: [theta, gamma, c]
+  model_selection:
+    criteria: [aic, bic]
+    confidence_level: 0.95
+
+# --- 质量 Scaling ---
+quality_scaling:
+  fixed_size: 500
+  conditions:
+    - name: Q100
+      hc_ratio: 1.0
+    - name: Q75
+      hc_ratio: 0.75
+    - name: Q50
+      hc_ratio: 0.50
+    - name: Q25
+      hc_ratio: 0.25
+    - name: Q0
+      hc_ratio: 0.0
+
+# --- 领域 Scaling ---
+domain_scaling:
+  fixed_size: 500
+  conditions:
+    - name: concentrated
+      strategy: "100% 目标领域"
+    - name: broad_anchor
+      strategy: "70% 目标领域 + 30% 分散"
+    - name: balanced
+      strategy: "均匀分布 10 领域"
+    - name: random
+      strategy: "随机采样"
+
+# --- Skill-Optimal Configuration ---
+optimization:
+  objective: max_performance
+  constraints:
+    context_budget_C: [1000, 2000, 5000, 10000]  # 多个 budget 水平
+  variables:
+    N: skill_count
+    Q: quality_ratio
+    L: [50, 200, 500, 1500, 3000]  # 颗粒度对应 token 数
+
+# --- 分析 ---
+analysis:
+  plots:
+    - type: quantity_scaling_curve
+      fit_lines: true
+      ci_band: true
+    - type: quality_quantity_heatmap
+      x: quantity_log
+      y: quality_ratio
+      z: pass_rate
+      iso_contours: true
+    - type: domain_distribution_comparison
+    - type: optimal_configuration_surface
+  output_dir: results/rq3/

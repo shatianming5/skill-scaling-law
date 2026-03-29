@@ -1,0 +1,82 @@
+# 共享基础配置
+# 所有 RQ 实验配置通过 _base_ 继承此文件
+
+# --- 任务集 ---
+tasks:
+  sources:
+    - name: skillsbench
+      path: data/tasks/skillsbench/
+      count: 84
+    - name: swebench
+      path: data/tasks/swebench/
+      count: 80
+    - name: mint
+      path: data/tasks/mint/
+      count: 36
+  domains:
+    - software_engineering
+    - data_analysis
+    - web_development
+    - devops
+    - security
+    - database
+    - ml_engineering
+    - documentation
+    - api_integration
+    - testing
+  min_tasks_per_domain: 15
+
+# --- Agent 配置 ---
+agents:
+  models:
+    - name: claude-opus
+      provider: anthropic
+      model_id: claude-opus-4-20250514
+      temperature: 0
+      max_tokens: 4096
+      category: strong
+    - name: claude-sonnet
+      provider: anthropic
+      model_id: claude-sonnet-4-20250514
+      temperature: 0
+      max_tokens: 4096
+      category: medium
+    - name: qwen-2.5-72b
+      provider: openai_compatible
+      model_id: Qwen/Qwen2.5-72B-Instruct
+      temperature: 0
+      max_tokens: 4096
+      category: open_source
+  concurrency: 20
+  retry:
+    max_retries: 3
+    backoff_base: 2.0
+
+# --- Skill 注入 ---
+injection:
+  method: system_prompt
+  template: |
+    ## Relevant Skills
+    {skills_content}
+    ---
+  record_token_count: true
+
+# --- 评估 ---
+evaluation:
+  verifier: deterministic
+  repeats: 5
+  random_seed: 42
+
+# --- 统计 ---
+statistics:
+  effect_size: cohens_d
+  significance_test: wilcoxon_signed_rank
+  confidence_interval:
+    method: bootstrap
+    level: 0.95
+    n_bootstrap: 10000
+
+# --- 输出 ---
+output:
+  format: json
+  base_dir: results/
