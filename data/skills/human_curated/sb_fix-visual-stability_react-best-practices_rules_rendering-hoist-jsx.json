@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rendering-hoist-jsx",
+  "content": "---\ntitle: Hoist Static JSX Elements\nimpact: LOW\nimpactDescription: avoids re-creation\ntags: rendering, jsx, static, optimization\n---\n\n## Hoist Static JSX Elements\n\nExtract static JSX outside components to avoid re-creation.\n\n**Incorrect (recreates element every render):**\n\n```tsx\nfunction LoadingSkeleton() {\n  return <div className=\"animate-pulse h-20 bg-gray-200\" />\n}\n\nfunction Container() {\n  return (\n    <div>\n      {loading && <LoadingSkeleton />}\n    </div>\n  )\n}\n```\n\n**Correct (reuses same element):**\n\n```tsx\nconst loadingSkeleton = (\n  <div className=\"animate-pulse h-20 bg-gray-200\" />\n)\n\nfunction Container() {\n  return (\n    <div>\n      {loading && loadingSkeleton}\n    </div>\n  )\n}\n```\n\nThis is especially helpful for large and static SVG nodes, which can be expensive to recreate on every render.\n\n**Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, the compiler automatically hoists static JSX elements and optimizes component re-renders, making manual hoisting unnecessary.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 130,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md"
+  }
+}

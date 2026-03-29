@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rerender-derived-state",
+  "content": "---\ntitle: Subscribe to Derived State\nimpact: MEDIUM\nimpactDescription: reduces re-render frequency\ntags: rerender, derived-state, media-query, optimization\n---\n\n## Subscribe to Derived State\n\nSubscribe to derived boolean state instead of continuous values to reduce re-render frequency.\n\n**Incorrect (re-renders on every pixel change):**\n\n```tsx\nfunction Sidebar() {\n  const width = useWindowWidth()  // updates continuously\n  const isMobile = width < 768\n  return <nav className={isMobile ? 'mobile' : 'desktop'}>\n}\n```\n\n**Correct (re-renders only when boolean changes):**\n\n```tsx\nfunction Sidebar() {\n  const isMobile = useMediaQuery('(max-width: 767px)')\n  return <nav className={isMobile ? 'mobile' : 'desktop'}>\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 92,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-derived-state.md"
+  }
+}

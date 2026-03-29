@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rendering-svg-precision",
+  "content": "---\ntitle: Optimize SVG Precision\nimpact: LOW\nimpactDescription: reduces file size\ntags: rendering, svg, optimization, svgo\n---\n\n## Optimize SVG Precision\n\nReduce SVG coordinate precision to decrease file size. The optimal precision depends on the viewBox size, but in general reducing precision should be considered.\n\n**Incorrect (excessive precision):**\n\n```svg\n<path d=\"M 10.293847 20.847362 L 30.938472 40.192837\" />\n```\n\n**Correct (1 decimal place):**\n\n```svg\n<path d=\"M 10.3 20.8 L 30.9 40.2\" />\n```\n\n**Automate with SVGO:**\n\n```bash\nnpx svgo --precision=1 --multipass icon.svg\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 82,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-svg-precision.md"
+  }
+}

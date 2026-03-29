@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rendering-content-visibility",
+  "content": "---\ntitle: CSS content-visibility for Long Lists\nimpact: HIGH\nimpactDescription: faster initial render\ntags: rendering, css, content-visibility, long-lists\n---\n\n## CSS content-visibility for Long Lists\n\nApply `content-visibility: auto` to defer off-screen rendering.\n\n**CSS:**\n\n```css\n.message-item {\n  content-visibility: auto;\n  contain-intrinsic-size: 0 80px;\n}\n```\n\n**Example:**\n\n```tsx\nfunction MessageList({ messages }: { messages: Message[] }) {\n  return (\n    <div className=\"overflow-y-auto h-screen\">\n      {messages.map(msg => (\n        <div key={msg.id} className=\"message-item\">\n          <Avatar user={msg.author} />\n          <div>{msg.content}</div>\n        </div>\n      ))}\n    </div>\n  )\n}\n```\n\nFor 1000 messages, browser skips layout/paint for ~990 off-screen items (10× faster initial render).\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 89,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-content-visibility.md"
+  }
+}

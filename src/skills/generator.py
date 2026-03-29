@@ -157,11 +157,35 @@ class SkillGenerator:
         return "\n\n".join(parts)
 
     def _call_llm(self, prompt: str) -> str:
-        """调用 LLM 生成内容。需要对接实际 API。"""
-        raise NotImplementedError(
-            "LLM API call not yet implemented. "
-            "Integrate with OpenAI/Anthropic client here."
+        """调用 LLM 生成 Skill 内容。支持 OpenAI 和 Anthropic。"""
+        import os
+
+        provider = self.config.get("generation", {}).get("provider", "openai")
+
+        if provider == "anthropic":
+            from anthropic import Anthropic
+            client = Anthropic()
+            response = client.messages.create(
+                model=self.model,
+                max_tokens=4096,
+                temperature=0.3,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return response.content[0].text
+
+        # 默认 OpenAI / OpenAI-compatible
+        from openai import OpenAI
+        client = OpenAI(
+            api_key=os.environ.get("OPENAI_API_KEY"),
+            base_url=os.environ.get("OPENAI_BASE_URL"),
         )
+        response = client.chat.completions.create(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=4096,
+            temperature=0.3,
+        )
+        return response.choices[0].message.content
 
     @staticmethod
     def _validate_containment(skills: dict[str, GeneratedSkill]):

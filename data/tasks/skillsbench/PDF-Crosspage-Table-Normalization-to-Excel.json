@@ -2,8 +2,8 @@
   "id": "PDF-Crosspage-Table-Normalization-to-Excel",
   "source": "skillsbench",
   "instruction": "",
-  "domain": "general",
-  "difficulty": "medium",
+  "domain": "data_analysis",
+  "difficulty": "easy",
   "has_skills": true,
   "verification": "deterministic",
   "metadata": {

@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_server-cache-react",
+  "content": "---\ntitle: Per-Request Deduplication with React.cache()\nimpact: MEDIUM\nimpactDescription: deduplicates within request\ntags: server, cache, react-cache, deduplication\n---\n\n## Per-Request Deduplication with React.cache()\n\nUse `React.cache()` for server-side request deduplication. Authentication and database queries benefit most.\n\n**Usage:**\n\n```typescript\nimport { cache } from 'react'\n\nexport const getCurrentUser = cache(async () => {\n  const session = await auth()\n  if (!session?.user?.id) return null\n  return await db.user.findUnique({\n    where: { id: session.user.id }\n  })\n})\n```\n\nWithin a single request, multiple calls to `getCurrentUser()` execute the query only once.\n\n**Avoid inline objects as arguments:**\n\n`React.cache()` uses shallow equality (`Object.is`) to determine cache hits. Inline objects create new references each call, preventing cache hits.\n\n**Incorrect (always cache miss):**\n\n```typescript\nconst getUser = cache(async (params: { uid: number }) => {\n  return await db.user.findUnique({ where: { id: params.uid } })\n})\n\n// Each call creates new object, never hits cache\ngetUser({ uid: 1 })\ngetUser({ uid: 1 })  // Cache miss, runs query again\n```\n\n**Correct (cache hit):**\n\n```typescript\nconst getUser = cache(async (uid: number) => {\n  return await db.user.findUnique({ where: { id: uid } })\n})\n\n// Primitive args use value equality\ngetUser(1)\ngetUser(1)  // Cache hit, returns cached result\n```\n\nIf you must pass objects, pass the same reference:\n\n```typescript\nconst params = { uid: 1 }\ngetUser(params)  // Query runs\ngetUser(params)  // Cache hit (same reference)\n```\n\n**Next.js-Specific Note:**\n\nIn Next.js, the `fetch` API is automatically extended with request memoization. Requests with the same URL and options are automatically deduplicated within a single request, so you don't need `React.cache()` for `fetch` calls. However, `React.cache()` is still essential for other async tasks:\n\n- Database queries (Prisma, Drizzle, etc.)\n- Heavy computations\n- Authentication checks\n- File system operations\n- Any non-fetch async work\n\nUse `React.cache()` to deduplicate these operations across your component tree.\n\nReference: [React.cache documentation](https://react.dev/reference/react/cache)\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 301,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-cache-react.md"
+  }
+}

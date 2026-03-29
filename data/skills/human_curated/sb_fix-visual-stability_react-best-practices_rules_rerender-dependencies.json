@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rerender-dependencies",
+  "content": "---\ntitle: Narrow Effect Dependencies\nimpact: LOW\nimpactDescription: minimizes effect re-runs\ntags: rerender, useEffect, dependencies, optimization\n---\n\n## Narrow Effect Dependencies\n\nSpecify primitive dependencies instead of objects to minimize effect re-runs.\n\n**Incorrect (re-runs on any user field change):**\n\n```tsx\nuseEffect(() => {\n  console.log(user.id)\n}, [user])\n```\n\n**Correct (re-runs only when id changes):**\n\n```tsx\nuseEffect(() => {\n  console.log(user.id)\n}, [user.id])\n```\n\n**For derived state, compute outside effect:**\n\n```tsx\n// Incorrect: runs on width=767, 766, 765...\nuseEffect(() => {\n  if (width < 768) {\n    enableMobileMode()\n  }\n}, [width])\n\n// Correct: runs only on boolean transition\nconst isMobile = width < 768\nuseEffect(() => {\n  if (isMobile) {\n    enableMobileMode()\n  }\n}, [isMobile])\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 110,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-dependencies.md"
+  }
+}

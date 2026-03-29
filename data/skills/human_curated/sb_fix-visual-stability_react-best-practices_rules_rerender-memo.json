@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rerender-memo",
+  "content": "---\ntitle: Extract to Memoized Components\nimpact: MEDIUM\nimpactDescription: enables early returns\ntags: rerender, memo, useMemo, optimization\n---\n\n## Extract to Memoized Components\n\nExtract expensive work into memoized components to enable early returns before computation.\n\n**Incorrect (computes avatar even when loading):**\n\n```tsx\nfunction Profile({ user, loading }: Props) {\n  const avatar = useMemo(() => {\n    const id = computeAvatarId(user)\n    return <Avatar id={id} />\n  }, [user])\n\n  if (loading) return <Skeleton />\n  return <div>{avatar}</div>\n}\n```\n\n**Correct (skips computation when loading):**\n\n```tsx\nconst UserAvatar = memo(function UserAvatar({ user }: { user: User }) {\n  const id = useMemo(() => computeAvatarId(user), [user])\n  return <Avatar id={id} />\n})\n\nfunction Profile({ user, loading }: Props) {\n  if (loading) return <Skeleton />\n  return (\n    <div>\n      <UserAvatar user={user} />\n    </div>\n  )\n}\n```\n\n**Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, manual memoization with `memo()` and `useMemo()` is not necessary. The compiler automatically optimizes re-renders.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 148,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-memo.md"
+  }
+}

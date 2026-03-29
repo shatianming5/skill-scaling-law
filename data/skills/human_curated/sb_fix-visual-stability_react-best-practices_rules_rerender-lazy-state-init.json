@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rerender-lazy-state-init",
+  "content": "---\ntitle: Use Lazy State Initialization\nimpact: MEDIUM\nimpactDescription: wasted computation on every render\ntags: react, hooks, useState, performance, initialization\n---\n\n## Use Lazy State Initialization\n\nPass a function to `useState` for expensive initial values. Without the function form, the initializer runs on every render even though the value is only used once.\n\n**Incorrect (runs on every render):**\n\n```tsx\nfunction FilteredList({ items }: { items: Item[] }) {\n  // buildSearchIndex() runs on EVERY render, even after initialization\n  const [searchIndex, setSearchIndex] = useState(buildSearchIndex(items))\n  const [query, setQuery] = useState('')\n\n  // When query changes, buildSearchIndex runs again unnecessarily\n  return <SearchResults index={searchIndex} query={query} />\n}\n\nfunction UserProfile() {\n  // JSON.parse runs on every render\n  const [settings, setSettings] = useState(\n    JSON.parse(localStorage.getItem('settings') || '{}')\n  )\n\n  return <SettingsForm settings={settings} onChange={setSettings} />\n}\n```\n\n**Correct (runs only once):**\n\n```tsx\nfunction FilteredList({ items }: { items: Item[] }) {\n  // buildSearchIndex() runs ONLY on initial render\n  const [searchIndex, setSearchIndex] = useState(() => buildSearchIndex(items))\n  const [query, setQuery] = useState('')\n\n  return <SearchResults index={searchIndex} query={query} />\n}\n\nfunction UserProfile() {\n  // JSON.parse runs only on initial render\n  const [settings, setSettings] = useState(() => {\n    const stored = localStorage.getItem('settings')\n    return stored ? JSON.parse(stored) : {}\n  })\n\n  return <SettingsForm settings={settings} onChange={setSettings} />\n}\n```\n\nUse lazy initialization when computing initial values from localStorage/sessionStorage, building data structures (indexes, maps), reading from the DOM, or performing heavy transformations.\n\nFor simple primitives (`useState(0)`), direct references (`useState(props.value)`), or cheap literals (`useState({})`), the function form is unnecessary.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 238,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-lazy-state-init.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_server-parallel-fetching",
+  "content": "---\ntitle: Parallel Data Fetching with Component Composition\nimpact: CRITICAL\nimpactDescription: eliminates server-side waterfalls\ntags: server, rsc, parallel-fetching, composition\n---\n\n## Parallel Data Fetching with Component Composition\n\nReact Server Components execute sequentially within a tree. Restructure with composition to parallelize data fetching.\n\n**Incorrect (Sidebar waits for Page's fetch to complete):**\n\n```tsx\nexport default async function Page() {\n  const header = await fetchHeader()\n  return (\n    <div>\n      <div>{header}</div>\n      <Sidebar />\n    </div>\n  )\n}\n\nasync function Sidebar() {\n  const items = await fetchSidebarItems()\n  return <nav>{items.map(renderItem)}</nav>\n}\n```\n\n**Correct (both fetch simultaneously):**\n\n```tsx\nasync function Header() {\n  const data = await fetchHeader()\n  return <div>{data}</div>\n}\n\nasync function Sidebar() {\n  const items = await fetchSidebarItems()\n  return <nav>{items.map(renderItem)}</nav>\n}\n\nexport default function Page() {\n  return (\n    <div>\n      <Header />\n      <Sidebar />\n    </div>\n  )\n}\n```\n\n**Alternative with children prop:**\n\n```tsx\nasync function Header() {\n  const data = await fetchHeader()\n  return <div>{data}</div>\n}\n\nasync function Sidebar() {\n  const items = await fetchSidebarItems()\n  return <nav>{items.map(renderItem)}</nav>\n}\n\nfunction Layout({ children }: { children: ReactNode }) {\n  return (\n    <div>\n      <Header />\n      {children}\n    </div>\n  )\n}\n\nexport default function Page() {\n  return (\n    <Layout>\n      <Sidebar />\n    </Layout>\n  )\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 190,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-parallel-fetching.md"
+  }
+}

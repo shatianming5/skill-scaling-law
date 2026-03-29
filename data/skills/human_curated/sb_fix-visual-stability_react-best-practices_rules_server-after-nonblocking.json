@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_server-after-nonblocking",
+  "content": "---\ntitle: Use after() for Non-Blocking Operations\nimpact: MEDIUM\nimpactDescription: faster response times\ntags: server, async, logging, analytics, side-effects\n---\n\n## Use after() for Non-Blocking Operations\n\nUse Next.js's `after()` to schedule work that should execute after a response is sent. This prevents logging, analytics, and other side effects from blocking the response.\n\n**Incorrect (blocks response):**\n\n```tsx\nimport { logUserAction } from '@/app/utils'\n\nexport async function POST(request: Request) {\n  // Perform mutation\n  await updateDatabase(request)\n\n  // Logging blocks the response\n  const userAgent = request.headers.get('user-agent') || 'unknown'\n  await logUserAction({ userAgent })\n\n  return new Response(JSON.stringify({ status: 'success' }), {\n    status: 200,\n    headers: { 'Content-Type': 'application/json' }\n  })\n}\n```\n\n**Correct (non-blocking):**\n\n```tsx\nimport { after } from 'next/server'\nimport { headers, cookies } from 'next/headers'\nimport { logUserAction } from '@/app/utils'\n\nexport async function POST(request: Request) {\n  // Perform mutation\n  await updateDatabase(request)\n\n  // Log after response is sent\n  after(async () => {\n    const userAgent = (await headers()).get('user-agent') || 'unknown'\n    const sessionCookie = (await cookies()).get('session-id')?.value || 'anonymous'\n\n    logUserAction({ sessionCookie, userAgent })\n  })\n\n  return new Response(JSON.stringify({ status: 'success' }), {\n    status: 200,\n    headers: { 'Content-Type': 'application/json' }\n  })\n}\n```\n\nThe response is sent immediately while logging happens in the background.\n\n**Common use cases:**\n\n- Analytics tracking\n- Audit logging\n- Sending notifications\n- Cache invalidation\n- Cleanup tasks\n\n**Important notes:**\n\n- `after()` runs even if the response fails or redirects\n- Works in Server Actions, Route Handlers, and Server Components\n\nReference: [https://nextjs.org/docs/app/api-reference/functions/after](https://nextjs.org/docs/app/api-reference/functions/after)\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 237,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/server-after-nonblocking.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_fix-visual-stability_react-best-practices_rules_rerender-defer-reads",
+  "content": "---\ntitle: Defer State Reads to Usage Point\nimpact: MEDIUM\nimpactDescription: avoids unnecessary subscriptions\ntags: rerender, searchParams, localStorage, optimization\n---\n\n## Defer State Reads to Usage Point\n\nDon't subscribe to dynamic state (searchParams, localStorage) if you only read it inside callbacks.\n\n**Incorrect (subscribes to all searchParams changes):**\n\n```tsx\nfunction ShareButton({ chatId }: { chatId: string }) {\n  const searchParams = useSearchParams()\n\n  const handleShare = () => {\n    const ref = searchParams.get('ref')\n    shareChat(chatId, { ref })\n  }\n\n  return <button onClick={handleShare}>Share</button>\n}\n```\n\n**Correct (reads on demand, no subscription):**\n\n```tsx\nfunction ShareButton({ chatId }: { chatId: string }) {\n  const handleShare = () => {\n    const params = new URLSearchParams(window.location.search)\n    const ref = params.get('ref')\n    shareChat(chatId, { ref })\n  }\n\n  return <button onClick={handleShare}>Share</button>\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 122,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "fix-visual-stability",
+    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rerender-defer-reads.md"
+  }
+}
