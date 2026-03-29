@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_bundle-defer-third-party",
+  "content": "---\ntitle: Defer Non-Critical Third-Party Libraries\nimpact: MEDIUM\nimpactDescription: loads after hydration\ntags: bundle, third-party, analytics, defer\n---\n\n## Defer Non-Critical Third-Party Libraries\n\nAnalytics, logging, and error tracking don't block user interaction. Load them after hydration.\n\n**Incorrect (blocks initial bundle):**\n\n```tsx\nimport { Analytics } from '@vercel/analytics/react'\n\nexport default function RootLayout({ children }) {\n  return (\n    <html>\n      <body>\n        {children}\n        <Analytics />\n      </body>\n    </html>\n  )\n}\n```\n\n**Correct (loads after hydration):**\n\n```tsx\nimport dynamic from 'next/dynamic'\n\nconst Analytics = dynamic(\n  () => import('@vercel/analytics/react').then(m => m.Analytics),\n  { ssr: false }\n)\n\nexport default function RootLayout({ children }) {\n  return (\n    <html>\n      <body>\n        {children}\n        <Analytics />\n      </body>\n    </html>\n  )\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 108,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-defer-third-party.md"
+  }
+}

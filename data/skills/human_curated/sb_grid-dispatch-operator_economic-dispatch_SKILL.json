@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "grid-dispatch-operator",
-    "path": "tasks-no-skills/grid-dispatch-operator/environment/skills/economic-dispatch/SKILL.md"
+    "path": "tasks/grid-dispatch-operator/environment/skills/economic-dispatch/SKILL.md"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "id": "sb_r2r-mpc-control_mpc-horizon-tuning_SKILL",
+  "content": "---\nname: mpc-horizon-tuning\ndescription: Selecting MPC prediction horizon and cost matrices for web handling.\n---\n\n# MPC Tuning for Tension Control\n\n## Prediction Horizon Selection\n\n**Horizon N** affects performance and computation:\n- Too short (N < 5): Poor disturbance rejection\n- Too long (N > 20): Excessive computation\n- Rule of thumb: N ≈ 2-3× settling time / dt\n\nFor R2R systems with dt=0.01s: **N = 5-15** typical\n\n## Cost Matrix Design\n\n**State cost Q**: Emphasize tension tracking\n```python\nQ_tension = 100 / T_ref²  # High weight on tensions\nQ_velocity = 0.1 / v_ref²  # Lower weight on velocities\nQ = diag([Q_tension × 6, Q_velocity × 6])\n```\n\n**Control cost R**: Penalize actuator effort\n```python\nR = 0.01-0.1 × eye(n_u)  # Smaller = more aggressive\n```\n\n## Trade-offs\n\n| Higher Q | Effect |\n|----------|--------|\n| Faster tracking | More control effort |\n| Lower steady-state error | More aggressive transients |\n\n| Higher R | Effect |\n|----------|--------|\n| Smoother control | Slower response |\n| Less actuator wear | Higher tracking error |\n\n## Terminal Cost\n\nUse LQR solution for terminal cost to guarantee stability:\n```python\nP = solve_continuous_are(A, B, Q, R)\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 195,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "r2r-mpc-control",
+    "path": "tasks-no-skills/r2r-mpc-control/environment/skills/mpc-horizon-tuning/SKILL.md"
+  }
+}

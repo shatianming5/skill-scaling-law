@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_bundle-preload",
+  "content": "---\ntitle: Preload Based on User Intent\nimpact: MEDIUM\nimpactDescription: reduces perceived latency\ntags: bundle, preload, user-intent, hover\n---\n\n## Preload Based on User Intent\n\nPreload heavy bundles before they're needed to reduce perceived latency.\n\n**Example (preload on hover/focus):**\n\n```tsx\nfunction EditorButton({ onClick }: { onClick: () => void }) {\n  const preload = () => {\n    if (typeof window !== 'undefined') {\n      void import('./monaco-editor')\n    }\n  }\n\n  return (\n    <button\n      onMouseEnter={preload}\n      onFocus={preload}\n      onClick={onClick}\n    >\n      Open Editor\n    </button>\n  )\n}\n```\n\n**Example (preload when feature flag is enabled):**\n\n```tsx\nfunction FlagsProvider({ children, flags }: Props) {\n  useEffect(() => {\n    if (flags.editorEnabled && typeof window !== 'undefined') {\n      void import('./monaco-editor').then(mod => mod.init())\n    }\n  }, [flags.editorEnabled])\n\n  return <FlagsContext.Provider value={flags}>\n    {children}\n  </FlagsContext.Provider>\n}\n```\n\nThe `typeof window !== 'undefined'` check prevents bundling preloaded modules for SSR, optimizing server bundle size and build speed.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 139,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-preload.md"
+  }
+}

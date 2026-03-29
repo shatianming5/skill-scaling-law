@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "crystallographic-wyckoff-position-analysis",
-    "path": "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/advanced-topics.md"
+    "path": "tasks/crystallographic-wyckoff-position-analysis/environment/skills/sympy/references/advanced-topics.md"
   }
 }

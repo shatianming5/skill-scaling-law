@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-combine-iterations",
+  "content": "---\ntitle: Combine Multiple Array Iterations\nimpact: LOW-MEDIUM\nimpactDescription: reduces iterations\ntags: javascript, arrays, loops, performance\n---\n\n## Combine Multiple Array Iterations\n\nMultiple `.filter()` or `.map()` calls iterate the array multiple times. Combine into one loop.\n\n**Incorrect (3 iterations):**\n\n```typescript\nconst admins = users.filter(u => u.isAdmin)\nconst testers = users.filter(u => u.isTester)\nconst inactive = users.filter(u => !u.isActive)\n```\n\n**Correct (1 iteration):**\n\n```typescript\nconst admins: User[] = []\nconst testers: User[] = []\nconst inactive: User[] = []\n\nfor (const user of users) {\n  if (user.isAdmin) admins.push(user)\n  if (user.isTester) testers.push(user)\n  if (!user.isActive) inactive.push(user)\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 95,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-combine-iterations.md"
+  }
+}

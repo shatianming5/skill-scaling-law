@@ -1,0 +1,13 @@
+{
+  "id": "sb_latex-formula-extraction_marker_SKILL",
+  "content": "---\nname: marker\ndescription: Convert PDF documents to Markdown using marker_single. Use when Claude needs to extract text content from PDFs while preserving LaTeX formulas, equations, and document structure. Ideal for academic papers and technical documents containing mathematical notation.\n---\n\n# Marker PDF-to-Markdown Converter\n\nConvert PDFs to Markdown while preserving LaTeX formulas and document structure. Uses the `marker_single` CLI from the marker-pdf package.\n\n## Dependencies\n- `marker_single` on PATH (`pip install marker-pdf` if missing)\n- Python 3.10+ (available in the task image)\n\n## Quick Start\n\n```python\nfrom scripts.marker_to_markdown import pdf_to_markdown\n\nmarkdown_text = pdf_to_markdown(\"paper.pdf\")\nprint(markdown_text)\n```\n\n## Python API\n\n- `pdf_to_markdown(pdf_path, *, timeout=600, cleanup=True) -> str`\n  - Runs `marker_single --output_format markdown --disable_image_extraction`\n  - `cleanup=True`: use a temp directory and delete after reading the Markdown\n  - `cleanup=False`: keep outputs in `<pdf_stem>_marker/` next to the PDF\n  - Exceptions: `FileNotFoundError` if the PDF is missing, `RuntimeError` for marker failures, `TimeoutError` if it exceeds the timeout\n- Tips: bump `timeout` for large PDFs; set `cleanup=False` to inspect intermediate files\n\n## Command-Line Usage\n\n```bash\n# Basic conversion (prints markdown to stdout)\npython scripts/marker_to_markdown.py paper.pdf\n\n# Keep temporary files\npython scripts/marker_to_markdown.py paper.pdf --keep-temp\n\n# Custom timeout\npython scripts/marker_to_markdown.py paper.pdf --timeout 600\n```\n\n## Output Locations\n- `cleanup=True`: outputs stored in a temporary directory and removed automatically\n- `cleanup=False`: outputs saved to `<pdf_stem>_marker/`; markdown lives at `<pdf_stem>_marker/<pdf_stem>/<pdf_stem>.md` when present (otherwise the first `.md` file is used)\n\n## Troubleshooting\n- `marker_single` not found: install `marker-pdf` or ensure the CLI is on PATH\n- No Markdown output: re-run with `--keep-temp`/`cleanup=False` and check `stdout`/`stderr` saved in the output folder\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 258,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "latex-formula-extraction",
+    "path": "tasks/latex-formula-extraction/environment/skills/marker/SKILL.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_powerlifting-coef-calc_senior-data-scientist_references_statistical_methods_advanced",
+  "content": "# Statistical Methods Advanced\n\n## Overview\n\nWorld-class statistical methods advanced for senior data scientist.\n\n## Core Principles\n\n### Production-First Design\n\nAlways design with production in mind:\n- Scalability: Handle 10x current load\n- Reliability: 99.9% uptime target\n- Maintainability: Clear, documented code\n- Observability: Monitor everything\n\n### Performance by Design\n\nOptimize from the start:\n- Efficient algorithms\n- Resource awareness\n- Strategic caching\n- Batch processing\n\n### Security & Privacy\n\nBuild security in:\n- Input validation\n- Data encryption\n- Access control\n- Audit logging\n\n## Advanced Patterns\n\n### Pattern 1: Distributed Processing\n\nEnterprise-scale data processing with fault tolerance.\n\n### Pattern 2: Real-Time Systems\n\nLow-latency, high-throughput systems.\n\n### Pattern 3: ML at Scale\n\nProduction ML with monitoring and automation.\n\n## Best Practices\n\n### Code Quality\n- Comprehensive testing\n- Clear documentation\n- Code reviews\n- Type hints\n\n### Performance\n- Profile before optimizing\n- Monitor continuously\n- Cache strategically\n- Batch operations\n\n### Reliability\n- Design for failure\n- Implement retries\n- Use circuit breakers\n- Monitor health\n\n## Tools & Technologies\n\nEssential tools for this domain:\n- Development frameworks\n- Testing libraries\n- Deployment platforms\n- Monitoring solutions\n\n## Further Reading\n\n- Research papers\n- Industry blogs\n- Conference talks\n- Open source projects\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 205,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "powerlifting-coef-calc",
+    "path": "tasks-no-skills/powerlifting-coef-calc/environment/skills/senior-data-scientist/references/statistical_methods_advanced.md"
+  }
+}

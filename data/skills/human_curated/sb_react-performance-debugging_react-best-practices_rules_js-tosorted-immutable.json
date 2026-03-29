@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-tosorted-immutable",
+  "content": "---\ntitle: Use toSorted() Instead of sort() for Immutability\nimpact: MEDIUM-HIGH\nimpactDescription: prevents mutation bugs in React state\ntags: javascript, arrays, immutability, react, state, mutation\n---\n\n## Use toSorted() Instead of sort() for Immutability\n\n`.sort()` mutates the array in place, which can cause bugs with React state and props. Use `.toSorted()` to create a new sorted array without mutation.\n\n**Incorrect (mutates original array):**\n\n```typescript\nfunction UserList({ users }: { users: User[] }) {\n  // Mutates the users prop array!\n  const sorted = useMemo(\n    () => users.sort((a, b) => a.name.localeCompare(b.name)),\n    [users]\n  )\n  return <div>{sorted.map(renderUser)}</div>\n}\n```\n\n**Correct (creates new array):**\n\n```typescript\nfunction UserList({ users }: { users: User[] }) {\n  // Creates new sorted array, original unchanged\n  const sorted = useMemo(\n    () => users.toSorted((a, b) => a.name.localeCompare(b.name)),\n    [users]\n  )\n  return <div>{sorted.map(renderUser)}</div>\n}\n```\n\n**Why this matters in React:**\n\n1. Props/state mutations break React's immutability model - React expects props and state to be treated as read-only\n2. Causes stale closure bugs - Mutating arrays inside closures (callbacks, effects) can lead to unexpected behavior\n\n**Browser support (fallback for older browsers):**\n\n`.toSorted()` is available in all modern browsers (Chrome 110+, Safari 16+, Firefox 115+, Node.js 20+). For older environments, use spread operator:\n\n```typescript\n// Fallback for older browsers\nconst sorted = [...items].sort((a, b) => a.value - b.value)\n```\n\n**Other immutable array methods:**\n\n- `.toSorted()` - immutable sort\n- `.toReversed()` - immutable reverse\n- `.toSpliced()` - immutable splice\n- `.with()` - immutable element replacement\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 240,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-tosorted-immutable.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_setup-fuzzing-py_setup-env_SKILL",
+  "content": "---\nname: setup-env\ndescription: \"When given a Python project codebase, this skill helps the agent to set up virtual environments, install dependencies, and run scripts.\"\n---\n\n# Skill: Use uv to manage Python environments\n\n## Scope\n\n1. Create a virtual environment\n2. Install dependencies\n3. Run Python scripts/commands\n\nAssume `uv` is already available on PATH.\n\n---\n\n## Workflow selection\n\n- If `pyproject.toml` exists: use **project workflow** (`uv sync`, `uv run`)\n- Else if `requirements.txt` exists: use **pip workflow** (`uv venv`, `uv pip install -r ...`, `.venv/bin/python ...`)\n- Else: stop with an error (\"No pyproject.toml or requirements.txt found.\")\n\n---\n\n## Project workflow (pyproject.toml)\n\n### Create venv + install dependencies\n\nFrom the repo root (where `pyproject.toml` is):\n\n- `uv sync`\n\nNotes:\n\n- uv maintains a persistent project environment at `.venv` and installs deps there.\n\n### Run scripts / commands (preferred)\n\nAlways run within the project environment:\n\n- `uv run -- python <script.py> [args...]`\n- `uv run -- python -m <module> [args...]`\n\nNotes:\n\n- `uv run` executes inside the project environment and ensures it is up-to-date.\n\n---\n\n## Pip workflow (requirements.txt)\n\n### Create venv\n\nFrom the repo root:\n\n- `uv venv` # creates `.venv` by default\n\n### Install dependencies\n\n- `uv pip install -r requirements.txt`\n\n### Run scripts / commands\n\nRun using the venv interpreter directly (no activation required):\n\n- `.venv/bin/python <script.py> [args...]`\n- `.venv/bin/python -m <module> [args...]`\n\n(uv will also automatically find and use the default `.venv` in subsequent invocations when you use `uv pip ...` commands.)\n\n---\n\n## Minimal sanity checks (optional)\n\n- `test -x .venv/bin/python`\n- `uv pip list` (verify packages installed)\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 263,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "setup-fuzzing-py",
+    "path": "tasks-no-skills/setup-fuzzing-py/environment/skills/setup-env/SKILL.md"
+  }
+}

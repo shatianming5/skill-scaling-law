@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_rendering-animate-svg-wrapper",
+  "content": "---\ntitle: Animate SVG Wrapper Instead of SVG Element\nimpact: LOW\nimpactDescription: enables hardware acceleration\ntags: rendering, svg, css, animation, performance\n---\n\n## Animate SVG Wrapper Instead of SVG Element\n\nMany browsers don't have hardware acceleration for CSS3 animations on SVG elements. Wrap SVG in a `<div>` and animate the wrapper instead.\n\n**Incorrect (animating SVG directly - no hardware acceleration):**\n\n```tsx\nfunction LoadingSpinner() {\n  return (\n    <svg \n      className=\"animate-spin\"\n      width=\"24\" \n      height=\"24\" \n      viewBox=\"0 0 24 24\"\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"currentColor\" />\n    </svg>\n  )\n}\n```\n\n**Correct (animating wrapper div - hardware accelerated):**\n\n```tsx\nfunction LoadingSpinner() {\n  return (\n    <div className=\"animate-spin\">\n      <svg \n        width=\"24\" \n        height=\"24\" \n        viewBox=\"0 0 24 24\"\n      >\n        <circle cx=\"12\" cy=\"12\" r=\"10\" stroke=\"currentColor\" />\n      </svg>\n    </div>\n  )\n}\n```\n\nThis applies to all CSS transforms and transitions (`transform`, `opacity`, `translate`, `scale`, `rotate`). The wrapper div allows browsers to use GPU acceleration for smoother animations.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 144,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md"
+  }
+}

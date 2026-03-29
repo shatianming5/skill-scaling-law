@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-cache-storage",
+  "content": "---\ntitle: Cache Storage API Calls\nimpact: LOW-MEDIUM\nimpactDescription: reduces expensive I/O\ntags: javascript, localStorage, storage, caching, performance\n---\n\n## Cache Storage API Calls\n\n`localStorage`, `sessionStorage`, and `document.cookie` are synchronous and expensive. Cache reads in memory.\n\n**Incorrect (reads storage on every call):**\n\n```typescript\nfunction getTheme() {\n  return localStorage.getItem('theme') ?? 'light'\n}\n// Called 10 times = 10 storage reads\n```\n\n**Correct (Map cache):**\n\n```typescript\nconst storageCache = new Map<string, string | null>()\n\nfunction getLocalStorage(key: string) {\n  if (!storageCache.has(key)) {\n    storageCache.set(key, localStorage.getItem(key))\n  }\n  return storageCache.get(key)\n}\n\nfunction setLocalStorage(key: string, value: string) {\n  localStorage.setItem(key, value)\n  storageCache.set(key, value)  // keep cache in sync\n}\n```\n\nUse a Map (not a hook) so it works everywhere: utilities, event handlers, not just React components.\n\n**Cookie caching:**\n\n```typescript\nlet cookieCache: Record<string, string> | null = null\n\nfunction getCookie(name: string) {\n  if (!cookieCache) {\n    cookieCache = Object.fromEntries(\n      document.cookie.split('; ').map(c => c.split('='))\n    )\n  }\n  return cookieCache[name]\n}\n```\n\n**Important (invalidate on external changes):**\n\nIf storage can change externally (another tab, server-set cookies), invalidate cache:\n\n```typescript\nwindow.addEventListener('storage', (e) => {\n  if (e.key) storageCache.delete(e.key)\n})\n\ndocument.addEventListener('visibilitychange', () => {\n  if (document.visibilityState === 'visible') {\n    storageCache.clear()\n  }\n})\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 188,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-storage.md"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sb_syzkaller-ppdev-syzlang_syzkaller-build-loop_SKILL",
+  "content": "---\nname: syzkaller-build-loop\ndescription: Full build workflow for adding new syscall descriptions to syzkaller\n---\n\n# Syzkaller Description Workflow\n\n## Full Build Loop for New Descriptions\n\nWhen adding new syscall descriptions, follow this workflow:\n\n```bash\ncd /opt/syzkaller\n\n# 1. Write/edit your .txt file in sys/linux/\n\n# 2. Create a .const file with constant values (see syz-extract-constants skill)\n#    The .const file should be named: sys/linux/your_file.txt.const\n\n# 3. Compile descriptions\nmake descriptions\n\n# 4. Build syzkaller\nmake all\n```\n\n## Quick Rebuild (After Minor Edits)\n\nIf you only changed descriptions (not constants):\n\n```bash\ncd /opt/syzkaller\nmake descriptions   # Runs syz-sysgen to compile descriptions\n```\n\nIf you add new constants, update the `.const` file first.\n\n## Common Errors\n\n### Unknown type\n```\nunknown type foo_bar\n```\n- Type not defined, or defined after first use\n- Define all types before using them\n\n### Constant not available / defined for none of the arches\n```\nSOME_CONST is defined for none of the arches\n```\n- The constant isn't in the `.const` file\n- Add it to `sys/linux/your_file.txt.const` with the correct value\n\n### Missing reference\n```\nundefined reference to 'some_type'\n```\n- Type defined in another file not being found\n- Check includes or existing type definitions\n\n## Exploring Existing Code\n\nFind examples of patterns:\n```bash\ngrep -r \"pattern\" /opt/syzkaller/sys/linux/\n```\n\nUseful searches:\n- `resource fd_` - How other fd resources are defined\n- `ioctl\\$` - Ioctl definition patterns\n- `read\\$` / `write\\$` - Read/write specializations\n- `struct.*{` - Struct definition patterns\n\n## Files to Reference\n\n- `sys/linux/socket.txt` - Network types (ifreq_t, sockaddr, etc.)\n- `sys/linux/sys.txt` - Basic syscall patterns\n- `sys/linux/fs.txt` - File operations\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 271,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "syzkaller-ppdev-syzlang",
+    "path": "tasks-no-skills/syzkaller-ppdev-syzlang/environment/skills/syzkaller-build-loop/SKILL.md"
+  }
+}

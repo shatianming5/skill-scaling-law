@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "fix-build-google-auto",
-    "path": "tasks-no-skills/fix-build-google-auto/environment/skills/maven-build-lifecycle/SKILL.md"
+    "path": "tasks/fix-build-google-auto/environment/skills/maven-build-lifecycle/SKILL.md"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "id": "sb_threejs-to-obj_obj-exporter_SKILL",
+  "content": "---\nname: obj-exporter\ndescription: Three.js OBJExporter utility for exporting 3D geometry to Wavefront OBJ format. Use when converting Three.js scenes, meshes, or geometries to OBJ files for use in other 3D software like Blender, Maya, or MeshLab.\n---\n\n# OBJExporter Guide\n\n## Basic Structure\n\nOBJ is a text-based 3D geometry format:\n\n```\n# Comment\nv x y z        # Vertex position\nvn x y z       # Vertex normal\nf v1 v2 v3     # Face (triangle)\nf v1/vt1/vn1 v2/vt2/vn2 v3/vt3/vn3  # Face with texture/normal indices\n```\n\nExample:\n```\n# Cube\nv 0 0 0\nv 1 0 0\nv 1 1 0\nv 0 1 0\nf 1 2 3\nf 1 3 4\n```\n\n## Three.js OBJExporter\n\nThree.js provides `OBJExporter` in examples:\n\n```javascript\nimport { OBJExporter } from 'three/examples/jsm/exporters/OBJExporter.js';\n\nconst exporter = new OBJExporter();\nconst objString = exporter.parse(object3D);\n\n// Write to file (Node.js)\nimport fs from 'fs';\nfs.writeFileSync('output.obj', objString);\n```\n\n## Exporting with World Transforms\n\nTo export geometry in world coordinates:\n\n```javascript\n// Update world matrices first\nroot.updateMatrixWorld(true);\n\n// Clone and transform geometry\nconst worldGeometry = mesh.geometry.clone();\nworldGeometry.applyMatrix4(mesh.matrixWorld);\n\n// Create new mesh for export\nconst exportMesh = new THREE.Mesh(worldGeometry);\nconst objData = exporter.parse(exportMesh);\n```\n\n## Merging Multiple Geometries\n\n```javascript\nimport { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';\n\nconst geometries = [];\nroot.traverse((obj) => {\n  if (obj instanceof THREE.Mesh) {\n    const geom = obj.geometry.clone();\n    geom.applyMatrix4(obj.matrixWorld);\n    geometries.push(geom);\n  }\n});\n\nconst merged = mergeGeometries(geometries);\nconst mergedMesh = new THREE.Mesh(merged);\nconst objData = exporter.parse(mergedMesh);\n```\n\n## Node.js ES Module Setup\n\nFor running Three.js in Node.js:\n\n```json\n// package.json\n{ \"type\": \"module\" }\n```\n\n```javascript\n// script.js\nimport * as THREE from 'three';\nimport { OBJExporter } from 'three/examples/jsm/exporters/OBJExporter.js';\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 273,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "threejs-to-obj",
+    "path": "tasks-no-skills/threejs-to-obj/environment/skills/obj-exporter/SKILL.md"
+  }
+}

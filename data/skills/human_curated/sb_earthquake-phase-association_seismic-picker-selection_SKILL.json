@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "earthquake-phase-association",
-    "path": "tasks-no-skills/earthquake-phase-association/environment/skills/seismic-picker-selection/SKILL.md"
+    "path": "tasks/earthquake-phase-association/environment/skills/seismic-picker-selection/SKILL.md"
   }
 }

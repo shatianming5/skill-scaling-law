@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "energy-market-pricing",
-    "path": "tasks-no-skills/energy-market-pricing/environment/skills/dc-power-flow/SKILL.md"
+    "path": "tasks/energy-market-pricing/environment/skills/dc-power-flow/SKILL.md"
   }
 }

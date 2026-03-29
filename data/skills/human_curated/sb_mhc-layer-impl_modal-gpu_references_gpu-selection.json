@@ -1,0 +1,13 @@
+{
+  "id": "sb_mhc-layer-impl_modal-gpu_references_gpu-selection",
+  "content": "# GPU Selection\n\n## Available GPUs\n\n```python\n# T4 (16GB, good for inference and small training)\n@app.function(gpu=\"T4\", ...)\n\n# A10G (24GB, good for medium training)\n@app.function(gpu=\"A10G\", ...)\n\n# A100 (40GB/80GB, fastest for large-scale training)\n@app.function(gpu=\"A100\", ...)\n```\n\n## GPU Comparison\n\n| GPU | VRAM | Use Case | Cost |\n|-----|------|----------|------|\n| T4 | 16GB | Inference, small models | $ |\n| A10G | 24GB | Medium training, fine-tuning | $$ |\n| A100-40GB | 40GB | Large training, 100M+ models | $$$ |\n| A100-80GB | 80GB | Very large models | $$$$ |\n\n## Recommendations by Task\n\n| Task | Recommended GPU |\n|------|-----------------|\n| Large-model training (100M+ params) | A100 |\n| Fine-tuning small models | A10G or T4 |\n| Inference | T4 |\n| Memory-heavy variants | A100 (extra VRAM headroom) |\n\n## GPU Features\n\n### A100 Specific Features\n\n```python\n@app.function(gpu=\"A100\", image=image, timeout=3600)\ndef train():\n    import torch\n\n    # bfloat16 support (2x speedup)\n    with torch.autocast(device_type=\"cuda\", dtype=torch.bfloat16):\n        output = model(input)\n\n    # FlashAttention is enabled by default\n    # Large VRAM allows bigger batch sizes\n```\n\n### Batch Size Guidelines\n\n| GPU | Suggested Batch Size |\n|-----|----------------------|\n| T4 | 8 |\n| A10G | 16 |\n| A100-40GB | 32 |\n| A100-80GB | 64 |\n\nReduce batch size for larger context windows or memory-heavy variants.\n\n## Multi-GPU (Advanced)\n\n```python\n# Request multiple GPUs\n@app.function(gpu=\"A100:2\", ...)  # 2x A100\n\n# Or specific count\n@app.function(gpu=\"A100:4\", ...)  # 4x A100\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 243,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "mhc-layer-impl",
+    "path": "tasks/mhc-layer-impl/environment/skills/modal-gpu/references/gpu-selection.md"
+  }
+}

@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "econ-detrending-correlation",
-    "path": "tasks-no-skills/econ-detrending-correlation/environment/skills/timeseries-detrending/SKILL.md"
+    "path": "tasks/econ-detrending-correlation/environment/skills/timeseries-detrending/SKILL.md"
   }
 }

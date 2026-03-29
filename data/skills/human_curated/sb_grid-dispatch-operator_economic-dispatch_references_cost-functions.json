@@ -1,0 +1,13 @@
+{
+  "id": "sb_grid-dispatch-operator_economic-dispatch_references_cost-functions",
+  "content": "# Generator Cost Functions Reference\n\n## Polynomial Cost (Type 2)\n\nMost common format. Cost as polynomial function of power output.\n\n### MATPOWER Format\n\n```\ngencost = [MODEL, STARTUP, SHUTDOWN, NCOST, c(n-1), ..., c1, c0]\n```\n\nFor quadratic (NCOST=3):\n```\ngencost = [2, 0, 0, 3, c2, c1, c0]\n```\n\n**Cost equation:** C(P) = c₂·P² + c₁·P + c₀\n\nWhere:\n- P = real power output in MW\n- c₂ = quadratic coefficient ($/MW²·hr)\n- c₁ = linear coefficient ($/MW·hr)  \n- c₀ = no-load cost ($/hr)\n\n### Example\n\n```python\n# Generator with:\n# - No-load cost: $100/hr\n# - Incremental: $20/MWh at 0 MW, increasing $0.02/MWh per MW\ngencost = [2, 0, 0, 3, 0.01, 20, 100]\n\n# At P = 50 MW:\n# Cost = 0.01*(50)² + 20*(50) + 100 = 25 + 1000 + 100 = $1125/hr\n```\n\n## Piecewise Linear Cost (Type 1)\n\nCost defined by breakpoints. Less common but used for non-convex costs.\n\n### MATPOWER Format\n\n```\ngencost = [1, STARTUP, SHUTDOWN, N, P1, C1, P2, C2, ..., Pn, Cn]\n```\n\nWhere (Pi, Ci) are power-cost breakpoints.\n\n### Example\n\n```python\n# 3 breakpoints: (0, 0), (50, 1000), (100, 2500)\ngencost = [1, 0, 0, 3, 0, 0, 50, 1000, 100, 2500]\n```\n\n## Marginal Cost\n\nThe marginal cost (cost of next MW) for polynomial:\n\n```python\n# Marginal cost at power P\nmarginal_cost = 2 * c2 * P + c1  # $/MWh\n```\n\n## Typical Values\n\n| Generator Type | c₂ ($/MW²·hr) | c₁ ($/MWh) | c₀ ($/hr) |\n|---------------|---------------|------------|-----------|\n| Nuclear | 0.001 | 5-10 | 500-1000 |\n| Coal | 0.005-0.01 | 15-25 | 200-400 |\n| Gas CCGT | 0.01-0.02 | 25-40 | 100-200 |\n| Gas Peaker | 0.02-0.05 | 50-80 | 50-100 |\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 291,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "grid-dispatch-operator",
+    "path": "tasks/grid-dispatch-operator/environment/skills/economic-dispatch/references/cost-functions.md"
+  }
+}

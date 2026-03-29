@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules__template",
+  "content": "---\ntitle: Rule Title Here\nimpact: MEDIUM\nimpactDescription: Optional description of impact (e.g., \"20-50% improvement\")\ntags: tag1, tag2\n---\n\n## Rule Title Here\n\n**Impact: MEDIUM (optional impact description)**\n\nBrief explanation of the rule and why it matters. This should be clear and concise, explaining the performance implications.\n\n**Incorrect (description of what's wrong):**\n\n```typescript\n// Bad code example here\nconst bad = example()\n```\n\n**Correct (description of what's right):**\n\n```typescript\n// Good code example here\nconst good = example()\n```\n\nReference: [Link to documentation or resource](https://example.com)\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 85,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/_template.md"
+  }
+}

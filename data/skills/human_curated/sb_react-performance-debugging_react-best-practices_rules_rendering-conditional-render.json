@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_rendering-conditional-render",
+  "content": "---\ntitle: Use Explicit Conditional Rendering\nimpact: LOW\nimpactDescription: prevents rendering 0 or NaN\ntags: rendering, conditional, jsx, falsy-values\n---\n\n## Use Explicit Conditional Rendering\n\nUse explicit ternary operators (`? :`) instead of `&&` for conditional rendering when the condition can be `0`, `NaN`, or other falsy values that render.\n\n**Incorrect (renders \"0\" when count is 0):**\n\n```tsx\nfunction Badge({ count }: { count: number }) {\n  return (\n    <div>\n      {count && <span className=\"badge\">{count}</span>}\n    </div>\n  )\n}\n\n// When count = 0, renders: <div>0</div>\n// When count = 5, renders: <div><span class=\"badge\">5</span></div>\n```\n\n**Correct (renders nothing when count is 0):**\n\n```tsx\nfunction Badge({ count }: { count: number }) {\n  return (\n    <div>\n      {count > 0 ? <span className=\"badge\">{count}</span> : null}\n    </div>\n  )\n}\n\n// When count = 0, renders: <div></div>\n// When count = 5, renders: <div><span class=\"badge\">5</span></div>\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 140,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rendering-conditional-render.md"
+  }
+}

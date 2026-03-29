@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "fix-visual-stability",
-    "path": "tasks-no-skills/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md"
+    "path": "tasks/fix-visual-stability/environment/skills/react-best-practices/rules/rendering-hoist-jsx.md"
   }
 }

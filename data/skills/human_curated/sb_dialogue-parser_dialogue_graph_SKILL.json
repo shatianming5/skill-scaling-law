@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "dialogue-parser",
-    "path": "tasks-no-skills/dialogue-parser/environment/skills/dialogue_graph/SKILL.md"
+    "path": "tasks/dialogue-parser/environment/skills/dialogue_graph/SKILL.md"
   }
 }

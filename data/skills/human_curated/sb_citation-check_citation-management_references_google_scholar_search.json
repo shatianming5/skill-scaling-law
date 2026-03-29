@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "citation-check",
-    "path": "tasks-no-skills/citation-check/environment/skills/citation-management/references/google_scholar_search.md"
+    "path": "tasks/citation-check/environment/skills/citation-management/references/google_scholar_search.md"
   }
 }

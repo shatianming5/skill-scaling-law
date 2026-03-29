@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_client-swr-dedup",
+  "content": "---\ntitle: Use SWR for Automatic Deduplication\nimpact: MEDIUM-HIGH\nimpactDescription: automatic deduplication\ntags: client, swr, deduplication, data-fetching\n---\n\n## Use SWR for Automatic Deduplication\n\nSWR enables request deduplication, caching, and revalidation across component instances.\n\n**Incorrect (no deduplication, each instance fetches):**\n\n```tsx\nfunction UserList() {\n  const [users, setUsers] = useState([])\n  useEffect(() => {\n    fetch('/api/users')\n      .then(r => r.json())\n      .then(setUsers)\n  }, [])\n}\n```\n\n**Correct (multiple instances share one request):**\n\n```tsx\nimport useSWR from 'swr'\n\nfunction UserList() {\n  const { data: users } = useSWR('/api/users', fetcher)\n}\n```\n\n**For immutable data:**\n\n```tsx\nimport { useImmutableSWR } from '@/lib/swr'\n\nfunction StaticContent() {\n  const { data } = useImmutableSWR('/api/config', fetcher)\n}\n```\n\n**For mutations:**\n\n```tsx\nimport { useSWRMutation } from 'swr/mutation'\n\nfunction UpdateButton() {\n  const { trigger } = useSWRMutation('/api/user', updateUser)\n  return <button onClick={() => trigger()}>Update</button>\n}\n```\n\nReference: [https://swr.vercel.app](https://swr.vercel.app)\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 135,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/client-swr-dedup.md"
+  }
+}

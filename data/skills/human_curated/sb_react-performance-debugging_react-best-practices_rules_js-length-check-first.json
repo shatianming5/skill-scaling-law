@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-length-check-first",
+  "content": "---\ntitle: Early Length Check for Array Comparisons\nimpact: MEDIUM-HIGH\nimpactDescription: avoids expensive operations when lengths differ\ntags: javascript, arrays, performance, optimization, comparison\n---\n\n## Early Length Check for Array Comparisons\n\nWhen comparing arrays with expensive operations (sorting, deep equality, serialization), check lengths first. If lengths differ, the arrays cannot be equal.\n\nIn real-world applications, this optimization is especially valuable when the comparison runs in hot paths (event handlers, render loops).\n\n**Incorrect (always runs expensive comparison):**\n\n```typescript\nfunction hasChanges(current: string[], original: string[]) {\n  // Always sorts and joins, even when lengths differ\n  return current.sort().join() !== original.sort().join()\n}\n```\n\nTwo O(n log n) sorts run even when `current.length` is 5 and `original.length` is 100. There is also overhead of joining the arrays and comparing the strings.\n\n**Correct (O(1) length check first):**\n\n```typescript\nfunction hasChanges(current: string[], original: string[]) {\n  // Early return if lengths differ\n  if (current.length !== original.length) {\n    return true\n  }\n  // Only sort/join when lengths match\n  const currentSorted = current.toSorted()\n  const originalSorted = original.toSorted()\n  for (let i = 0; i < currentSorted.length; i++) {\n    if (currentSorted[i] !== originalSorted[i]) {\n      return true\n    }\n  }\n  return false\n}\n```\n\nThis new approach is more efficient because:\n- It avoids the overhead of sorting and joining the arrays when lengths differ\n- It avoids consuming memory for the joined strings (especially important for large arrays)\n- It avoids mutating the original arrays\n- It returns early when a difference is found\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 239,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-length-check-first.md"
+  }
+}

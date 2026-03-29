@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-early-exit",
+  "content": "---\ntitle: Early Return from Functions\nimpact: LOW-MEDIUM\nimpactDescription: avoids unnecessary computation\ntags: javascript, functions, optimization, early-return\n---\n\n## Early Return from Functions\n\nReturn early when result is determined to skip unnecessary processing.\n\n**Incorrect (processes all items even after finding answer):**\n\n```typescript\nfunction validateUsers(users: User[]) {\n  let hasError = false\n  let errorMessage = ''\n  \n  for (const user of users) {\n    if (!user.email) {\n      hasError = true\n      errorMessage = 'Email required'\n    }\n    if (!user.name) {\n      hasError = true\n      errorMessage = 'Name required'\n    }\n    // Continues checking all users even after error found\n  }\n  \n  return hasError ? { valid: false, error: errorMessage } : { valid: true }\n}\n```\n\n**Correct (returns immediately on first error):**\n\n```typescript\nfunction validateUsers(users: User[]) {\n  for (const user of users) {\n    if (!user.email) {\n      return { valid: false, error: 'Email required' }\n    }\n    if (!user.name) {\n      return { valid: false, error: 'Name required' }\n    }\n  }\n\n  return { valid: true }\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 157,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-early-exit.md"
+  }
+}

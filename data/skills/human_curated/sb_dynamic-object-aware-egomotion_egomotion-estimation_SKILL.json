@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "dynamic-object-aware-egomotion",
-    "path": "tasks-no-skills/dynamic-object-aware-egomotion/environment/skills/egomotion-estimation/SKILL.md"
+    "path": "tasks/dynamic-object-aware-egomotion/environment/skills/egomotion-estimation/SKILL.md"
   }
 }

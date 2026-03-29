@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "fix-druid-loophole-cve",
-    "path": "tasks-no-skills/fix-druid-loophole-cve/environment/skills/senior-java/SKILL.md"
+    "path": "tasks/fix-druid-loophole-cve/environment/skills/senior-java/SKILL.md"
   }
 }

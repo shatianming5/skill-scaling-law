@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_server-serialization",
+  "content": "---\ntitle: Minimize Serialization at RSC Boundaries\nimpact: HIGH\nimpactDescription: reduces data transfer size\ntags: server, rsc, serialization, props\n---\n\n## Minimize Serialization at RSC Boundaries\n\nThe React Server/Client boundary serializes all object properties into strings and embeds them in the HTML response and subsequent RSC requests. This serialized data directly impacts page weight and load time, so **size matters a lot**. Only pass fields that the client actually uses.\n\n**Incorrect (serializes all 50 fields):**\n\n```tsx\nasync function Page() {\n  const user = await fetchUser()  // 50 fields\n  return <Profile user={user} />\n}\n\n'use client'\nfunction Profile({ user }: { user: User }) {\n  return <div>{user.name}</div>  // uses 1 field\n}\n```\n\n**Correct (serializes only 1 field):**\n\n```tsx\nasync function Page() {\n  const user = await fetchUser()\n  return <Profile name={user.name} />\n}\n\n'use client'\nfunction Profile({ name }: { name: string }) {\n  return <div>{name}</div>\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 147,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-serialization.md"
+  }
+}

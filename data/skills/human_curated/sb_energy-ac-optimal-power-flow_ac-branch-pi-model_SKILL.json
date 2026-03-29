@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "energy-ac-optimal-power-flow",
-    "path": "tasks-no-skills/energy-ac-optimal-power-flow/environment/skills/ac-branch-pi-model/SKILL.md"
+    "path": "tasks/energy-ac-optimal-power-flow/environment/skills/ac-branch-pi-model/SKILL.md"
   }
 }

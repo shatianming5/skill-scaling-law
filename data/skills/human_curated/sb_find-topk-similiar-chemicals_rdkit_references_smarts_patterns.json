@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "find-topk-similiar-chemicals",
-    "path": "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/rdkit/references/smarts_patterns.md"
+    "path": "tasks/find-topk-similiar-chemicals/environment/skills/rdkit/references/smarts_patterns.md"
   }
 }

@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "dapt-intrusion-detection",
-    "path": "tasks-no-skills/dapt-intrusion-detection/environment/skills/threat-detection/SKILL.md"
+    "path": "tasks/dapt-intrusion-detection/environment/skills/threat-detection/SKILL.md"
   }
 }

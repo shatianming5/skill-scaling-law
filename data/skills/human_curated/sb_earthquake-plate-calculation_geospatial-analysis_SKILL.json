@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "earthquake-plate-calculation",
-    "path": "tasks-no-skills/earthquake-plate-calculation/environment/skills/geospatial-analysis/SKILL.md"
+    "path": "tasks/earthquake-plate-calculation/environment/skills/geospatial-analysis/SKILL.md"
   }
 }

@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "adaptive-cruise-control",
-    "path": "tasks-no-skills/adaptive-cruise-control/environment/skills/simulation-metrics/SKILL.md"
+    "path": "tasks/adaptive-cruise-control/environment/skills/simulation-metrics/SKILL.md"
   }
 }

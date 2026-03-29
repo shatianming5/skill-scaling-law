@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "fix-build-agentops",
-    "path": "tasks-no-skills/fix-build-agentops/environment/skills/analyze-ci/SKILL.md"
+    "path": "tasks/fix-build-agentops/environment/skills/analyze-ci/SKILL.md"
   }
 }

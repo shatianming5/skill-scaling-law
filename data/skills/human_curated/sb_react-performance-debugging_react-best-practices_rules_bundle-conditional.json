@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_bundle-conditional",
+  "content": "---\ntitle: Conditional Module Loading\nimpact: HIGH\nimpactDescription: loads large data only when needed\ntags: bundle, conditional-loading, lazy-loading\n---\n\n## Conditional Module Loading\n\nLoad large data or modules only when a feature is activated.\n\n**Example (lazy-load animation frames):**\n\n```tsx\nfunction AnimationPlayer({ enabled }: { enabled: boolean }) {\n  const [frames, setFrames] = useState<Frame[] | null>(null)\n\n  useEffect(() => {\n    if (enabled && !frames && typeof window !== 'undefined') {\n      import('./animation-frames.js')\n        .then(mod => setFrames(mod.frames))\n        .catch(() => setEnabled(false))\n    }\n  }, [enabled, frames])\n\n  if (!frames) return <Skeleton />\n  return <Canvas frames={frames} />\n}\n```\n\nThe `typeof window !== 'undefined'` check prevents bundling this module for SSR, optimizing server bundle size and build speed.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 109,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/bundle-conditional.md"
+  }
+}

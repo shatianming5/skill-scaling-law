@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "fix-erlang-ssh-cve",
-    "path": "tasks-no-skills/fix-erlang-ssh-cve/environment/skills/senior-security/references/penetration_testing_guide.md"
+    "path": "tasks/fix-erlang-ssh-cve/environment/skills/senior-security/references/penetration_testing_guide.md"
   }
 }

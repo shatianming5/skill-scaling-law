@@ -1,0 +1,13 @@
+{
+  "id": "sb_r2r-mpc-control_integral-action-design_SKILL",
+  "content": "---\nname: integral-action-design\ndescription: Adding integral action to MPC for offset-free tension tracking.\n---\n\n# Integral Action for Offset-Free Control\n\n## Why Integral Action?\n\nMPC with model mismatch may have steady-state error. Integral action eliminates offset by accumulating error over time.\n\n## Implementation\n\n```python\nu_I = gamma * u_I - c_I * dt * (T - T_ref)\nu_total = u_mpc + u_I\n```\n\nWhere:\n- u_I: Integral control term\n- gamma: Decay factor (0.9-0.99)\n- c_I: Integral gain (0.1-0.5 for web systems)\n- dt: Timestep\n\n## Tuning Guidelines\n\n**Integral gain c_I**:\n- Too low: Slow offset correction\n- Too high: Oscillations, instability\n- Start with 0.1-0.3\n\n**Decay factor gamma**:\n- gamma = 1.0: Pure integral (may wind up)\n- gamma < 1.0: Leaky integrator (safer)\n- Typical: 0.9-0.99\n\n## Anti-Windup\n\nLimit integral term to prevent windup during saturation:\n```python\nu_I = np.clip(u_I, -max_integral, max_integral)\n```\n\n## For R2R Systems\n\nApply integral action per tension section:\n```python\nfor i in range(num_sections):\n    u_I[i] = gamma * u_I[i] - c_I * dt * (T[i] - T_ref[i])\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 174,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "r2r-mpc-control",
+    "path": "tasks-no-skills/r2r-mpc-control/environment/skills/integral-action-design/SKILL.md"
+  }
+}

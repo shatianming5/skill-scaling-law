@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules__sections",
+  "content": "# Sections\n\nThis file defines all sections, their ordering, impact levels, and descriptions.\nThe section ID (in parentheses) is the filename prefix used to group rules.\n\n---\n\n## 1. Eliminating Waterfalls (async)\n\n**Impact:** CRITICAL  \n**Description:** Waterfalls are the #1 performance killer. Each sequential await adds full network latency. Eliminating them yields the largest gains.\n\n## 2. Bundle Size Optimization (bundle)\n\n**Impact:** CRITICAL  \n**Description:** Reducing initial bundle size improves Time to Interactive and Largest Contentful Paint.\n\n## 3. Server-Side Performance (server)\n\n**Impact:** HIGH  \n**Description:** Optimizing server-side rendering and data fetching eliminates server-side waterfalls and reduces response times.\n\n## 4. Client-Side Data Fetching (client)\n\n**Impact:** MEDIUM-HIGH  \n**Description:** Automatic deduplication and efficient data fetching patterns reduce redundant network requests.\n\n## 5. Re-render Optimization (rerender)\n\n**Impact:** MEDIUM  \n**Description:** Reducing unnecessary re-renders minimizes wasted computation and improves UI responsiveness.\n\n## 6. Rendering Performance (rendering)\n\n**Impact:** MEDIUM  \n**Description:** Optimizing the rendering process reduces the work the browser needs to do.\n\n## 7. JavaScript Performance (js)\n\n**Impact:** LOW-MEDIUM  \n**Description:** Micro-optimizations for hot paths can add up to meaningful improvements.\n\n## 8. Advanced Patterns (advanced)\n\n**Impact:** LOW  \n**Description:** Advanced patterns for specific cases that require careful implementation.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 189,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/_sections.md"
+  }
+}

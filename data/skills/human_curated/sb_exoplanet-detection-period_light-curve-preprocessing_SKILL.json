@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "exoplanet-detection-period",
-    "path": "tasks-no-skills/exoplanet-detection-period/environment/skills/light-curve-preprocessing/SKILL.md"
+    "path": "tasks/exoplanet-detection-period/environment/skills/light-curve-preprocessing/SKILL.md"
   }
 }

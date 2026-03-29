@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "hvac-control",
-    "path": "tasks-no-skills/hvac-control/environment/skills/scipy-curve-fit/SKILL.md"
+    "path": "tasks/hvac-control/environment/skills/scipy-curve-fit/SKILL.md"
   }
 }

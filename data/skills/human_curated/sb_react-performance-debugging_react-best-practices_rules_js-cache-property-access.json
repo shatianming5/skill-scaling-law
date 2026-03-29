@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-cache-property-access",
+  "content": "---\ntitle: Cache Property Access in Loops\nimpact: LOW-MEDIUM\nimpactDescription: reduces lookups\ntags: javascript, loops, optimization, caching\n---\n\n## Cache Property Access in Loops\n\nCache object property lookups in hot paths.\n\n**Incorrect (3 lookups × N iterations):**\n\n```typescript\nfor (let i = 0; i < arr.length; i++) {\n  process(obj.config.settings.value)\n}\n```\n\n**Correct (1 lookup total):**\n\n```typescript\nconst value = obj.config.settings.value\nconst len = arr.length\nfor (let i = 0; i < len; i++) {\n  process(value)\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 77,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-cache-property-access.md"
+  }
+}

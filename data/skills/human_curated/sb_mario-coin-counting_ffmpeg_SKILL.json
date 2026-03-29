@@ -1,0 +1,13 @@
+{
+  "id": "sb_mario-coin-counting_ffmpeg_SKILL",
+  "content": "---\nname: ffmpeg-keyframe-extraction\ndescription: Extract key frames (I-frames) from video files using FFmpeg command line tool. Use this skill when the user needs to pull out keyframes, thumbnails, or important frames from MP4, MKV, AVI, or other video formats for analysis, previews, or processing.\nlicense: Complete terms in LICENSE.txt\n---\n\n# FFmpeg Keyframe Extraction\n\nExtract key frames (I-frames) from video files using FFmpeg CLI.\n\n## Prerequisites\n\n- FFmpeg installed and available in PATH\n- Input video file (MP4, MKV, AVI, MOV, etc.)\n\n## Methods\n\n### Method 1: Select Filter (More Control)\n\n```bash\nffmpeg -i <input_video> -vf \"select='eq(pict_type,I)'\" -vsync vfr <output_pattern>\nMethod 2: Skip Frame (Faster)\n\nffmpeg -skip_frame nokey -i <input_video> -vsync vfr <output_pattern>\nKey Options\nOption\tDescription\n-i <file>\tInput video file\n-vf \"select='eq(pict_type,I)'\"\tFilter selecting only I-frames\n-skip_frame nokey\tSkip decoding non-keyframes (performance)\n-vsync vfr\tVariable frame rate, prevents duplicates\n-q:v <n>\tQuality (1-31, lower = better, for JPEG)\n-frame_pts 1\tUse presentation timestamp in filename\nOutput Patterns\nframe_%03d.png - PNG sequence (frame_001.png, frame_002.png...)\nframe_%03d.jpg - JPEG sequence\nframe_%d.bmp - BMP sequence\nExamples\nBasic PNG extraction:\n```\nffmpeg -i video.mp4 -vf \"select='eq(pict_type,I)'\" -vsync vfr keyframe_%03d.png\nHigh-quality JPEG:\n```\n\n```\nffmpeg -i video.mp4 -skip_frame nokey -vsync vfr -q:v 2 keyframe_%03d.jpg\nWith timestamps:\n```\n\n```\nffmpeg -i video.mp4 -vf \"select='eq(pict_type,I)'\" -vsync vfr -frame_pts 1 keyframe_%d.png\n```\n\nTo specific directory:\n\n```\nffmpeg -i video.mp4 -vf \"select='eq(pict_type,I)'\" -vsync vfr ./output/keyframe_%03d.png\n```\n\n## Notes\nMethod 2 (-skip_frame nokey) is faster as it skips decoding non-keyframes\nMethod 1 offers more filtering flexibility (can combine with other filters)\nKeyframe frequency depends on video encoding settings\nUse -vsync vfr to avoid duplicate frames in output\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 268,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "mario-coin-counting",
+    "path": "tasks-no-skills/mario-coin-counting/environment/skills/ffmpeg/SKILL.md"
+  }
+}

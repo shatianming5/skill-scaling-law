@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "flink-query",
-    "path": "tasks-no-skills/flink-query/environment/skills/pdf/reference.md"
+    "path": "tasks/flink-query/environment/skills/pdf/reference.md"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_advanced-use-latest",
+  "content": "---\ntitle: useLatest for Stable Callback Refs\nimpact: LOW\nimpactDescription: prevents effect re-runs\ntags: advanced, hooks, useLatest, refs, optimization\n---\n\n## useLatest for Stable Callback Refs\n\nAccess latest values in callbacks without adding them to dependency arrays. Prevents effect re-runs while avoiding stale closures.\n\n**Implementation:**\n\n```typescript\nfunction useLatest<T>(value: T) {\n  const ref = useRef(value)\n  useEffect(() => {\n    ref.current = value\n  }, [value])\n  return ref\n}\n```\n\n**Incorrect (effect re-runs on every callback change):**\n\n```tsx\nfunction SearchInput({ onSearch }: { onSearch: (q: string) => void }) {\n  const [query, setQuery] = useState('')\n\n  useEffect(() => {\n    const timeout = setTimeout(() => onSearch(query), 300)\n    return () => clearTimeout(timeout)\n  }, [query, onSearch])\n}\n```\n\n**Correct (stable effect, fresh callback):**\n\n```tsx\nfunction SearchInput({ onSearch }: { onSearch: (q: string) => void }) {\n  const [query, setQuery] = useState('')\n  const onSearchRef = useLatest(onSearch)\n\n  useEffect(() => {\n    const timeout = setTimeout(() => onSearchRef.current(query), 300)\n    return () => clearTimeout(timeout)\n  }, [query])\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 155,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/advanced-use-latest.md"
+  }
+}

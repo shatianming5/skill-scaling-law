@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_js-index-maps",
+  "content": "---\ntitle: Build Index Maps for Repeated Lookups\nimpact: LOW-MEDIUM\nimpactDescription: 1M ops to 2K ops\ntags: javascript, map, indexing, optimization, performance\n---\n\n## Build Index Maps for Repeated Lookups\n\nMultiple `.find()` calls by the same key should use a Map.\n\n**Incorrect (O(n) per lookup):**\n\n```typescript\nfunction processOrders(orders: Order[], users: User[]) {\n  return orders.map(order => ({\n    ...order,\n    user: users.find(u => u.id === order.userId)\n  }))\n}\n```\n\n**Correct (O(1) per lookup):**\n\n```typescript\nfunction processOrders(orders: Order[], users: User[]) {\n  const userById = new Map(users.map(u => [u.id, u]))\n\n  return orders.map(order => ({\n    ...order,\n    user: userById.get(order.userId)\n  }))\n}\n```\n\nBuild map once (O(n)), then all lookups are O(1).\nFor 1000 orders × 1000 users: 1M ops → 2K ops.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 115,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/js-index-maps.md"
+  }
+}

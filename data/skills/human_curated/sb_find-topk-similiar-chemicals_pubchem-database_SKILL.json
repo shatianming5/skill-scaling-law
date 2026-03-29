@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "find-topk-similiar-chemicals",
-    "path": "tasks-no-skills/find-topk-similiar-chemicals/environment/skills/pubchem-database/SKILL.md"
+    "path": "tasks/find-topk-similiar-chemicals/environment/skills/pubchem-database/SKILL.md"
   }
 }

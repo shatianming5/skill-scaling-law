@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_client-event-listeners",
+  "content": "---\ntitle: Deduplicate Global Event Listeners\nimpact: LOW\nimpactDescription: single listener for N components\ntags: client, swr, event-listeners, subscription\n---\n\n## Deduplicate Global Event Listeners\n\nUse `useSWRSubscription()` to share global event listeners across component instances.\n\n**Incorrect (N instances = N listeners):**\n\n```tsx\nfunction useKeyboardShortcut(key: string, callback: () => void) {\n  useEffect(() => {\n    const handler = (e: KeyboardEvent) => {\n      if (e.metaKey && e.key === key) {\n        callback()\n      }\n    }\n    window.addEventListener('keydown', handler)\n    return () => window.removeEventListener('keydown', handler)\n  }, [key, callback])\n}\n```\n\nWhen using the `useKeyboardShortcut` hook multiple times, each instance will register a new listener.\n\n**Correct (N instances = 1 listener):**\n\n```tsx\nimport useSWRSubscription from 'swr/subscription'\n\n// Module-level Map to track callbacks per key\nconst keyCallbacks = new Map<string, Set<() => void>>()\n\nfunction useKeyboardShortcut(key: string, callback: () => void) {\n  // Register this callback in the Map\n  useEffect(() => {\n    if (!keyCallbacks.has(key)) {\n      keyCallbacks.set(key, new Set())\n    }\n    keyCallbacks.get(key)!.add(callback)\n\n    return () => {\n      const set = keyCallbacks.get(key)\n      if (set) {\n        set.delete(callback)\n        if (set.size === 0) {\n          keyCallbacks.delete(key)\n        }\n      }\n    }\n  }, [key, callback])\n\n  useSWRSubscription('global-keydown', () => {\n    const handler = (e: KeyboardEvent) => {\n      if (e.metaKey && keyCallbacks.has(e.key)) {\n        keyCallbacks.get(e.key)!.forEach(cb => cb())\n      }\n    }\n    window.addEventListener('keydown', handler)\n    return () => window.removeEventListener('keydown', handler)\n  })\n}\n\nfunction Profile() {\n  // Multiple shortcuts will share the same listener\n  useKeyboardShortcut('p', () => { /* ... */ }) \n  useKeyboardShortcut('k', () => { /* ... */ })\n  // ...\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 234,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/client-event-listeners.md"
+  }
+}

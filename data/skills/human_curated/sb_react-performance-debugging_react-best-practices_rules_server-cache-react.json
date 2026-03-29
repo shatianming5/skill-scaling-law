@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_server-cache-react",
+  "content": "---\ntitle: Per-Request Deduplication with React.cache()\nimpact: MEDIUM\nimpactDescription: deduplicates within request\ntags: server, cache, react-cache, deduplication\n---\n\n## Per-Request Deduplication with React.cache()\n\nUse `React.cache()` for server-side request deduplication. Authentication and database queries benefit most.\n\n**Usage:**\n\n```typescript\nimport { cache } from 'react'\n\nexport const getCurrentUser = cache(async () => {\n  const session = await auth()\n  if (!session?.user?.id) return null\n  return await db.user.findUnique({\n    where: { id: session.user.id }\n  })\n})\n```\n\nWithin a single request, multiple calls to `getCurrentUser()` execute the query only once.\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 84,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/server-cache-react.md"
+  }
+}

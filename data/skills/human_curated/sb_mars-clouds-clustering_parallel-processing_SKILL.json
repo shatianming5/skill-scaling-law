@@ -1,0 +1,13 @@
+{
+  "id": "sb_mars-clouds-clustering_parallel-processing_SKILL",
+  "content": "---\nname: parallel-processing\ndescription: Parallel processing with joblib for grid search and batch computations. Use when speeding up computationally intensive tasks across multiple CPU cores.\n---\n\n# Parallel Processing with joblib\n\nSpeed up computationally intensive tasks by distributing work across multiple CPU cores.\n\n## Basic Usage\n\n```python\nfrom joblib import Parallel, delayed\n\ndef process_item(x):\n    \"\"\"Process a single item.\"\"\"\n    return x ** 2\n\n# Sequential\nresults = [process_item(x) for x in range(100)]\n\n# Parallel (uses all available cores)\nresults = Parallel(n_jobs=-1)(\n    delayed(process_item)(x) for x in range(100)\n)\n```\n\n## Key Parameters\n\n- **n_jobs**: `-1` for all cores, `1` for sequential, or specific number\n- **verbose**: `0` (silent), `10` (progress), `50` (detailed)\n- **backend**: `'loky'` (CPU-bound, default) or `'threading'` (I/O-bound)\n\n## Grid Search Example\n\n```python\nfrom joblib import Parallel, delayed\nfrom itertools import product\n\ndef evaluate_params(param_a, param_b):\n    \"\"\"Evaluate one parameter combination.\"\"\"\n    score = expensive_computation(param_a, param_b)\n    return {'param_a': param_a, 'param_b': param_b, 'score': score}\n\n# Define parameter grid\nparams = list(product([0.1, 0.5, 1.0], [10, 20, 30]))\n\n# Parallel grid search\nresults = Parallel(n_jobs=-1, verbose=10)(\n    delayed(evaluate_params)(a, b) for a, b in params\n)\n\n# Filter results\nresults = [r for r in results if r is not None]\nbest = max(results, key=lambda x: x['score'])\n```\n\n## Pre-computing Shared Data\n\nWhen all tasks need the same data, pre-compute it once:\n\n```python\n# Pre-compute once\nshared_data = load_data()\n\ndef process_with_shared(params, data):\n    return compute(params, data)\n\n# Pass shared data to each task\nresults = Parallel(n_jobs=-1)(\n    delayed(process_with_shared)(p, shared_data)\n    for p in param_list\n)\n```\n\n## Performance Tips\n\n- Only worth it for tasks taking >0.1s per item (overhead cost)\n- Watch memory usage - each worker gets a copy of data\n- Use `verbose=10` to monitor progress\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 278,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "mars-clouds-clustering",
+    "path": "tasks/mars-clouds-clustering/environment/skills/parallel-processing/SKILL.md"
+  }
+}

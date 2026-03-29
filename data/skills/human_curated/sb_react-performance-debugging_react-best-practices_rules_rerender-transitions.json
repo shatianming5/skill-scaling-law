@@ -1,0 +1,13 @@
+{
+  "id": "sb_react-performance-debugging_react-best-practices_rules_rerender-transitions",
+  "content": "---\ntitle: Use Transitions for Non-Urgent Updates\nimpact: MEDIUM\nimpactDescription: maintains UI responsiveness\ntags: rerender, transitions, startTransition, performance\n---\n\n## Use Transitions for Non-Urgent Updates\n\nMark frequent, non-urgent state updates as transitions to maintain UI responsiveness.\n\n**Incorrect (blocks UI on every scroll):**\n\n```tsx\nfunction ScrollTracker() {\n  const [scrollY, setScrollY] = useState(0)\n  useEffect(() => {\n    const handler = () => setScrollY(window.scrollY)\n    window.addEventListener('scroll', handler, { passive: true })\n    return () => window.removeEventListener('scroll', handler)\n  }, [])\n}\n```\n\n**Correct (non-blocking updates):**\n\n```tsx\nimport { startTransition } from 'react'\n\nfunction ScrollTracker() {\n  const [scrollY, setScrollY] = useState(0)\n  useEffect(() => {\n    const handler = () => {\n      startTransition(() => setScrollY(window.scrollY))\n    }\n    window.addEventListener('scroll', handler, { passive: true })\n    return () => window.removeEventListener('scroll', handler)\n  }, [])\n}\n```\n",
+  "source": "skillsbench_curated",
+  "domain": "general",
+  "quality_score": 4.5,
+  "token_count": 121,
+  "metadata": {
+    "origin": "skillsbench",
+    "task": "react-performance-debugging",
+    "path": "tasks-no-skills/react-performance-debugging/environment/skills/react-best-practices/rules/rerender-transitions.md"
+  }
+}

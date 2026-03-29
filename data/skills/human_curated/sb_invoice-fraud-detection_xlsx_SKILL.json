@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "invoice-fraud-detection",
-    "path": "tasks-no-skills/invoice-fraud-detection/environment/skills/xlsx/SKILL.md"
+    "path": "tasks/invoice-fraud-detection/environment/skills/xlsx/SKILL.md"
   }
 }

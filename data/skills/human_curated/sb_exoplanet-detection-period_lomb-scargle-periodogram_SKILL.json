@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "exoplanet-detection-period",
-    "path": "tasks-no-skills/exoplanet-detection-period/environment/skills/lomb-scargle-periodogram/SKILL.md"
+    "path": "tasks/exoplanet-detection-period/environment/skills/lomb-scargle-periodogram/SKILL.md"
   }
 }

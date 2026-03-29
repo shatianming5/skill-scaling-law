@@ -8,6 +8,6 @@
   "metadata": {
     "origin": "skillsbench",
     "task": "crystallographic-wyckoff-position-analysis",
-    "path": "tasks-no-skills/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/SKILL.md"
+    "path": "tasks/crystallographic-wyckoff-position-analysis/environment/skills/pymatgen/SKILL.md"
   }
 }
