@@ -1,0 +1,99 @@
+{
+    "id": "0fe68f6d-483f-4933-a6d9-75b00002425f",
+    "task_name": "energy-market-pricing",
+    "trial_name": "energy-market-pricing__3RVb5vv",
+    "trial_uri": "file:///Users/shatianming/Downloads/SSL/results/harbor_v2/harbor_jobs/rq1_harbor_energy-market-pricing_baseline_1774952011/energy-market-pricing__3RVb5vv",
+    "task_id": {
+        "path": "/tmp/skillsbench/tasks/energy-market-pricing"
+    },
+    "source": null,
+    "task_checksum": "da35915655e14e60acea0f4bb0217ca8530ca84a6bd2f5659d7108c04d4775cd",
+    "config": {
+        "task": {
+            "path": "/tmp/skillsbench/tasks/energy-market-pricing",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "energy-market-pricing__3RVb5vv",
+        "trials_dir": "/Users/shatianming/Downloads/SSL/results/harbor_v2/harbor_jobs/rq1_harbor_energy-market-pricing_baseline_1774952011",
+        "timeout_multiplier": 10.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "openai/gpt-5.2",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": false,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "2b7a694c-b054-46b3-8b01-e4dbc2f01ff5"
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "1.3.7",
+        "model_info": {
+            "name": "gpt-5.2",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-31T10:13:36.561658Z",
+    "finished_at": "2026-03-31T10:13:57.054184Z",
+    "environment_setup": {
+        "started_at": "2026-03-31T10:13:36.565388Z",
+        "finished_at": "2026-03-31T10:13:39.674209Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-31T10:13:39.674578Z",
+        "finished_at": "2026-03-31T10:13:42.234853Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-31T10:13:42.237170Z",
+        "finished_at": "2026-03-31T10:13:53.508746Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-31T10:13:53.513886Z",
+        "finished_at": "2026-03-31T10:13:55.180275Z"
+    }
+}

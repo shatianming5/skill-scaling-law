@@ -1,0 +1,29 @@
+{
+    "id": "7860d71c-ca54-4a25-b798-34b92bc61588",
+    "started_at": "2026-03-31T18:07:59.999432",
+    "finished_at": "2026-03-31T18:09:02.822213",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "opencode__gpt-5.2__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "citation-check__dmPBj2p"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

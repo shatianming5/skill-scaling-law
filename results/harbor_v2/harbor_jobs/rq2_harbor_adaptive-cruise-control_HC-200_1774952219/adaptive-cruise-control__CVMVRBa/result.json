@@ -1,0 +1,99 @@
+{
+    "id": "aa4ec8ba-47b8-42c6-8c68-bd5c8d8f5269",
+    "task_name": "adaptive-cruise-control",
+    "trial_name": "adaptive-cruise-control__CVMVRBa",
+    "trial_uri": "file:///Users/shatianming/Downloads/SSL/results/harbor_v2/harbor_jobs/rq2_harbor_adaptive-cruise-control_HC-200_1774952219/adaptive-cruise-control__CVMVRBa",
+    "task_id": {
+        "path": "/tmp/skillsbench/tasks/adaptive-cruise-control"
+    },
+    "source": null,
+    "task_checksum": "8a7c1a0ce7fa97a5455dc79572feb5e0128d96e706543b17fb0ee1338f8168d2",
+    "config": {
+        "task": {
+            "path": "/tmp/skillsbench/tasks/adaptive-cruise-control",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "adaptive-cruise-control__CVMVRBa",
+        "trials_dir": "/Users/shatianming/Downloads/SSL/results/harbor_v2/harbor_jobs/rq2_harbor_adaptive-cruise-control_HC-200_1774952219",
+        "timeout_multiplier": 10.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "openai/gpt-5.2",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": false,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "343948b5-d8b7-4f68-928c-c7b92a104c91"
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "1.3.7",
+        "model_info": {
+            "name": "gpt-5.2",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-31T10:17:05.467905Z",
+    "finished_at": "2026-03-31T10:17:28.331560Z",
+    "environment_setup": {
+        "started_at": "2026-03-31T10:17:05.470883Z",
+        "finished_at": "2026-03-31T10:17:08.358390Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-31T10:17:08.358631Z",
+        "finished_at": "2026-03-31T10:17:11.223179Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-31T10:17:11.224253Z",
+        "finished_at": "2026-03-31T10:17:25.021417Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-31T10:17:25.024620Z",
+        "finished_at": "2026-03-31T10:17:26.503738Z"
+    }
+}

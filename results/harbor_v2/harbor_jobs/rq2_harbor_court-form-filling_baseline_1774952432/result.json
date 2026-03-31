@@ -1,0 +1,27 @@
+{
+    "id": "41e16f72-b25f-47f1-b600-fd6e508abab3",
+    "started_at": "2026-03-31T18:20:34.801539",
+    "finished_at": "2026-03-31T18:20:49.117372",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 1,
+        "evals": {
+            "opencode__gpt-5.2__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {
+                    "RuntimeError": [
+                        "court-form-filling__ayQHsfD"
+                    ]
+                }
+            }
+        }
+    }
+}

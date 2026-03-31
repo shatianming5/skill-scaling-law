@@ -1,0 +1,26 @@
+Performing one time database migration, may take a few minutes...
+sqlite-migration:done
+Database migration complete.
+133 |     return this.#raw.values();
+134 |   }
+135 |   #rawNoArgs() {
+136 |     return this.#raw.raw();
+137 |   }
+138 |     return this.#raw.run(internalFieldTuple), createChangesObject();
+                                              ^
+SQLiteError: database or disk is full
+      errno: 13,
+ byteOffset: -1,
+       code: "SQLITE_FULL"
+
+      at #runNoArgs (bun:sqlite:138:25)
+      at transaction (bun:sqlite:417:21)
+      at transaction (/$bunfs/root/src/index.js:93797:41)
+      at transaction (/$bunfs/root/src/index.js:94079:56)
+      at run7 (/$bunfs/root/src/index.js:106303:28)
+      at ~effect/Effect/evaluate (/$bunfs/root/src/index.js:23289:33)
+      at runLoop (/$bunfs/root/src/index.js:23202:109)
+      at evaluate (/$bunfs/root/src/index.js:23172:32)
+      at <anonymous> (/$bunfs/root/src/index.js:23334:26)
+
+{"type":"error","timestamp":1774952390902,"sessionID":"ses_2bc97f41effeAwJw7hpNUgbWI4","error":{"name":"UnknownError","data":{"message":"database or disk is full"}}}

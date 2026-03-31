@@ -1,0 +1,29 @@
+{
+    "id": "c886e7b5-94e1-4749-a0e6-18e8a7368607",
+    "started_at": "2026-03-31T18:12:33.854016",
+    "finished_at": "2026-03-31T18:13:29.285471",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "opencode__gpt-5.2__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "energy-ac-optimal-power-flow__fUgkEZ9"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

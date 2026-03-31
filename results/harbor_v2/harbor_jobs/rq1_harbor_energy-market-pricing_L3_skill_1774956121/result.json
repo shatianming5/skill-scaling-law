@@ -1,0 +1,27 @@
+{
+    "id": "9cb4291a-91dc-465e-9fd4-6f42bc3c5578",
+    "started_at": "2026-03-31T19:22:04.587834",
+    "finished_at": "2026-03-31T19:22:19.139339",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 1,
+        "evals": {
+            "opencode__gpt-5.2__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {
+                    "NonZeroAgentExitCodeError": [
+                        "energy-market-pricing__y3gE9y4"
+                    ]
+                }
+            }
+        }
+    }
+}

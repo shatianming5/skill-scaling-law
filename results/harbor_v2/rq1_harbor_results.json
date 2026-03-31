@@ -1,0 +1,131 @@
+[
+  {
+    "key": "rq1_harbor_3d-scan-calc_baseline",
+    "experiment": "rq1_harbor",
+    "task": "3d-scan-calc",
+    "difficulty": "hard",
+    "condition": "baseline",
+    "reward": 1.0,
+    "elapsed_sec": 1441.9225709438324,
+    "errors": [],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq1_harbor_3d-scan-calc_L3_skill",
+    "experiment": "rq1_harbor",
+    "task": "3d-scan-calc",
+    "difficulty": "hard",
+    "condition": "L3_skill",
+    "reward": 1.0,
+    "elapsed_sec": 3859.48712182045,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 821,
+      "skills": [
+        {
+          "id": "sb_gravitational-wave-detection_matched-filtering_SKILL",
+          "tokens": 255
+        },
+        {
+          "id": "sb_pdf-excel-diff_pdf_forms",
+          "tokens": 283
+        },
+        {
+          "id": "sb_simpo-code-reproduction_pdf_forms",
+          "tokens": 283
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq1_harbor_adaptive-cruise-control_baseline",
+    "experiment": "rq1_harbor",
+    "task": "adaptive-cruise-control",
+    "difficulty": "medium",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 944.8019111156464,
+    "errors": [],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq1_harbor_adaptive-cruise-control_L3_skill",
+    "experiment": "rq1_harbor",
+    "task": "adaptive-cruise-control",
+    "difficulty": "medium",
+    "condition": "L3_skill",
+    "reward": 0.0,
+    "elapsed_sec": 723.3226919174194,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 777,
+      "skills": [
+        {
+          "id": "sb_exoplanet-detection-period_box-least-squares_SKILL",
+          "tokens": 287
+        },
+        {
+          "id": "sb_mars-clouds-clustering_custom-distance-metrics_SKILL",
+          "tokens": 246
+        },
+        {
+          "id": "sb_speaker-diarization-subtitles_speaker-clustering_SKILL",
+          "tokens": 244
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq1_harbor_citation-check_baseline",
+    "experiment": "rq1_harbor",
+    "task": "citation-check",
+    "difficulty": "medium",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 100.8202440738678,
+    "errors": [],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq1_harbor_citation-check_L3_skill",
+    "experiment": "rq1_harbor",
+    "task": "citation-check",
+    "difficulty": "medium",
+    "condition": "L3_skill",
+    "reward": 0.0,
+    "elapsed_sec": 68.1271858215332,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 791,
+      "skills": [
+        {
+          "id": "sb_citation-check_citation-management_SKILL",
+          "tokens": 266
+        },
+        {
+          "id": "sb_powerlifting-coef-calc_powerlifting_SKILL",
+          "tokens": 254
+        },
+        {
+          "id": "sb_syzkaller-ppdev-syzlang_syzkaller-build-loop_SKILL",
+          "tokens": 271
+        }
+      ]
+    }
+  }
+]

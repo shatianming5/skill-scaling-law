@@ -1,0 +1,27 @@
+{
+    "id": "5095a4f7-8b8a-4824-8159-9e36166dbb17",
+    "started_at": "2026-03-31T18:11:47.677260",
+    "finished_at": "2026-03-31T18:11:59.962206",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 1,
+        "evals": {
+            "opencode__gpt-5.2__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {
+                    "RuntimeError": [
+                        "edit-pdf__4hqHXto"
+                    ]
+                }
+            }
+        }
+    }
+}

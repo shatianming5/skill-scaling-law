@@ -1,0 +1,5 @@
+Performing one time database migration, may take a few minutes...
+sqlite-migration:done
+[91m[1mError: [0mUnexpected error, check log file at /root/.local/share/opencode/log/2026-03-31T102028.log for more details
+
+unable to open database file

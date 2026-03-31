@@ -1,0 +1,122 @@
+[
+  {
+    "task": "3d-scan-calc",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 4,
+    "skill_eps": 0,
+    "error_eps": 0,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "adaptive-cruise-control",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 15,
+    "skill_eps": 0,
+    "error_eps": 7,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "civ6-adjacency-optimizer",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 34,
+    "skill_eps": 1,
+    "error_eps": 2,
+    "skill_density": 0.029411764705882353,
+    "pattern": "ANCHOR"
+  },
+  {
+    "task": "court-form-filling",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 20,
+    "skill_eps": 0,
+    "error_eps": 5,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "crystallographic-wyckoff-positio",
+    "reward": 0.45,
+    "agent": "terminus-2",
+    "episodes": 9,
+    "skill_eps": 0,
+    "error_eps": 1,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "data-to-d3",
+    "reward": 1.0,
+    "agent": "terminus-2",
+    "episodes": 13,
+    "skill_eps": 0,
+    "error_eps": 0,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "exoplanet-detection-period",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 25,
+    "skill_eps": 0,
+    "error_eps": 5,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "exoplanet-detection-period",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 6,
+    "skill_eps": 0,
+    "error_eps": 1,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "find-topk-similiar-chemicals",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 21,
+    "skill_eps": 0,
+    "error_eps": 2,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "find-topk-similiar-chemicals",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 33,
+    "skill_eps": 0,
+    "error_eps": 5,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "fix-build-agentops",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 30,
+    "skill_eps": 0,
+    "error_eps": 7,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  },
+  {
+    "task": "fix-visual-stability",
+    "reward": 0.0,
+    "agent": "terminus-2",
+    "episodes": 14,
+    "skill_eps": 0,
+    "error_eps": 0,
+    "skill_density": 0.0,
+    "pattern": "NO_SKILL"
+  }
+]

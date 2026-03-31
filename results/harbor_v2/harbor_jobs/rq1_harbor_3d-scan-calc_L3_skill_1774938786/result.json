@@ -1,0 +1,29 @@
+{
+    "id": "1b448c10-b448-4399-9c62-3ffdbdfa3393",
+    "started_at": "2026-03-31T14:33:11.832289",
+    "finished_at": "2026-03-31T15:37:23.069955",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "opencode__gpt-5.2__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "3d-scan-calc__xwdM2PZ"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

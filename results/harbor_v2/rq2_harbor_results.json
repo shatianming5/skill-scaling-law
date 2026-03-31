@@ -1,0 +1,519 @@
+[
+  {
+    "key": "rq2_harbor_3d-scan-calc_baseline",
+    "experiment": "rq2_harbor",
+    "task": "3d-scan-calc",
+    "difficulty": "hard",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 28.596500158309937,
+    "errors": [],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq2_harbor_3d-scan-calc_HC-200",
+    "experiment": "rq2_harbor",
+    "task": "3d-scan-calc",
+    "difficulty": "hard",
+    "condition": "HC-200",
+    "reward": 0.0,
+    "elapsed_sec": 24.776180028915405,
+    "errors": [
+      "AddTestsDirError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 821,
+      "skills": [
+        {
+          "id": "sb_gravitational-wave-detection_matched-filtering_SKILL",
+          "tokens": 255
+        },
+        {
+          "id": "sb_pdf-excel-diff_pdf_forms",
+          "tokens": 283
+        },
+        {
+          "id": "sb_simpo-code-reproduction_pdf_forms",
+          "tokens": 283
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_3d-scan-calc_AG-200",
+    "experiment": "rq2_harbor",
+    "task": "3d-scan-calc",
+    "difficulty": "hard",
+    "condition": "AG-200",
+    "reward": 0.0,
+    "elapsed_sec": 24.452858209609985,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 885,
+      "skills": [
+        {
+          "id": "oc_brw-testimonial-collector",
+          "tokens": 344
+        },
+        {
+          "id": "oc_birthday-reminder",
+          "tokens": 265
+        },
+        {
+          "id": "oc_echo-sales-ai",
+          "tokens": 276
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_3d-scan-calc_Mix-50-50",
+    "experiment": "rq2_harbor",
+    "task": "3d-scan-calc",
+    "difficulty": "hard",
+    "condition": "Mix-50-50",
+    "reward": 0.0,
+    "elapsed_sec": 24.63495707511902,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 910,
+      "skills": [
+        {
+          "id": "oc_brw-testimonial-collector",
+          "tokens": 344
+        },
+        {
+          "id": "sb_pdf-excel-diff_pdf_forms",
+          "tokens": 283
+        },
+        {
+          "id": "sb_simpo-code-reproduction_pdf_forms",
+          "tokens": 283
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_adaptive-cruise-control_baseline",
+    "experiment": "rq2_harbor",
+    "task": "adaptive-cruise-control",
+    "difficulty": "medium",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 46.995020151138306,
+    "errors": [],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq2_harbor_adaptive-cruise-control_HC-200",
+    "experiment": "rq2_harbor",
+    "task": "adaptive-cruise-control",
+    "difficulty": "medium",
+    "condition": "HC-200",
+    "reward": 0.0,
+    "elapsed_sec": 29.350865125656128,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 777,
+      "skills": [
+        {
+          "id": "sb_exoplanet-detection-period_box-least-squares_SKILL",
+          "tokens": 287
+        },
+        {
+          "id": "sb_mars-clouds-clustering_custom-distance-metrics_SKILL",
+          "tokens": 246
+        },
+        {
+          "id": "sb_speaker-diarization-subtitles_speaker-clustering_SKILL",
+          "tokens": 244
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_adaptive-cruise-control_AG-200",
+    "experiment": "rq2_harbor",
+    "task": "adaptive-cruise-control",
+    "difficulty": "medium",
+    "condition": "AG-200",
+    "reward": 0.0,
+    "elapsed_sec": 39.43702483177185,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 883,
+      "skills": [
+        {
+          "id": "oc_error-guard",
+          "tokens": 289
+        },
+        {
+          "id": "oc_casual-cron",
+          "tokens": 290
+        },
+        {
+          "id": "oc_babel-epistemic",
+          "tokens": 304
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_adaptive-cruise-control_Mix-50-50",
+    "experiment": "rq2_harbor",
+    "task": "adaptive-cruise-control",
+    "difficulty": "medium",
+    "condition": "Mix-50-50",
+    "reward": 0.0,
+    "elapsed_sec": 46.390244245529175,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 809,
+      "skills": [
+        {
+          "id": "sb_exoplanet-detection-period_box-least-squares_SKILL",
+          "tokens": 287
+        },
+        {
+          "id": "sb_fix-visual-stability_react-best-practices_rules_bundle-barrel-imports",
+          "tokens": 278
+        },
+        {
+          "id": "sb_speaker-diarization-subtitles_speaker-clustering_SKILL",
+          "tokens": 244
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_citation-check_baseline",
+    "experiment": "rq2_harbor",
+    "task": "citation-check",
+    "difficulty": "medium",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 31.08388113975525,
+    "errors": [],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq2_harbor_citation-check_HC-200",
+    "experiment": "rq2_harbor",
+    "task": "citation-check",
+    "difficulty": "medium",
+    "condition": "HC-200",
+    "reward": 0.0,
+    "elapsed_sec": 26.949142932891846,
+    "errors": [],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 791,
+      "skills": [
+        {
+          "id": "sb_citation-check_citation-management_SKILL",
+          "tokens": 266
+        },
+        {
+          "id": "sb_powerlifting-coef-calc_powerlifting_SKILL",
+          "tokens": 254
+        },
+        {
+          "id": "sb_syzkaller-ppdev-syzlang_syzkaller-build-loop_SKILL",
+          "tokens": 271
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_citation-check_AG-200",
+    "experiment": "rq2_harbor",
+    "task": "citation-check",
+    "difficulty": "medium",
+    "condition": "AG-200",
+    "reward": 0.0,
+    "elapsed_sec": 17.08299994468689,
+    "errors": [
+      "NonZeroAgentExitCodeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 881,
+      "skills": [
+        {
+          "id": "oc_business-writing",
+          "tokens": 281
+        },
+        {
+          "id": "oc_opsecmd",
+          "tokens": 275
+        },
+        {
+          "id": "oc_advisory-council",
+          "tokens": 325
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_citation-check_Mix-50-50",
+    "experiment": "rq2_harbor",
+    "task": "citation-check",
+    "difficulty": "medium",
+    "condition": "Mix-50-50",
+    "reward": 0.0,
+    "elapsed_sec": 14.910738945007324,
+    "errors": [
+      "NonZeroAgentExitCodeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 860,
+      "skills": [
+        {
+          "id": "oc_business-writing",
+          "tokens": 281
+        },
+        {
+          "id": "oc_advisory-council",
+          "tokens": 325
+        },
+        {
+          "id": "sb_powerlifting-coef-calc_powerlifting_SKILL",
+          "tokens": 254
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_court-form-filling_baseline",
+    "experiment": "rq2_harbor",
+    "task": "court-form-filling",
+    "difficulty": "easy",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 17.8435320854187,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq2_harbor_court-form-filling_HC-200",
+    "experiment": "rq2_harbor",
+    "task": "court-form-filling",
+    "difficulty": "easy",
+    "condition": "HC-200",
+    "reward": 0.0,
+    "elapsed_sec": 16.705727100372314,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 849,
+      "skills": [
+        {
+          "id": "sb_pdf-excel-diff_pdf_forms",
+          "tokens": 283
+        },
+        {
+          "id": "sb_simpo-code-reproduction_pdf_forms",
+          "tokens": 283
+        },
+        {
+          "id": "sb_court-form-filling_pdf_forms",
+          "tokens": 283
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_court-form-filling_AG-200",
+    "experiment": "rq2_harbor",
+    "task": "court-form-filling",
+    "difficulty": "easy",
+    "condition": "AG-200",
+    "reward": 0.0,
+    "elapsed_sec": 15.661143779754639,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 838,
+      "skills": [
+        {
+          "id": "oc_opsecmd",
+          "tokens": 275
+        },
+        {
+          "id": "oc_brw-testimonial-collector",
+          "tokens": 344
+        },
+        {
+          "id": "oc_greetr",
+          "tokens": 219
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_court-form-filling_Mix-50-50",
+    "experiment": "rq2_harbor",
+    "task": "court-form-filling",
+    "difficulty": "easy",
+    "condition": "Mix-50-50",
+    "reward": 0.0,
+    "elapsed_sec": 16.90817618370056,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 910,
+      "skills": [
+        {
+          "id": "oc_brw-testimonial-collector",
+          "tokens": 344
+        },
+        {
+          "id": "sb_pdf-excel-diff_pdf_forms",
+          "tokens": 283
+        },
+        {
+          "id": "sb_simpo-code-reproduction_pdf_forms",
+          "tokens": 283
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_dapt-intrusion-detection_baseline",
+    "experiment": "rq2_harbor",
+    "task": "dapt-intrusion-detection",
+    "difficulty": "hard",
+    "condition": "baseline",
+    "reward": 0.0,
+    "elapsed_sec": 8.09013819694519,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 0,
+      "total_tokens": 0,
+      "skills": []
+    }
+  },
+  {
+    "key": "rq2_harbor_dapt-intrusion-detection_HC-200",
+    "experiment": "rq2_harbor",
+    "task": "dapt-intrusion-detection",
+    "difficulty": "hard",
+    "condition": "HC-200",
+    "reward": 0.0,
+    "elapsed_sec": 7.329427003860474,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 941,
+      "skills": [
+        {
+          "id": "sb_dapt-intrusion-detection_threat-detection_SKILL",
+          "tokens": 291
+        },
+        {
+          "id": "sb_xlsx-recover-data_data-reconciliation_SKILL",
+          "tokens": 337
+        },
+        {
+          "id": "anthropic_theme-factory",
+          "tokens": 313
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_dapt-intrusion-detection_AG-200",
+    "experiment": "rq2_harbor",
+    "task": "dapt-intrusion-detection",
+    "difficulty": "hard",
+    "condition": "AG-200",
+    "reward": 0.0,
+    "elapsed_sec": 7.8171586990356445,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 635,
+      "skills": [
+        {
+          "id": "oc_icom-7610",
+          "tokens": 235
+        },
+        {
+          "id": "oc_create-agent-with-telegram-group",
+          "tokens": 254
+        },
+        {
+          "id": "oc_evolution-state-analyzer",
+          "tokens": 146
+        }
+      ]
+    }
+  },
+  {
+    "key": "rq2_harbor_dapt-intrusion-detection_Mix-50-50",
+    "experiment": "rq2_harbor",
+    "task": "dapt-intrusion-detection",
+    "difficulty": "hard",
+    "condition": "Mix-50-50",
+    "reward": 0.0,
+    "elapsed_sec": 8.277745008468628,
+    "errors": [
+      "RuntimeError"
+    ],
+    "injection": {
+      "n_skills": 3,
+      "total_tokens": 896,
+      "skills": [
+        {
+          "id": "sb_dapt-intrusion-detection_threat-detection_SKILL",
+          "tokens": 291
+        },
+        {
+          "id": "sb_grid-dispatch-operator_dc-power-flow_SKILL",
+          "tokens": 325
+        },
+        {
+          "id": "sb_react-performance-debugging_react-best-practices_rules_js-min-max-loop",
+          "tokens": 280
+        }
+      ]
+    }
+  }
+]

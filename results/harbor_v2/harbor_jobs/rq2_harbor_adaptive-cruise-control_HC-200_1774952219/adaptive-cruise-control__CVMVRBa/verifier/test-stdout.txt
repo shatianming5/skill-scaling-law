@@ -1,0 +1,84 @@
+ERROR: Exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/base_command.py", line 180, in exc_logging_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/req_command.py", line 245, in wrapper
+    return func(self, options, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pip/_internal/commands/install.py", line 333, in run
+    build_tracker = self.enter_context(get_build_tracker())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pip/_internal/cli/command_context.py", line 27, in enter_context
+    return self._main_context.enter_context(context_provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 526, in enter_context
+    result = _enter(cm)
+             ^^^^^^^^^^
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pip/_internal/operations/build/build_tracker.py", line 46, in get_build_tracker
+    root = ctx.enter_context(TempDirectory(kind="build-tracker")).path
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pip/_internal/utils/temp_dir.py", line 137, in __init__
+    path = self._create(kind)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/pip/_internal/utils/temp_dir.py", line 177, in _create
+    path = os.path.realpath(tempfile.mkdtemp(prefix=f"pip-{kind}-"))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 512, in mkdtemp
+    prefix, suffix, dir, output_type = _sanitize_params(prefix, suffix, dir)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 265, in _sanitize_params
+    dir = gettempdir()
+          ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 454, in gettempdir
+    return _os.fsdecode(_gettempdir())
+                        ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 447, in _gettempdir
+    tempdir = _get_default_tempdir()
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 362, in _get_default_tempdir
+    raise FileNotFoundError(_errno.ENOENT,
+FileNotFoundError: [Errno 2] No usable temporary directory found in ['/tmp', '/var/tmp', '/usr/tmp', '/root']
+=== Debug: Finding test files ===
+/tests/test_outputs.py
+=== Debug: Contents of /tests ===
+total 32
+drwxr-xr-x 2  501 root  4096 Mar 29 19:20 .
+drwxr-xr-x 1 root root  4096 Mar 31 10:17 ..
+-rwxr-xr-x 1  501 root  1990 Mar 29 19:20 test.sh
+-rw-r--r-- 1  501 root 17947 Mar 29 19:20 test_outputs.py
+=== Debug: Contents of script directory ===
+total 32
+drwxr-xr-x 2  501 root  4096 Mar 29 19:20 .
+drwxr-xr-x 1 root root  4096 Mar 31 10:17 ..
+-rwxr-xr-x 1  501 root  1990 Mar 29 19:20 test.sh
+-rw-r--r-- 1  501 root 17947 Mar 29 19:20 test_outputs.py
+=== Debug: Current working directory ===
+/root
+total 116
+drwx------ 1 root root  4096 Mar 31 10:17 .
+drwxr-xr-x 1 root root  4096 Mar 31 10:17 ..
+drwxr-xr-x 3 root root  4096 Mar 31 07:53 .agents
+-rw-r--r-- 1 root root  3323 Mar 30 09:00 .bashrc
+drwxr-xr-x 3 root root  4096 Mar 31 10:17 .bun
+drwxr-xr-x 1 root root  4096 Mar 31 07:37 .cache
+drwxr-xr-x 3 root root  4096 Mar 31 07:53 .claude
+drwxr-xr-x 3 root root  4096 Mar 31 07:53 .codex
+drwxr-xr-x 1 root root  4096 Mar 30 09:00 .config
+drwxr-xr-x 3 root root  4096 Mar 31 07:53 .factory
+drwxr-xr-x 3 root root  4096 Mar 31 07:53 .gemini
+drwxr-xr-x 3 root root  4096 Mar 31 07:53 .goose
+drwxr-xr-x 1 root root  4096 Mar 30 09:01 .local
+drwxr-xr-x 4 root root  4096 Mar 30 08:55 .npm
+drwxr-xr-x 8 root root  4096 Mar 30 08:55 .nvm
+drwxr-xr-x 1 root root  4096 Mar 31 10:17 .opencode
+-rw-r--r-- 1 root root   161 Apr 22  2024 .profile
+-rw-r--r-- 1 root root 28478 Mar 29 19:20 sensor_data.csv
+-rw-r--r-- 1 root root   463 Mar 29 19:20 vehicle_params.yaml
+=== Found test file at: /tests/test_outputs.py ===
+=== Running simulation.py to generate results ===
+WARNING: simulation.py or tuning_results.yaml not found
+/tests/test.sh: line 50: pytest: command not found

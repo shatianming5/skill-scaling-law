@@ -1,0 +1,99 @@
+{
+    "id": "85649d05-2b64-4db1-8f36-2d22e0b2b342",
+    "task_name": "citation-check",
+    "trial_name": "citation-check__FxJzwDi",
+    "trial_uri": "file:///Users/shatianming/Downloads/SSL/results/harbor_v2/harbor_jobs/rq2_harbor_citation-check_baseline_1774952338/citation-check__FxJzwDi",
+    "task_id": {
+        "path": "/tmp/skillsbench/tasks/citation-check"
+    },
+    "source": null,
+    "task_checksum": "be3dc6b78ec767b0ffdfb2ae7ed451b15ee0b75ecae9778f7ce52aeca2cbe62e",
+    "config": {
+        "task": {
+            "path": "/tmp/skillsbench/tasks/citation-check",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "citation-check__FxJzwDi",
+        "trials_dir": "/Users/shatianming/Downloads/SSL/results/harbor_v2/harbor_jobs/rq2_harbor_citation-check_baseline_1774952338",
+        "timeout_multiplier": 10.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "openai/gpt-5.2",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": false,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts_json": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "b34057f4-8cf3-41e3-993c-8dd40b97c120"
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "1.3.7",
+        "model_info": {
+            "name": "gpt-5.2",
+            "provider": "openai"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-31T10:19:03.995735Z",
+    "finished_at": "2026-03-31T10:19:27.993997Z",
+    "environment_setup": {
+        "started_at": "2026-03-31T10:19:04.000161Z",
+        "finished_at": "2026-03-31T10:19:07.674493Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-31T10:19:07.675019Z",
+        "finished_at": "2026-03-31T10:19:11.951814Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-31T10:19:11.954094Z",
+        "finished_at": "2026-03-31T10:19:22.283232Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-31T10:19:22.287445Z",
+        "finished_at": "2026-03-31T10:19:26.254626Z"
+    }
+}

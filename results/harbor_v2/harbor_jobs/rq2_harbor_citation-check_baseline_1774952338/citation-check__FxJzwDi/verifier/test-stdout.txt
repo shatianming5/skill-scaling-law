@@ -1,0 +1,8 @@
+Reading package lists...
+E: List directory /var/lib/apt/lists/partial is missing. - Acquire (28: No space left on device)
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (28: No space left on device)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+mktemp: failed to create directory via template '/tmp/tmp.XXXXXXXXXX': No space left on device
+ERROR: command failed: mktemp -d
+/tests/test.sh: line 11: /root/.local/bin/env: No such file or directory
+/tests/test.sh: line 18: uvx: command not found

@@ -1,0 +1,56 @@
+Collecting pytest==8.4.1
+  Downloading pytest-8.4.1-py3-none-any.whl.metadata (7.7 kB)
+Collecting pytest-json-ctrf==0.3.5
+  Downloading pytest_json_ctrf-0.3.5-py3-none-any.whl.metadata (3.3 kB)
+Requirement already satisfied: pandas==2.2.2 in /usr/local/lib/python3.12/dist-packages (2.2.2)
+Requirement already satisfied: pyyaml==6.0.1 in /usr/local/lib/python3.12/dist-packages (6.0.1)
+Requirement already satisfied: numpy==1.26.4 in /usr/local/lib/python3.12/dist-packages (1.26.4)
+Collecting iniconfig>=1 (from pytest==8.4.1)
+  Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: packaging>=20 in /usr/local/lib/python3.12/dist-packages (from pytest==8.4.1) (26.0)
+Collecting pluggy<2,>=1.5 (from pytest==8.4.1)
+  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting pygments>=2.7.2 (from pytest==8.4.1)
+  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device
+
+=== Debug: Finding test files ===
+/tests/test_outputs.py
+=== Debug: Contents of /tests ===
+total 32
+drwxr-xr-x 2  501 root  4096 Mar 29 19:20 .
+drwxr-xr-x 1 root root  4096 Mar 31 10:16 ..
+-rwxr-xr-x 1  501 root  1990 Mar 29 19:20 test.sh
+-rw-r--r-- 1  501 root 17947 Mar 29 19:20 test_outputs.py
+=== Debug: Contents of script directory ===
+total 32
+drwxr-xr-x 2  501 root  4096 Mar 29 19:20 .
+drwxr-xr-x 1 root root  4096 Mar 31 10:16 ..
+-rwxr-xr-x 1  501 root  1990 Mar 29 19:20 test.sh
+-rw-r--r-- 1  501 root 17947 Mar 29 19:20 test_outputs.py
+=== Debug: Current working directory ===
+/root
+total 116
+drwx------ 1 root root  4096 Mar 31 10:16 .
+drwxr-xr-x 1 root root  4096 Mar 31 10:16 ..
+drwxr-xr-x 3 root root  4096 Mar 31 07:38 .agents
+-rw-r--r-- 1 root root  3323 Mar 30 09:00 .bashrc
+drwxr-xr-x 3 root root  4096 Mar 31 10:16 .bun
+drwxr-xr-x 1 root root  4096 Mar 31 07:37 .cache
+drwxr-xr-x 3 root root  4096 Mar 31 07:38 .claude
+drwxr-xr-x 3 root root  4096 Mar 31 07:38 .codex
+drwxr-xr-x 1 root root  4096 Mar 30 09:00 .config
+drwxr-xr-x 3 root root  4096 Mar 31 07:38 .factory
+drwxr-xr-x 3 root root  4096 Mar 31 07:38 .gemini
+drwxr-xr-x 3 root root  4096 Mar 31 07:38 .goose
+drwxr-xr-x 1 root root  4096 Mar 30 09:01 .local
+drwxr-xr-x 4 root root  4096 Mar 30 08:55 .npm
+drwxr-xr-x 8 root root  4096 Mar 30 08:55 .nvm
+drwxr-xr-x 1 root root  4096 Mar 31 10:16 .opencode
+-rw-r--r-- 1 root root   161 Apr 22  2024 .profile
+-rw-r--r-- 1 root root 28478 Mar 29 19:20 sensor_data.csv
+-rw-r--r-- 1 root root   463 Mar 29 19:20 vehicle_params.yaml
+=== Found test file at: /tests/test_outputs.py ===
+=== Running simulation.py to generate results ===
+WARNING: simulation.py or tuning_results.yaml not found
+/tests/test.sh: line 50: pytest: command not found

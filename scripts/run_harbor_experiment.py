@@ -162,6 +162,7 @@ def run_harbor_trial(task_name: str, job_name: str) -> dict:
         "-m", MODEL,
         "--timeout-multiplier", str(TIMEOUT_MULTIPLIER),
         "--no-delete",
+        "--no-force-build",
         "--job-name", job_name,
         "--jobs-dir", str(OUTPUT_DIR / "harbor_jobs"),
     ]
@@ -169,11 +170,19 @@ def run_harbor_trial(task_name: str, job_name: str) -> dict:
     logger.info(f"Running: {task_name} ({job_name})")
     start = time.time()
 
-    result = subprocess.run(
-        cmd, capture_output=True, text=True, timeout=7200,
-        cwd=str(SKILLSBENCH_DIR),
-        env={**os.environ, "PATH": f"{os.path.expanduser('~/.local/bin')}:{os.path.expanduser('~/.opencode/bin')}:{os.environ.get('PATH','')}"}
-    )
+    try:
+        result = subprocess.run(
+            cmd, capture_output=True, text=True, timeout=10800,  # 3 hours max
+            cwd=str(SKILLSBENCH_DIR),
+            env={**os.environ, "PATH": f"{os.path.expanduser('~/.local/bin')}:{os.path.expanduser('~/.opencode/bin')}:{os.environ.get('PATH','')}"}
+        )
+    except subprocess.TimeoutExpired:
+        logger.warning(f"  {task_name} timed out after 3h, skipping")
+        # Kill leftover containers
+        subprocess.run(["docker", "kill"] + subprocess.run(
+            ["docker", "ps", "-q"], capture_output=True, text=True
+        ).stdout.strip().split(), capture_output=True)
+        return {"reward": 0.0, "elapsed_sec": time.time() - start, "errors": ["subprocess_timeout"]}
 
     elapsed = time.time() - start
 

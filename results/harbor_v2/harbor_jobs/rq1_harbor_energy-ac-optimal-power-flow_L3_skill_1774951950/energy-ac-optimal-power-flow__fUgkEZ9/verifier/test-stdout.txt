@@ -1,0 +1,48 @@
+Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+Ign:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Ign:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease
+Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+Ign:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease
+Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+Ign:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease
+Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+Ign:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Ign:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease
+Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+Ign:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease
+Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+Ign:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease
+Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+Ign:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Ign:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease
+Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+Ign:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease
+Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+Ign:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease
+Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+Err:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Err:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease
+  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+Err:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease
+  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+Err:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease
+  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+Reading package lists...
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/noble/InRelease  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/noble-updates/InRelease  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/noble-backports/InRelease  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/noble-security/InRelease  Error writing to file - write (28: No space left on device) [IP: 91.189.92.21 80]
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (28: No space left on device)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+mktemp: failed to create directory via template '/tmp/tmp.XXXXXXXXXX': No space left on device
+ERROR: command failed: mktemp -d
+/tests/test.sh: line 11: /root/.local/bin/env: No such file or directory
+/tests/test.sh: line 15: uvx: command not found
