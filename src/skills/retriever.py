@@ -148,3 +148,89 @@ class SkillRetriever:
             "recall_at_k": sum(recalls) / len(recalls) if recalls else 0.0,
             "ndcg_at_k": sum(ndcgs) / len(ndcgs) if ndcgs else 0.0,
         }
+
+    def compute_recall_at_k(
+        self,
+        queries: list[str],
+        ground_truth_relevant_ids: list[list[str]],
+        k: int = 3,
+    ) -> dict[str, float]:
+        """计算 Recall@K 和 nDCG@K，用于报告 BM25 检索质量协变量。
+
+        与 ``evaluate_retrieval`` 不同，本方法接受扁平的查询字符串列表和
+        对应的真值相关 ID 列表，方便直接从实验管线调用以控制
+        "结果差可能源于检索差而非 Skill 差"这一混淆因素。
+
+        Parameters
+        ----------
+        queries : list[str]
+            待检索的查询文本列表。
+        ground_truth_relevant_ids : list[list[str]]
+            每条查询对应的真值相关 Skill ID 列表，长度与 *queries* 相同。
+        k : int
+            检索截断深度，默认 3。
+
+        Returns
+        -------
+        dict[str, float]
+            包含以下键：
+
+            - ``recall_at_k``  -- 所有查询 Recall@K 的宏平均。
+            - ``ndcg_at_k``    -- 所有查询 nDCG@K 的宏平均。
+            - ``per_query_recall`` -- 逐查询 Recall 列表（便于方差分析）。
+            - ``per_query_ndcg``   -- 逐查询 nDCG 列表。
+
+        Raises
+        ------
+        RuntimeError
+            如果尚未调用 ``index()``。
+        ValueError
+            如果 *queries* 与 *ground_truth_relevant_ids* 长度不一致。
+        """
+        if not self._indexed:
+            raise RuntimeError("Must call index() before compute_recall_at_k()")
+        if len(queries) != len(ground_truth_relevant_ids):
+            raise ValueError(
+                f"queries ({len(queries)}) and ground_truth_relevant_ids "
+                f"({len(ground_truth_relevant_ids)}) must have the same length"
+            )
+
+        per_query_recall: list[float] = []
+        per_query_ndcg: list[float] = []
+
+        for query, relevant_ids_list in zip(queries, ground_truth_relevant_ids):
+            results = self.retrieve(query, top_k=k)
+            retrieved_ids = [r.skill_id for r in results]
+            relevant_set = set(relevant_ids_list)
+
+            # --- Recall@K ---
+            hits = len(set(retrieved_ids) & relevant_set)
+            recall = hits / len(relevant_set) if relevant_set else 0.0
+            per_query_recall.append(recall)
+
+            # --- nDCG@K ---
+            dcg = 0.0
+            for rank, rid in enumerate(retrieved_ids):
+                if rid in relevant_set:
+                    dcg += 1.0 / math.log2(rank + 2)  # rank 0 -> log2(2)
+
+            ideal_hits = min(len(relevant_set), k)
+            idcg = sum(1.0 / math.log2(i + 2) for i in range(ideal_hits))
+            ndcg = dcg / idcg if idcg > 0 else 0.0
+            per_query_ndcg.append(ndcg)
+
+        n = len(queries)
+        mean_recall = sum(per_query_recall) / n if n > 0 else 0.0
+        mean_ndcg = sum(per_query_ndcg) / n if n > 0 else 0.0
+
+        logger.info(
+            "Retrieval quality (k=%d, n=%d): Recall@K=%.4f  nDCG@K=%.4f",
+            k, n, mean_recall, mean_ndcg,
+        )
+
+        return {
+            "recall_at_k": mean_recall,
+            "ndcg_at_k": mean_ndcg,
+            "per_query_recall": per_query_recall,
+            "per_query_ndcg": per_query_ndcg,
+        }
