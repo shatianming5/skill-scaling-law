@@ -1,0 +1,3002 @@
+[
+  {
+    "instance_id": "django-money__django-money.835c1ab8.func_pm_ctrl_shuffle__viqnyl9u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_remove_assign__kdkrbg6a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1925
+  },
+  {
+    "instance_id": "mozillazg__python-pinyin.e42dede5.func_pm_remove_assign__vn346ybe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_class_rm_funcs__e35a2bbx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 14794
+  },
+  {
+    "instance_id": "luozhouyang__python-string-similarity.115acaac.func_pm_remove_cond__gch4emzr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "tkrajina__gpxpy.09fc46b3.func_pm_ctrl_shuffle__grix6fbc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "sloria__environs.73c372df.func_pm_remove_assign__l35izs7k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 575
+  },
+  {
+    "instance_id": "amueller__word_cloud.ec24191c.func_pm_ctrl_shuffle__3gl981ew",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 574
+  },
+  {
+    "instance_id": "facelessuser__soupsieve.a8080d97.func_pm_remove_cond__0nmyui1x",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1181
+  },
+  {
+    "instance_id": "joke2k__faker.8b401a7d.func_pm_ctrl_invert_if__bompadwm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1744
+  },
+  {
+    "instance_id": "Project-MONAI__MONAI.a09c1f08.func_pm_remove_assign__z47lyy02",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1334
+  },
+  {
+    "instance_id": "pydata__patsy.a5d16484.func_pm_ctrl_invert_if__kmfroe83",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 468
+  },
+  {
+    "instance_id": "pallets__jinja.ada0a9a6.func_pm_ctrl_invert_if__ik1ndo54",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1750
+  },
+  {
+    "instance_id": "google__textfsm.c31b6007.func_pm_ctrl_shuffle__hjtsbxdc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 866
+  },
+  {
+    "instance_id": "weaveworks__grafanalib.5c3b17ed.func_pm_remove_loop__nopdbhmj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1290
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_remove_assign__n7ae59f0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 941
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__3ljvivv1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3245
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_remove_cond__qmm9c0fa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3171
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_remove_cond__5xn3knbz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 604
+  },
+  {
+    "instance_id": "scrapy__scrapy.35212ec5.func_pm_remove_cond__jwp4lc0o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1826
+  },
+  {
+    "instance_id": "mozillazg__python-pinyin.e42dede5.func_pm_remove_assign__dkvumnr1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1478
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__ct54v4gk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3910
+  },
+  {
+    "instance_id": "scrapy__scrapy.35212ec5.func_pm_ctrl_shuffle__emx74xng",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "paramiko__paramiko.23f92003.func_pm_ctrl_invert_if__qvlmt37m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "iterative__dvc.1d6ea681.func_pm_ctrl_invert_if__uiypznal",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 738
+  },
+  {
+    "instance_id": "mahmoud__glom.fb3c4e76.func_pm_remove_assign__tuizqj7y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pydantic__pydantic.acb0f10f.func_pm_remove_cond__nwctaubn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1266
+  },
+  {
+    "instance_id": "agronholm__exceptiongroup.0b4f4937.func_pm_remove_loop__5rijazp0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3891
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_ctrl_invert_if__rsfvwrzq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3678
+  },
+  {
+    "instance_id": "mahmoud__glom.fb3c4e76.func_pm_ctrl_invert_if__raknbles",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1732
+  },
+  {
+    "instance_id": "encode__starlette.db5063c2.func_pm_class_rm_base__jwyals4x",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1296
+  },
+  {
+    "instance_id": "pallets__jinja.ada0a9a6.func_pm_remove_cond__0r1sepln",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1248
+  },
+  {
+    "instance_id": "keleshev__schema.24a30457.func_pm_ctrl_shuffle__t2num235",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5000
+  },
+  {
+    "instance_id": "modin-project__modin.8c7799fd.func_pm_remove_assign__xrusxciv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 861
+  },
+  {
+    "instance_id": "pydata__patsy.a5d16484.func_pm_ctrl_shuffle__p93vnmwg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1161
+  },
+  {
+    "instance_id": "joke2k__faker.8b401a7d.func_pm_class_rm_funcs__cqdxidw3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5330
+  },
+  {
+    "instance_id": "john-kurkowski__tldextract.3d1bf184.func_pm_remove_cond__g83pi8sy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "lepture__mistune.bf54ef67.func_pm_ctrl_shuffle__revil84t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1080
+  },
+  {
+    "instance_id": "pexpect__ptyprocess.1067dbda.func_pm_ctrl_shuffle__xib4ybaf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 647
+  },
+  {
+    "instance_id": "pydicom__pydicom.7d361b3d.func_pm_remove_cond__c4ctdv6a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 568
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_remove_assign__lkj9fjf0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2083
+  },
+  {
+    "instance_id": "tornadoweb__tornado.d5ac65c1.func_pm_remove_wrapper__7nxviy4t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2036
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_ctrl_shuffle__nl69pjbw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 564
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_ctrl_invert_if__sfjed7bx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 942
+  },
+  {
+    "instance_id": "r1chardj0n3s__parse.30da9e4f.func_pm_remove_cond__k4df18dk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3360
+  },
+  {
+    "instance_id": "jawah__charset_normalizer.1fdd6463.func_pm_ctrl_shuffle__a0443m9b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 4229
+  },
+  {
+    "instance_id": "getmoto__moto.694ce1f4.func_pm_remove_cond__1bg2g8en",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 14018
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_class_rm_funcs__rbjxq852",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 689
+  },
+  {
+    "instance_id": "pndurette__gTTS.dbcda4f3.func_pm_class_rm_base__n9eahnvx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mahmoud__glom.fb3c4e76.func_pm_remove_assign__dkikiptf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 811
+  },
+  {
+    "instance_id": "pydata__patsy.a5d16484.func_pm_op_change__kh96ntd9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 681
+  },
+  {
+    "instance_id": "seperman__deepdiff.ed252022.func_pm_remove_cond__zfum8cf3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 920
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_class_rm_funcs__9z4l7um1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3460
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_ctrl_invert_if__1rarttzj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 922
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_remove_loop__o8znmafj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 4250
+  },
+  {
+    "instance_id": "django-money__django-money.835c1ab8.func_pm_class_rm_funcs__nod6kl9o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1451
+  },
+  {
+    "instance_id": "mido__mido.a0158ff9.func_pm_ctrl_invert_if__i99ulr3u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1810
+  },
+  {
+    "instance_id": "encode__starlette.db5063c2.func_pm_class_rm_funcs__jqyg7xg2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1081
+  },
+  {
+    "instance_id": "msiemens__tinydb.10644a0e.func_pm_ctrl_shuffle__lqjyurqa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Knio__dominate.9082227e.func_pm_remove_cond__inf10y4j",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1430
+  },
+  {
+    "instance_id": "amueller__word_cloud.ec24191c.func_pm_ctrl_invert_if__2afmf2dq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 908
+  },
+  {
+    "instance_id": "seperman__deepdiff.ed252022.func_pm_remove_cond__6pebtc7y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "benoitc__gunicorn.bacbf8aa.func_pm_remove_loop__00fb1goe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 447
+  },
+  {
+    "instance_id": "pydata__patsy.a5d16484.func_pm_op_change__0wj92703",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1446
+  },
+  {
+    "instance_id": "weaveworks__grafanalib.5c3b17ed.func_pm_ctrl_shuffle__l9khaqft",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1292
+  },
+  {
+    "instance_id": "pndurette__gTTS.dbcda4f3.func_pm_ctrl_shuffle__0luttjxp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2383
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_ctrl_invert_if__451qn9zb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1115
+  },
+  {
+    "instance_id": "theskumar__python-dotenv.2b8635b7.func_pm_remove_assign__9y71521c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mahmoud__boltons.3bfcfdd0.func_pm_remove_cond__qs36kw2a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "tox-dev__pipdeptree.c31b6418.func_pm_ctrl_shuffle__u7idmckg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "getmoto__moto.694ce1f4.func_pm_ctrl_shuffle__8vk9z1a5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 135981
+  },
+  {
+    "instance_id": "prettytable__prettytable.ca90b055.func_pm_remove_cond__zfsjpyzp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 774
+  },
+  {
+    "instance_id": "pudo__dataset.5c2dc8d3.func_pm_ctrl_shuffle__p8zgf1es",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2233
+  },
+  {
+    "instance_id": "gruns__furl.da386f68.func_pm_remove_assign__owv1w9ya",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 654
+  },
+  {
+    "instance_id": "adrienverge__yamllint.8513d9b9.func_pm_remove_assign__7w6v3juk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 828
+  },
+  {
+    "instance_id": "kayak__pypika.1c9646f0.func_pm_ctrl_invert_if__kw3mjfo2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 728
+  },
+  {
+    "instance_id": "joke2k__faker.8b401a7d.func_pm_ctrl_invert_if__pqge760c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 528
+  },
+  {
+    "instance_id": "pyupio__safety.7654596b.func_pm_remove_cond__ivu5szhw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1752
+  },
+  {
+    "instance_id": "tweepy__tweepy.91a41c6e.func_pm_ctrl_invert_if__bjfyztws",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1359
+  },
+  {
+    "instance_id": "jawah__charset_normalizer.1fdd6463.func_pm_remove_cond__a6n81blj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1220
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_remove_loop__v6pgh7r1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "django-money__django-money.835c1ab8.func_pm_class_rm_funcs__mj51j2w4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 806
+  },
+  {
+    "instance_id": "getmoto__moto.694ce1f4.func_pm_ctrl_invert_if__s3yti340",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1359
+  },
+  {
+    "instance_id": "agronholm__exceptiongroup.0b4f4937.func_pm_op_break_chains__wl84k26v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1424
+  },
+  {
+    "instance_id": "jawah__charset_normalizer.1fdd6463.func_pm_remove_cond__67254dru",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 415
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_ctrl_shuffle__w0b37fdo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1183
+  },
+  {
+    "instance_id": "facebookresearch__hydra.0f03eb60.func_pm_ctrl_invert_if__onb1e0hn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 624
+  },
+  {
+    "instance_id": "tweepy__tweepy.91a41c6e.func_pm_class_rm_funcs__pgyht5q2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 777
+  },
+  {
+    "instance_id": "sunpy__sunpy.f8edfd5c.func_pm_ctrl_shuffle__1ylz4uy1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1842
+  },
+  {
+    "instance_id": "sloria__environs.73c372df.func_pm_op_swap__apvdgl4u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 559
+  },
+  {
+    "instance_id": "python-hyper__h11.bed0dd4a.func_pm_remove_cond__pxkz8swe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1249
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_ctrl_invert_if__9w09hk9s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1290
+  },
+  {
+    "instance_id": "pallets__click.fde47b4b.func_pm_remove_assign__j8x3cg4c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 688
+  },
+  {
+    "instance_id": "tkrajina__gpxpy.09fc46b3.func_pm_ctrl_shuffle__a8tvrnqc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 948
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_ctrl_shuffle__smncs4i8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mido__mido.a0158ff9.func_pm_ctrl_shuffle__xpwp2rug",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1771
+  },
+  {
+    "instance_id": "lincolnloop__python-qrcode.456b01d4.func_pm_ctrl_shuffle__fgb5wowf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "tox-dev__pipdeptree.c31b6418.func_pm_ctrl_invert_if__zxdv4kz3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 615
+  },
+  {
+    "instance_id": "vi3k6i5__flashtext.b316c7e9.func_pm_ctrl_invert_if__u4vujemy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cookiecutter__cookiecutter.b4451231.func_pm_remove_assign__6caklxrl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 7144
+  },
+  {
+    "instance_id": "cantools__cantools.0c6a7871.func_pm_remove_assign__7lkcr6a8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1320
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_remove_cond__2vdl8q5o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 371
+  },
+  {
+    "instance_id": "martinblech__xmltodict.0952f382.func_pm_remove_assign__f7fiaomg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1124
+  },
+  {
+    "instance_id": "tobymao__sqlglot.036601ba.func_pm_remove_assign__9a4u83h2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 552
+  },
+  {
+    "instance_id": "mozilla__bleach.73871d76.func_pm_remove_cond__i81wmzms",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2567
+  },
+  {
+    "instance_id": "getmoto__moto.694ce1f4.func_pm_op_swap__pok8g8z5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "python-jsonschema__jsonschema.93e0caa5.func_pm_remove_assign__otsfiwic",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 547
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_assign__jeg94vb0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 992
+  },
+  {
+    "instance_id": "buriy__python-readability.40256f40.func_pm_op_swap__h4okl3xc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 4679
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_remove_loop__thng7ipa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_ctrl_shuffle__asaa092v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 411
+  },
+  {
+    "instance_id": "tox-dev__pipdeptree.c31b6418.func_pm_remove_cond__icvukypi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_remove_wrapper__q330e8su",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 617
+  },
+  {
+    "instance_id": "PyCQA__flake8.cf1542ce.func_pm_remove_cond__c7i9mnxb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5547
+  },
+  {
+    "instance_id": "modin-project__modin.8c7799fd.func_pm_remove_assign__eierb5tm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3919
+  },
+  {
+    "instance_id": "scrapy__scrapy.35212ec5.func_pm_ctrl_shuffle__jnjtmyw1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pallets__jinja.ada0a9a6.func_pm_remove_cond__gb0johii",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 760
+  },
+  {
+    "instance_id": "marshmallow-code__webargs.dbde72fe.func_pm_class_rm_funcs__odjb5n83",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1369
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_remove_cond__w81x6oax",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 803
+  },
+  {
+    "instance_id": "Knio__dominate.9082227e.func_pm_ctrl_shuffle__jfirwmwl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 433
+  },
+  {
+    "instance_id": "python-hyper__h11.bed0dd4a.func_pm_remove_assign__sbnpl0fu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "gawel__pyquery.811cd048.func_pm_remove_assign__ftl8zjdv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "madzak__python-json-logger.5f85723f.func_pm_remove_cond__vy5nnsfk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 463
+  },
+  {
+    "instance_id": "paramiko__paramiko.23f92003.func_pm_remove_assign__u9x8s4vb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2181
+  },
+  {
+    "instance_id": "graphql-python__graphene.82903263.func_pm_remove_assign__e75f7w9o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "graphql-python__graphene.82903263.func_pm_ctrl_shuffle__hxj50ore",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1459
+  },
+  {
+    "instance_id": "arrow-py__arrow.1d70d009.func_pm_remove_assign__cru2kv8m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3773
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_ctrl_shuffle__6gupnvfd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1578
+  },
+  {
+    "instance_id": "tornadoweb__tornado.d5ac65c1.func_pm_ctrl_invert_if__z0wlut1a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pyutils__line_profiler.a646bf0f.func_pm_op_swap__2qoauf50",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 971
+  },
+  {
+    "instance_id": "prettytable__prettytable.ca90b055.func_pm_ctrl_invert_if__43pobfxy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "getmoto__moto.694ce1f4.func_pm_remove_loop__uj5nc20p",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3590
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_op_swap__15tl8pia",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 658
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_remove_loop__ny292fqp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3289
+  },
+  {
+    "instance_id": "lepture__mistune.bf54ef67.func_pm_remove_cond__bgz1ybhp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 136854
+  },
+  {
+    "instance_id": "jaraco__inflect.c079a96a.func_pm_remove_cond__27n9219v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "weaveworks__grafanalib.5c3b17ed.func_pm_ctrl_invert_if__olofvruo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2838
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__ld25mubm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 867
+  },
+  {
+    "instance_id": "pyutils__line_profiler.a646bf0f.func_pm_op_break_chains__viq255lr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 870
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_ctrl_shuffle__arx7dl7j",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3438
+  },
+  {
+    "instance_id": "facelessuser__soupsieve.a8080d97.func_pm_remove_assign__lnxla9zv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 909
+  },
+  {
+    "instance_id": "gruns__furl.da386f68.func_pm_remove_assign__d4skg31d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 722
+  },
+  {
+    "instance_id": "lepture__mistune.bf54ef67.func_pm_remove_cond__fs0evpci",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1535992
+  },
+  {
+    "instance_id": "tkrajina__gpxpy.09fc46b3.func_pm_ctrl_shuffle__ypf3k72g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_op_break_chains__rivx4klg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 803
+  },
+  {
+    "instance_id": "facelessuser__soupsieve.a8080d97.func_pm_remove_assign__8z2upne5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1134
+  },
+  {
+    "instance_id": "weaveworks__grafanalib.5c3b17ed.func_pm_remove_cond__symxkgpq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 831
+  },
+  {
+    "instance_id": "conan-io__conan.86f29e13.func_pm_remove_cond__18feoafp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 20818
+  },
+  {
+    "instance_id": "modin-project__modin.8c7799fd.func_pm_op_change_const__rfk6n7q5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 761
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_op_change_const__4imgkafy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 467
+  },
+  {
+    "instance_id": "iterative__dvc.1d6ea681.func_pm_remove_assign__ukoy6wi5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 557
+  },
+  {
+    "instance_id": "paramiko__paramiko.23f92003.func_pm_ctrl_shuffle__b0o2afet",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "tweepy__tweepy.91a41c6e.func_pm_op_break_chains__lk64ft9o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 538
+  },
+  {
+    "instance_id": "scanny__python-pptx.278b47b1.func_pm_ctrl_shuffle__8u5gz5v4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 424
+  },
+  {
+    "instance_id": "alecthomas__voluptuous.a7a55f83.func_pm_ctrl_shuffle__ur90hg4c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 667
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_shuffle__1bfzf9ym",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 7303
+  },
+  {
+    "instance_id": "pydata__patsy.a5d16484.func_pm_op_change__21phwhpp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1622
+  },
+  {
+    "instance_id": "pudo__dataset.5c2dc8d3.func_pm_remove_cond__27go465n",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1401
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_op_swap__r1pbwa05",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "alecthomas__voluptuous.a7a55f83.func_pm_ctrl_invert_if__7rm50emx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1469
+  },
+  {
+    "instance_id": "davidhalter__parso.338a5760.func_pm_ctrl_shuffle__nrgnwola",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2137
+  },
+  {
+    "instance_id": "erikrose__parsimonious.0d3f5f93.func_pm_remove_cond__faplhgmw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1010
+  },
+  {
+    "instance_id": "kayak__pypika.1c9646f0.func_pm_ctrl_shuffle__vumemcns",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 954
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_ctrl_invert_if__8cp6cg0l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 549
+  },
+  {
+    "instance_id": "madzak__python-json-logger.5f85723f.func_pm_ctrl_shuffle__qw7rmlbf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1676
+  },
+  {
+    "instance_id": "django__channels.a144b4b8.func_pm_remove_loop__7kc26o7d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 762
+  },
+  {
+    "instance_id": "mido__mido.a0158ff9.func_pm_remove_loop__n65ov8a8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1711
+  },
+  {
+    "instance_id": "scanny__python-pptx.278b47b1.func_pm_ctrl_shuffle__y1oeadai",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 895
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_ctrl_invert_if__w8e3m8ag",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 655
+  },
+  {
+    "instance_id": "davidhalter__parso.338a5760.func_pm_ctrl_invert_if__sa0olfqf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 712
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_op_change_const__j1nrey18",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1307
+  },
+  {
+    "instance_id": "alecthomas__voluptuous.a7a55f83.func_pm_ctrl_shuffle__goga68qs",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 528
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_remove_assign__wz2xdz8k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1203
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_ctrl_invert_if__50cy7v3i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 941
+  },
+  {
+    "instance_id": "pallets__click.fde47b4b.func_pm_remove_wrapper__301i7ts1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 48145
+  },
+  {
+    "instance_id": "python-openxml__python-docx.0cf6d71f.func_pm_ctrl_shuffle__z6689b9m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 450
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_ctrl_invert_if__rh27k1ok",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1240
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_class_rm_funcs__loiwq6sx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1543
+  },
+  {
+    "instance_id": "lincolnloop__python-qrcode.456b01d4.func_pm_remove_wrapper__65w3vb3u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1552
+  },
+  {
+    "instance_id": "tornadoweb__tornado.d5ac65c1.func_pm_ctrl_shuffle__m6k63wps",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 638
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_ctrl_shuffle__xxd63ulb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1796
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_op_change__nonnesbi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2855
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_ctrl_shuffle__1vccrmac",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 423
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_ctrl_invert_if__fwnomrx6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1438
+  },
+  {
+    "instance_id": "pudo__dataset.5c2dc8d3.func_pm_ctrl_shuffle__j7dgv9qd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 686
+  },
+  {
+    "instance_id": "scrapy__scrapy.35212ec5.func_pm_ctrl_shuffle__zm58zmsu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 510
+  },
+  {
+    "instance_id": "vi3k6i5__flashtext.b316c7e9.func_pm_ctrl_shuffle__ath4kd3o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 20584
+  },
+  {
+    "instance_id": "tox-dev__pipdeptree.c31b6418.func_pm_ctrl_invert_if__0qedlj6j",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 913
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_ctrl_shuffle__u8j5kocu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 621
+  },
+  {
+    "instance_id": "facebookresearch__hydra.0f03eb60.func_pm_op_change__dtquezsa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1285
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_op_swap__53fevqi2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 7564
+  },
+  {
+    "instance_id": "kennethreitz__records.5941ab27.func_pm_ctrl_shuffle__4ovmysba",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 597
+  },
+  {
+    "instance_id": "python-jsonschema__jsonschema.93e0caa5.func_pm_remove_assign__hrtycvya",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1356
+  },
+  {
+    "instance_id": "jawah__charset_normalizer.1fdd6463.func_pm_remove_wrapper__oumjyo2c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_class_rm_funcs__zwxps2tf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 613
+  },
+  {
+    "instance_id": "alecthomas__voluptuous.a7a55f83.func_pm_remove_loop__x53eehb2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 723
+  },
+  {
+    "instance_id": "tornadoweb__tornado.d5ac65c1.func_pm_ctrl_invert_if__i50li4ln",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 938
+  },
+  {
+    "instance_id": "google__textfsm.c31b6007.func_pm_class_rm_funcs__l5u9pdpm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 4676
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_remove_cond__oyi7r6tv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "hukkin__tomli.443a0c1b.func_pm_op_change_const__3i3m0f7m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 943
+  },
+  {
+    "instance_id": "django__daphne.32ac73e1.func_pm_remove_assign__1yb1m76z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 776
+  },
+  {
+    "instance_id": "conan-io__conan.86f29e13.func_pm_remove_cond__va4fy4vk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3264
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_op_change_const__vw9bgvbf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 883
+  },
+  {
+    "instance_id": "erikrose__parsimonious.0d3f5f93.func_pm_ctrl_shuffle__b2i7wzal",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3395
+  },
+  {
+    "instance_id": "facelessuser__soupsieve.a8080d97.func_pm_remove_cond__bngk6koh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 460
+  },
+  {
+    "instance_id": "python-jsonschema__jsonschema.93e0caa5.func_pm_ctrl_shuffle__dr453ze9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_remove_assign__07n9cz9h",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "facebookresearch__fvcore.a491d5b9.func_pm_op_swap__bybhuobu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1598
+  },
+  {
+    "instance_id": "iterative__dvc.1d6ea681.func_pm_remove_cond__d45mhs9f",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 613
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_remove_cond__sshmq0kq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1128
+  },
+  {
+    "instance_id": "msiemens__tinydb.10644a0e.func_pm_class_rm_funcs__k83qfoxy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1042
+  },
+  {
+    "instance_id": "mozillazg__python-pinyin.e42dede5.func_pm_ctrl_invert_if__5sw8bxyf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1036
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_remove_wrapper__mvul8qo0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 993
+  },
+  {
+    "instance_id": "pudo__dataset.5c2dc8d3.func_pm_remove_assign__wisytcfw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5205
+  },
+  {
+    "instance_id": "modin-project__modin.8c7799fd.func_pm_remove_assign__acj0a3bv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 626
+  },
+  {
+    "instance_id": "pydantic__pydantic.acb0f10f.func_pm_remove_assign__077gtphd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 854
+  },
+  {
+    "instance_id": "PyCQA__flake8.cf1542ce.func_pm_remove_assign__zp1dya4y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5171
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_op_swap__9ad3btja",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 465
+  },
+  {
+    "instance_id": "jawah__charset_normalizer.1fdd6463.func_pm_class_rm_base__1qizrh16",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1865
+  },
+  {
+    "instance_id": "marshmallow-code__webargs.dbde72fe.func_pm_class_rm_funcs__kzc99hn1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 822
+  },
+  {
+    "instance_id": "facebookresearch__hydra.0f03eb60.func_pm_remove_cond__u5bb7kvg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 41769
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_ctrl_invert_if__os37r0ej",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_ctrl_invert_if__fxrse5n6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2751
+  },
+  {
+    "instance_id": "rsalmei__alive-progress.35853799.func_pm_remove_cond__zrqudzbl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2038
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_ctrl_shuffle__nimrsiqc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2908
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_remove_assign__2ufborg5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1031
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_assign__mab9thh9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5022
+  },
+  {
+    "instance_id": "sunpy__sunpy.f8edfd5c.func_pm_ctrl_shuffle__amdv41th",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 574
+  },
+  {
+    "instance_id": "pyca__pyopenssl.04766a49.func_pm_remove_cond__9ry2qzi5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Knio__dominate.9082227e.func_pm_ctrl_shuffle__4b96h7zr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1705
+  },
+  {
+    "instance_id": "pallets__jinja.ada0a9a6.func_pm_ctrl_shuffle__e4m0j3v3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2631
+  },
+  {
+    "instance_id": "tobymao__sqlglot.036601ba.func_pm_ctrl_invert_if__nup7imz8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_ctrl_shuffle__n2vqjaxb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 819
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_remove_assign__k6txb7jm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 951
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__lxglrf6v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 525
+  },
+  {
+    "instance_id": "erikrose__parsimonious.0d3f5f93.func_pm_remove_assign__6drvm1sb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "lincolnloop__python-qrcode.456b01d4.func_pm_ctrl_invert_if__rdvaoucz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 554
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_remove_assign__0oub9mw2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1356
+  },
+  {
+    "instance_id": "cantools__cantools.0c6a7871.func_pm_ctrl_invert_if__ngrtibrq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2780
+  },
+  {
+    "instance_id": "vi3k6i5__flashtext.b316c7e9.func_pm_remove_loop__k79va4uh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3170
+  },
+  {
+    "instance_id": "rsalmei__alive-progress.35853799.func_pm_op_swap__xwj5sltd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "python-trio__trio.cfbbe2c1.func_pm_class_rm_funcs__0g5btsxu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1453
+  },
+  {
+    "instance_id": "scrapy__scrapy.35212ec5.func_pm_class_rm_base__krh6cmne",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 547
+  },
+  {
+    "instance_id": "facebookresearch__fvcore.a491d5b9.func_pm_remove_assign__jafbltn2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1214
+  },
+  {
+    "instance_id": "rubik__radon.54b88e58.func_pm_ctrl_shuffle__xnyf0xqn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1403
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__wwjfs3l1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5237
+  },
+  {
+    "instance_id": "pallets__jinja.ada0a9a6.func_pm_ctrl_invert_if__m2an5l1r",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1032
+  },
+  {
+    "instance_id": "Mimino666__langdetect.a1598f1a.func_pm_remove_assign__6i51zp8c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 412
+  },
+  {
+    "instance_id": "python-trio__trio.cfbbe2c1.func_pm_remove_assign__u935fh38",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1199
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_op_break_chains__nvxiwtk6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 13586
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_ctrl_shuffle__huyv6ei4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 850
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_remove_cond__pvf6uaap",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "amueller__word_cloud.ec24191c.func_pm_ctrl_invert_if__fmeyu99c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 628
+  },
+  {
+    "instance_id": "getmoto__moto.694ce1f4.func_pm_remove_assign__1pw2kzxz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2883
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_class_rm_funcs__pvdd23od",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1801
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_class_rm_base__23xf72mt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 621
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_op_swap__oo80hqv7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1283
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_ctrl_shuffle__ykjezqtg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 572
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_ctrl_invert_if__bryxs3d0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pydantic__pydantic.acb0f10f.func_pm_remove_assign__ertc5yy3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 759
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_ctrl_shuffle__j5qxd3ph",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 731
+  },
+  {
+    "instance_id": "django-money__django-money.835c1ab8.func_pm_remove_loop__fp1iuyn2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1110
+  },
+  {
+    "instance_id": "python-hyper__h11.bed0dd4a.func_pm_remove_cond__dg2tmvcp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 526
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_remove_cond__9anrixde",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 669
+  },
+  {
+    "instance_id": "modin-project__modin.8c7799fd.func_pm_op_swap__a9579o7b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1092
+  },
+  {
+    "instance_id": "python-openxml__python-docx.0cf6d71f.func_pm_ctrl_shuffle__2p89zv85",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1129
+  },
+  {
+    "instance_id": "tox-dev__pipdeptree.c31b6418.func_pm_remove_loop__bfjsf9sv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_remove_loop__22hrjgu9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 578
+  },
+  {
+    "instance_id": "chardet__chardet.9630f238.func_pm_ctrl_shuffle__ntwhyf20",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1245
+  },
+  {
+    "instance_id": "django__channels.a144b4b8.func_pm_ctrl_shuffle__363m7lvm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 671
+  },
+  {
+    "instance_id": "msiemens__tinydb.10644a0e.func_pm_remove_assign__n0bmzz7c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 783
+  },
+  {
+    "instance_id": "seperman__deepdiff.ed252022.func_pm_remove_cond__zxlb4p9b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 706
+  },
+  {
+    "instance_id": "lincolnloop__python-qrcode.456b01d4.func_pm_ctrl_shuffle__7o9mgoho",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 728
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_op_swap__yt90lw6h",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mido__mido.a0158ff9.func_pm_ctrl_shuffle__0vlsob5q",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1605
+  },
+  {
+    "instance_id": "pydicom__pydicom.7d361b3d.func_pm_remove_cond__xkr4prjf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 633
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_ctrl_shuffle__mjr9au9l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_op_swap__e3rqpovz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cantools__cantools.0c6a7871.func_pm_op_change_const__z11rhtzd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1230
+  },
+  {
+    "instance_id": "davidhalter__parso.338a5760.func_pm_remove_cond__46x7cqbh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1335
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_remove_assign__9sem23aa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 688
+  },
+  {
+    "instance_id": "gruns__furl.da386f68.func_pm_ctrl_shuffle__gw28xohe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 437
+  },
+  {
+    "instance_id": "mozilla__bleach.73871d76.func_pm_class_rm_funcs__67fjbha4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1164
+  },
+  {
+    "instance_id": "pexpect__ptyprocess.1067dbda.func_pm_remove_assign__117v6cvw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 667
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_class_rm_funcs__n83sv680",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1337
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_class_rm_funcs__6p3znq4m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 625
+  },
+  {
+    "instance_id": "pydicom__pydicom.7d361b3d.func_pm_class_rm_funcs__w29zlq7y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2310
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_op_break_chains__4i60d2xd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1456
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_shuffle__rzfjedk4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2332
+  },
+  {
+    "instance_id": "encode__starlette.db5063c2.func_pm_op_swap__phhbm20m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1431
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_remove_cond__mgdoaog8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 673
+  },
+  {
+    "instance_id": "jaraco__inflect.c079a96a.func_pm_op_swap__byoaxo72",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 581
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__ni48riat",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 363
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__6vzkm0lh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 656
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_remove_assign__s8d7sc7k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 542
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_remove_loop__1n9mtdu1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__jrfyctc3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 571
+  },
+  {
+    "instance_id": "hukkin__tomli.443a0c1b.func_pm_op_change_const__kq0aa43b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1506
+  },
+  {
+    "instance_id": "scanny__python-pptx.278b47b1.func_pm_ctrl_shuffle__u4ift5m3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1535
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_remove_cond__yw02f11g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5333
+  },
+  {
+    "instance_id": "python-jsonschema__jsonschema.93e0caa5.func_pm_remove_cond__hg3m91cl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1664
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_ctrl_invert_if__mopbemnv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2226
+  },
+  {
+    "instance_id": "tobymao__sqlglot.036601ba.func_pm_remove_assign__gtf491mj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_ctrl_invert_if__syqymm6m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_ctrl_shuffle__zfpm0k93",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2140
+  },
+  {
+    "instance_id": "jaraco__inflect.c079a96a.func_pm_remove_wrapper__23p6n5ak",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2308
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_class_rm_funcs__fjbnses6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 477
+  },
+  {
+    "instance_id": "gruns__furl.da386f68.func_pm_ctrl_shuffle__xl74y5p7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 607
+  },
+  {
+    "instance_id": "alanjds__drf-nested-routers.6144169d.func_pm_op_swap__k0e5pdge",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_remove_cond__wvdfzp5u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 596
+  },
+  {
+    "instance_id": "tornadoweb__tornado.d5ac65c1.func_pm_class_rm_base__jxgo4fka",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 6477
+  },
+  {
+    "instance_id": "jaraco__inflect.c079a96a.func_pm_remove_assign__9jc9820g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 655
+  },
+  {
+    "instance_id": "sunpy__sunpy.f8edfd5c.func_pm_op_change__6it9lqyj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "benoitc__gunicorn.bacbf8aa.func_pm_ctrl_invert_if__vsxey1ea",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 572
+  },
+  {
+    "instance_id": "pyutils__line_profiler.a646bf0f.func_pm_op_change__ig0s2sf5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "django__channels.a144b4b8.func_pm_ctrl_invert_if__duxuc5zq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 651
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_remove_assign__v58qm31z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2380
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_remove_cond__u1xutfs0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 469
+  },
+  {
+    "instance_id": "bottlepy__bottle.a8dfef30.func_pm_remove_cond__006p3gwx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 684
+  },
+  {
+    "instance_id": "hukkin__tomli.443a0c1b.func_pm_remove_cond__59e9fi5u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2139
+  },
+  {
+    "instance_id": "pyupio__safety.7654596b.func_pm_op_change__om3lry85",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 483
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_ctrl_shuffle__kwv8tgpx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_ctrl_invert_if__1ieis3ce",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "msiemens__tinydb.10644a0e.func_pm_ctrl_shuffle__mg4vdc5i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1305
+  },
+  {
+    "instance_id": "facelessuser__soupsieve.a8080d97.func_pm_ctrl_invert_if__dui7m5u4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 682
+  },
+  {
+    "instance_id": "marshmallow-code__webargs.dbde72fe.func_pm_ctrl_shuffle__rrb8bbor",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 962
+  },
+  {
+    "instance_id": "kayak__pypika.1c9646f0.func_pm_ctrl_invert_if__k8mow7mr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5330
+  },
+  {
+    "instance_id": "marshmallow-code__apispec.8b421526.func_pm_ctrl_shuffle__j8t3vvrd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_ctrl_shuffle__qjvhw51u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 462
+  },
+  {
+    "instance_id": "mido__mido.a0158ff9.func_pm_ctrl_shuffle__cyg5oo56",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1585
+  },
+  {
+    "instance_id": "encode__starlette.db5063c2.func_pm_ctrl_shuffle__ie8l55b1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 784
+  },
+  {
+    "instance_id": "adrienverge__yamllint.8513d9b9.func_pm_remove_wrapper__fp2s5wt6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 420
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_class_rm_base__wjmn1ygf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 736
+  },
+  {
+    "instance_id": "jawah__charset_normalizer.1fdd6463.func_pm_ctrl_shuffle__nlxtqzfh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1068
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_op_swap__9ctr53a9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 531
+  },
+  {
+    "instance_id": "mozilla__bleach.73871d76.func_pm_ctrl_invert_if__mrzj7p4u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3988
+  },
+  {
+    "instance_id": "pyupio__safety.7654596b.func_pm_op_break_chains__8a6iqdxy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 789
+  },
+  {
+    "instance_id": "sunpy__sunpy.f8edfd5c.func_pm_ctrl_shuffle__aw1spbe4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3533
+  },
+  {
+    "instance_id": "gawel__pyquery.811cd048.func_pm_ctrl_shuffle__aat7vau2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 898
+  },
+  {
+    "instance_id": "cantools__cantools.0c6a7871.func_pm_ctrl_invert_if__lken8fjb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 520
+  },
+  {
+    "instance_id": "python-trio__trio.cfbbe2c1.func_pm_ctrl_shuffle__bdc8rwan",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3440
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_remove_assign__7wy0dugj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1088
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_loop__q0fmi7se",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1062
+  },
+  {
+    "instance_id": "pydantic__pydantic.acb0f10f.func_pm_ctrl_invert_if__djx6ips7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mozilla__bleach.73871d76.func_pm_remove_cond__dfyej8pm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 457
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_remove_assign__oxicyi0d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1384
+  },
+  {
+    "instance_id": "iterative__dvc.1d6ea681.func_pm_class_rm_funcs__uze5q3oz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 579
+  },
+  {
+    "instance_id": "rsalmei__alive-progress.35853799.func_pm_remove_cond__f33lz98n",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 550
+  },
+  {
+    "instance_id": "pydata__patsy.a5d16484.func_pm_ctrl_invert_if__t8nun5wz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 422
+  },
+  {
+    "instance_id": "paramiko__paramiko.23f92003.func_pm_ctrl_shuffle__a3ti752y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 608
+  },
+  {
+    "instance_id": "mahmoud__boltons.3bfcfdd0.func_pm_remove_cond__535tm4hx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 801
+  },
+  {
+    "instance_id": "hukkin__tomli.443a0c1b.func_pm_ctrl_invert_if__icyyrein",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 845
+  },
+  {
+    "instance_id": "mozilla__bleach.73871d76.func_pm_ctrl_shuffle__0kh36kdp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1546
+  },
+  {
+    "instance_id": "lincolnloop__python-qrcode.456b01d4.func_pm_ctrl_shuffle__bg9vg4kq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 734
+  },
+  {
+    "instance_id": "joke2k__faker.8b401a7d.func_pm_remove_assign__1m4ki321",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "facelessuser__soupsieve.a8080d97.func_pm_ctrl_shuffle__aiiqtyeu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1226
+  },
+  {
+    "instance_id": "pallets__click.fde47b4b.func_pm_remove_assign__nlepdzed",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 964
+  },
+  {
+    "instance_id": "graphql-python__graphene.82903263.func_pm_ctrl_shuffle__g1cuiprd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2755
+  },
+  {
+    "instance_id": "kayak__pypika.1c9646f0.func_pm_class_rm_funcs__muwfrdsf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "python-openxml__python-docx.0cf6d71f.func_pm_ctrl_shuffle__lxsds4u2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1754
+  },
+  {
+    "instance_id": "pydicom__pydicom.7d361b3d.func_pm_remove_assign__gqvffd4n",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1403
+  },
+  {
+    "instance_id": "pydantic__pydantic.acb0f10f.func_pm_ctrl_invert_if__2uuiyw0w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 653
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_ctrl_shuffle__ig827qbg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 442
+  },
+  {
+    "instance_id": "graphql-python__graphene.82903263.func_pm_ctrl_invert_if__fyzvhfb5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 603
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_remove_loop__eq97088v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1199
+  },
+  {
+    "instance_id": "facebookresearch__fvcore.a491d5b9.func_pm_class_rm_funcs__9vmtfuxv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1249
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_ctrl_shuffle__rsqj1tgx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1524
+  },
+  {
+    "instance_id": "pydicom__pydicom.7d361b3d.func_pm_remove_cond__64ixu4ym",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 403
+  },
+  {
+    "instance_id": "pudo__dataset.5c2dc8d3.func_pm_ctrl_shuffle__gfu7q6ma",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1214
+  },
+  {
+    "instance_id": "mahmoud__boltons.3bfcfdd0.func_pm_ctrl_invert_if__2te3u0dq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1053
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_remove_assign__eb0dnb6d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1747
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_assign__0cilioxa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 827
+  },
+  {
+    "instance_id": "cloudpipe__cloudpickle.6220b0ce.func_pm_op_swap__cif6nxws",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mahmoud__boltons.3bfcfdd0.func_pm_remove_assign__ug5x9th5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "adrienverge__yamllint.8513d9b9.func_pm_remove_cond__iiywe9cj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 664
+  },
+  {
+    "instance_id": "benoitc__gunicorn.bacbf8aa.func_pm_ctrl_shuffle__i3051y10",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 801
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_op_swap__2oa3rxsd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 916
+  },
+  {
+    "instance_id": "amueller__word_cloud.ec24191c.func_pm_remove_cond__as5zu4uh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_op_change__un97tc1d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 629
+  },
+  {
+    "instance_id": "prettytable__prettytable.ca90b055.func_pm_op_change_const__sglm9rb0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1000
+  },
+  {
+    "instance_id": "marshmallow-code__webargs.dbde72fe.func_pm_ctrl_shuffle__q5e67cg3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 607
+  },
+  {
+    "instance_id": "msiemens__tinydb.10644a0e.func_pm_class_rm_funcs__s05hyh19",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1538553
+  },
+  {
+    "instance_id": "cantools__cantools.0c6a7871.func_pm_remove_cond__g8oxp3s9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 688
+  },
+  {
+    "instance_id": "marshmallow-code__webargs.dbde72fe.func_pm_class_rm_funcs__wh64ac8b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 479
+  },
+  {
+    "instance_id": "python-openxml__python-docx.0cf6d71f.func_pm_ctrl_shuffle__ffz505nd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 556
+  },
+  {
+    "instance_id": "pyutils__line_profiler.a646bf0f.func_pm_remove_assign__mgnuypxr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 8478
+  },
+  {
+    "instance_id": "pytest-dev__iniconfig.16793ead.func_pm_remove_cond__czz1d3wp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1288
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_ctrl_invert_if__gdp5done",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 976
+  },
+  {
+    "instance_id": "Knio__dominate.9082227e.func_pm_ctrl_shuffle__p7q9mdxe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1141
+  },
+  {
+    "instance_id": "python-trio__trio.cfbbe2c1.func_pm_class_rm_base__gran9i8f",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 672
+  },
+  {
+    "instance_id": "tkrajina__gpxpy.09fc46b3.func_pm_op_break_chains__v2tkfcqn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 18480
+  },
+  {
+    "instance_id": "pallets__click.fde47b4b.func_pm_ctrl_shuffle__kz1eskkl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1920
+  },
+  {
+    "instance_id": "pyupio__safety.7654596b.func_pm_ctrl_invert_if__b1vwonjs",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 755
+  },
+  {
+    "instance_id": "davidhalter__parso.338a5760.func_pm_class_rm_funcs__6d1tr0f8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1897
+  },
+  {
+    "instance_id": "tornadoweb__tornado.d5ac65c1.func_pm_class_rm_funcs__0boo4a8s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1225
+  },
+  {
+    "instance_id": "pyutils__line_profiler.a646bf0f.func_pm_ctrl_shuffle__4nyn50jr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 953
+  },
+  {
+    "instance_id": "conan-io__conan.86f29e13.func_pm_ctrl_shuffle__912ismvi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 624
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_ctrl_invert_if__bhtv9toa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "adrienverge__yamllint.8513d9b9.func_pm_op_swap__vogo8a0c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 595
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_remove_loop__4rlnfklv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1087
+  },
+  {
+    "instance_id": "Mimino666__langdetect.a1598f1a.func_pm_ctrl_shuffle__qy0ywgtr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1352
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_op_swap__8riwm22r",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3441
+  },
+  {
+    "instance_id": "conan-io__conan.86f29e13.func_pm_class_rm_funcs__1am80dhh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 590
+  },
+  {
+    "instance_id": "luozhouyang__python-string-similarity.115acaac.func_pm_remove_assign__w2a8939s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1567
+  },
+  {
+    "instance_id": "kayak__pypika.1c9646f0.func_pm_ctrl_shuffle__89wfpjra",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1862
+  },
+  {
+    "instance_id": "python-trio__trio.cfbbe2c1.func_pm_ctrl_shuffle__je3q45dt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 7513
+  },
+  {
+    "instance_id": "PyCQA__flake8.cf1542ce.func_pm_ctrl_invert_if__zlbk1yct",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 792
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_ctrl_shuffle__qr98o5at",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "encode__starlette.db5063c2.func_pm_ctrl_invert_if__a9nw50vp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 806
+  },
+  {
+    "instance_id": "andialbrecht__sqlparse.e57923b3.func_pm_ctrl_shuffle__y5g83kgt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 137449
+  },
+  {
+    "instance_id": "benoitc__gunicorn.bacbf8aa.func_pm_ctrl_shuffle__j32i8tbl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3082
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_ctrl_shuffle__65982ff8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 7140
+  },
+  {
+    "instance_id": "lepture__mistune.bf54ef67.func_pm_remove_cond__5caomnc9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1330
+  },
+  {
+    "instance_id": "davidhalter__parso.338a5760.func_pm_op_change__snniox4m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1567
+  },
+  {
+    "instance_id": "seperman__deepdiff.ed252022.func_pm_ctrl_invert_if__u0b1jp8e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1041
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__2xahl087",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "alecthomas__voluptuous.a7a55f83.func_pm_class_rm_funcs__ik5e23q2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1179
+  },
+  {
+    "instance_id": "Mimino666__langdetect.a1598f1a.func_pm_remove_assign__d8cita5b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 19666
+  },
+  {
+    "instance_id": "pexpect__ptyprocess.1067dbda.func_pm_remove_cond__9adezj3g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 494
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_class_rm_base__uxflnl0d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3975
+  },
+  {
+    "instance_id": "alecthomas__voluptuous.a7a55f83.func_pm_op_swap__ik9k7pih",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_remove_assign__4haje54m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2637
+  },
+  {
+    "instance_id": "mahmoud__glom.fb3c4e76.func_pm_ctrl_invert_if__w36or8b1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mahmoud__boltons.3bfcfdd0.func_pm_remove_assign__4snu6l0s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "gruns__furl.da386f68.func_pm_remove_assign__7hzibwyh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1033
+  },
+  {
+    "instance_id": "paramiko__paramiko.23f92003.func_pm_ctrl_invert_if__68cju43w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1193
+  },
+  {
+    "instance_id": "mahmoud__glom.fb3c4e76.func_pm_op_change__4xce7rgu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 737
+  },
+  {
+    "instance_id": "pygments__pygments.27649ebb.func_pm_remove_cond__q0ndpg3i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 135959
+  },
+  {
+    "instance_id": "pandas-dev__pandas.95280573.func_pm_remove_cond__pgq1l65l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 467
+  },
+  {
+    "instance_id": "prettytable__prettytable.ca90b055.func_pm_ctrl_shuffle__a0ej9ceh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5803
+  },
+  {
+    "instance_id": "sunpy__sunpy.f8edfd5c.func_pm_ctrl_shuffle__hnlz86zd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 39197
+  },
+  {
+    "instance_id": "msiemens__tinydb.10644a0e.func_pm_ctrl_invert_if__ubmk84m6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 960
+  },
+  {
+    "instance_id": "spulec__freezegun.5f171db0.func_pm_ctrl_shuffle__ew0emsrk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 637
+  },
+  {
+    "instance_id": "buriy__python-readability.40256f40.func_pm_op_swap__6qaf1vop",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 536
+  },
+  {
+    "instance_id": "lepture__mistune.bf54ef67.func_pm_ctrl_shuffle__9427belt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 4300
+  },
+  {
+    "instance_id": "scanny__python-pptx.278b47b1.func_pm_ctrl_shuffle__xocv1w6g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3933
+  },
+  {
+    "instance_id": "mewwts__addict.75284f95.func_pm_ctrl_shuffle__di29k98d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1541
+  },
+  {
+    "instance_id": "pydantic__pydantic.acb0f10f.func_pm_op_change_const__mdlo66i2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2248
+  },
+  {
+    "instance_id": "gawel__pyquery.811cd048.func_pm_ctrl_shuffle__ghs0r7lo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "luozhouyang__python-string-similarity.115acaac.func_pm_remove_assign__r6sanfog",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1247
+  },
+  {
+    "instance_id": "joke2k__faker.8b401a7d.func_pm_ctrl_shuffle__cu9pomo3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 591
+  },
+  {
+    "instance_id": "agronholm__exceptiongroup.0b4f4937.func_pm_remove_loop__vqj0wnq5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 458
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_remove_assign__tynm7vz6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 905
+  },
+  {
+    "instance_id": "hukkin__tomli.443a0c1b.func_pm_remove_cond__52dp1bok",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1458
+  },
+  {
+    "instance_id": "lepture__mistune.bf54ef67.func_pm_ctrl_invert_if__lomudej0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 630
+  },
+  {
+    "instance_id": "prettytable__prettytable.ca90b055.func_pm_ctrl_shuffle__uk1fz1qm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 362
+  },
+  {
+    "instance_id": "pyutils__line_profiler.a646bf0f.func_pm_remove_cond__7ahyiqe3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 936
+  },
+  {
+    "instance_id": "martinblech__xmltodict.0952f382.func_pm_remove_assign__fvbbpeqo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1353
+  },
+  {
+    "instance_id": "pylint-dev__astroid.b114f6b5.func_pm_remove_loop__p7n1dz1z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1103
+  },
+  {
+    "instance_id": "encode__starlette.db5063c2.func_pm_ctrl_shuffle__joaoudk9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 533
+  },
+  {
+    "instance_id": "mahmoud__glom.fb3c4e76.func_pm_ctrl_invert_if__r17lzf1b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1479
+  },
+  {
+    "instance_id": "PyCQA__flake8.cf1542ce.func_pm_ctrl_shuffle__f1l0tg2g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 685
+  },
+  {
+    "instance_id": "facebookresearch__fvcore.a491d5b9.func_pm_ctrl_shuffle__n9luhuy3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1980
+  },
+  {
+    "instance_id": "agronholm__exceptiongroup.0b4f4937.func_pm_remove_cond__smf5cdoz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 936
+  },
+  {
+    "instance_id": "facebookresearch__hydra.0f03eb60.func_pm_ctrl_shuffle__tb6qyitn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 652
+  },
+  {
+    "instance_id": "life4__textdistance.c3aca916.func_pm_ctrl_shuffle__l1qiw1ie",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3930
+  },
+  {
+    "instance_id": "marshmallow-code__marshmallow.9716fc62.func_pm_ctrl_invert_if__qg92hhf4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2891
+  },
+  {
+    "instance_id": "chardet__chardet.9630f238.func_pm_op_swap__j66x9h5w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "scrapy__scrapy.35212ec5.func_pm_ctrl_shuffle__mxos0ku5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1165
+  },
+  {
+    "instance_id": "iterative__dvc.1d6ea681.func_pm_ctrl_shuffle__ypn4tc8h",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 624
+  },
+  {
+    "instance_id": "vi3k6i5__flashtext.b316c7e9.func_pm_remove_assign__xwmbzjcl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1578
+  },
+  {
+    "instance_id": "Project-MONAI__MONAI.a09c1f08.func_pm_remove_assign__70jyz2gr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3181
+  },
+  {
+    "instance_id": "rubik__radon.54b88e58.func_pm_remove_assign__rbi8ik5o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2179
+  },
+  {
+    "instance_id": "facebookresearch__fvcore.a491d5b9.func_pm_ctrl_invert_if__yvh7zjgj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3308
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__jj1q4uh6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1874
+  },
+  {
+    "instance_id": "dask__dask.5f61e423.func_pm_remove_assign__u7218v2c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 591
+  },
+  {
+    "instance_id": "tweepy__tweepy.91a41c6e.func_pm_ctrl_invert_if__7sbu1x1z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1405
+  },
+  {
+    "instance_id": "mahmoud__boltons.3bfcfdd0.func_pm_remove_assign__lukb6vb8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 994
+  },
+  {
+    "instance_id": "django__daphne.32ac73e1.func_pm_ctrl_shuffle__suj4gnfr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1778
+  },
+  {
+    "instance_id": "Project-MONAI__MONAI.a09c1f08.func_pm_op_change__508sq64p",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3551
+  },
+  {
+    "instance_id": "Project-MONAI__MONAI.a09c1f08.func_pm_class_rm_base__l9cm8ewv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 3159
+  },
+  {
+    "instance_id": "pydicom__pydicom.7d361b3d.func_pm_remove_loop__022rn9dx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 672
+  },
+  {
+    "instance_id": "chardet__chardet.9630f238.func_pm_ctrl_invert_if__jfcxc4j9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 4037
+  },
+  {
+    "instance_id": "weaveworks__grafanalib.5c3b17ed.func_pm_ctrl_shuffle__9skmakjs",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 702
+  },
+  {
+    "instance_id": "google__textfsm.c31b6007.func_pm_remove_loop__a94fupsa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1893
+  },
+  {
+    "instance_id": "sqlfluff__sqlfluff.50a1c4b6.func_pm_op_change__sa28kobe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1399
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_assign__6ren7glx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1100
+  },
+  {
+    "instance_id": "pwaller__pyfiglet.f8c5f35b.func_pm_ctrl_shuffle__n7wjcwpl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "django__channels.a144b4b8.func_pm_remove_cond__y7y0uv9s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2430
+  },
+  {
+    "instance_id": "getnikola__nikola.0f4c230e.func_pm_remove_loop__2ynt8p08",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "django__daphne.32ac73e1.func_pm_class_rm_funcs__6x31bppa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1748
+  },
+  {
+    "instance_id": "facebookresearch__fvcore.a491d5b9.func_pm_class_rm_base__8vxbgclf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1778
+  },
+  {
+    "instance_id": "python-hyper__h11.bed0dd4a.func_pm_remove_cond__8oe6hzij",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 992
+  },
+  {
+    "instance_id": "luozhouyang__python-string-similarity.115acaac.func_pm_remove_assign__0q8ac551",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1224
+  },
+  {
+    "instance_id": "python-hyper__h11.bed0dd4a.func_pm_remove_cond__zzqae9wa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_remove_assign__iykks8mn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 474
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_remove_wrapper__x77znsei",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 7469
+  },
+  {
+    "instance_id": "Project-MONAI__MONAI.a09c1f08.func_pm_remove_cond__8z9mx96f",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1016
+  },
+  {
+    "instance_id": "scanny__python-pptx.278b47b1.func_pm_ctrl_shuffle__poyvkrra",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mozillazg__python-pinyin.e42dede5.func_pm_ctrl_shuffle__vgzgvudg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "weaveworks__grafanalib.5c3b17ed.func_pm_ctrl_invert_if__7s0gb8xa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "mozillazg__python-pinyin.e42dede5.func_pm_remove_cond__ifdvmg6l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 550
+  },
+  {
+    "instance_id": "Suor__funcy.207a7810.func_pm_op_change__vt0hxx5a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 617
+  },
+  {
+    "instance_id": "matthewwithanm__python-markdownify.6258f5c3.func_pm_ctrl_shuffle__lj5l0b2x",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1077
+  },
+  {
+    "instance_id": "kayak__pypika.1c9646f0.func_pm_ctrl_shuffle__jxlh0xp2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 657
+  },
+  {
+    "instance_id": "pyasn1__pyasn1.0f07d724.func_pm_op_break_chains__z3yw24wm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 1468
+  },
+  {
+    "instance_id": "luozhouyang__python-string-similarity.115acaac.func_pm_remove_assign__ugpyi6e5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 137047
+  },
+  {
+    "instance_id": "python-trio__trio.cfbbe2c1.func_pm_remove_loop__lpwllson",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 2689
+  },
+  {
+    "instance_id": "pexpect__ptyprocess.1067dbda.func_pm_remove_assign__ivbnyzsb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 768
+  },
+  {
+    "instance_id": "paramiko__paramiko.23f92003.func_pm_remove_cond__jrw9uwgi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 5771
+  }
+]

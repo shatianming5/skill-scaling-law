@@ -40,3 +40,7 @@ logs/
 # API keys
 .env
 .env.local
+
+# Auto-generated skills may contain leaked secrets from OpenClaw
+data/skills/auto_generated/*
+!data/skills/auto_generated/.gitkeep

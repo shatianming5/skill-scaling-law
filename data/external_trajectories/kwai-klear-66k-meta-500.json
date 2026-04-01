@@ -1,0 +1,3002 @@
+[
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__otc4vogi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__txqx39lf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__yw3j2d3s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__aq6tx8j7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__a0mopj7p",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__cw8yqgmm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__ce2ryqth",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__y7ldos3s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__cv13hcs4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__o2muk6gq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__oni9ccvi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__81zh55ab",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__2nfzwp19",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__dzecrh4b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__sxu9659e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__06y8rdsd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__r97sd6ry",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__fc22e7pf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__ivt14jmt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__z9hi4z5f",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__g9gw4uvy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__kacru9dp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__7nloo8og",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__v89vm72t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__u0jblbrb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__4989os43",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__xxrrqf5s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__e1m5x2jl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__us28se2z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__93il3bwh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__wrnd3hwj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__2982chwy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__qjtwzi3x",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__1c6ihv0q",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__y02xqgvh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__hif1vy3a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__4a813sx7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__g0172wjm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__snqqvk7i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__f5qgbzhb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__nqn1zwzi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__d04svtik",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__ujvu3vnt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__7fgnf0ep",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__qbgafdj1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__oq5a6syn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__52w4ldd8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__34o7beqb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__wiimx18e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_invert_if__3d0flqnt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_shuffle__rzfjedk4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__jfzqihyy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__0pmptnff",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__rt3vaecp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__snl82dez",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__mz2zc5j7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__1zoa1aes",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_file__vya9r8qy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_basic__ze0678qg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_shuffle__l3irb72o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_invert_if__l3kb8bcr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_cond__ebgnwplb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__gem50xqy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__1oh6objh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__03zeswcq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_ctrl_shuffle__1bfzf9ym",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__13gudrrm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.combine_module__us5omk1n",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_cond__v36uumsg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__6g73itv9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_assign__0cilioxa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__6b1endl1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__367hem7k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__8hb7taq9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__1mk7jsct",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__52uqxs9w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__0fa1a5xo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__66uf5pkm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_assign__mab9thh9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__2byv9c20",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__2nmqdrrp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.func_pm_remove_cond__ytpfyrz2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__42t5whsd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__3vwi6kpm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__4st59pwm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__9utcevf4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__67w9ua96",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__c7uizw13",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__cnes36pa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__btci6v9o",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__fujllcja",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__47z41ybp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__dgs720r4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__e551pdwl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ay64fhi1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__bx12p9xf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__b8ad8e68",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__hpmw9a73",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__90y8ho2d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__c0hjbwnd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__dihq9s13",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__b61bpmd5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__i1kvgny6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__g2d8f089",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__8lswf04b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__8sjlu5mp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__hrv1h255",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__eg0qs4x8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ce8yysnh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__mq7qhqvt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ewoo7vbw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__obtxhenv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__qs5qapuw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__hhtebctz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__j2pkh539",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ow727h97",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__s4kfykir",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__q9ve64pd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__o49achoj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__oer23bqe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__r4eg0zzp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__m5iwd9vk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__pf6xh62j",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__qnda22vm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__s8py3e80",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__mnglnde5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__knw71m02",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__sejiv4di",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__qvqemjky",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__uryp713l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__pbc6kken",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__syb7cmcd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__umo4b9bc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__u0bjva5n",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__rgyq0svf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__uhm7in93",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__vao90bqi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__tmoxygfi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__pwi6g2ry",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__uql5tgba",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__xcsf68u5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__uja9ubfs",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ydqbvmqj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.pr_876",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__o72q2ytw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__vgz7g33a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__wu7rhd9m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ub9osn7f",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__rchxmbd6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ydxue4oz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__zrobu0uy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__xvy3oh47",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.pr_879",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__xayur2px",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.pr_881",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__vtd9nx1w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ul3pse4t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.pr_885",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__w3lrry31",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__zb2zwnf4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.pr_891",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__ymz6voe4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "oauthlib__oauthlib.1fd52536.lm_rewrite__z9f2hnxx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__mged6jg2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__ktykmrgz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__w5na1oqu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__iaukvafj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__9dsev46m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__x5zc4xb6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__hr16k2ip",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__u92q5owo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_invert_if__tv8qotg5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__ny0tmyi3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__1avsmufn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__ld25mubm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__3ljvivv1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__wx2vx0ly",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__4gcf36bk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__8pa1fxvj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__n1gzo6lk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__s7yldgy0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__wcqpfsdn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__d3jm9ipb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__ni48riat",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__dcboug1i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__s0bcdks5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__1n8ql04e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__17y1km6x",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_invert_if__wwden9d5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__g7sdimm9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__3rty13vw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__2xahl087",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__xbzswi9a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__h8rtl9ii",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__xuxrcvn4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_pm_ctrl_shuffle__qhd71msz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__7470eiay",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_390",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_module__yjmtlc2r",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__z0ij0hwj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_425",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_406",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__mc25garo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_451",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_384",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.combine_file__wig9ao0c",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_434",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__1tzqbvbn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.lm_rewrite__nrufeeyo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__me50wn6u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__9gfdmym0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__5x7jn623",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__onskze9t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_484",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__0gr72zo5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__1o97qyc1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__uhr220qw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__886ywrvb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__4lipjp36",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__4138xlqs",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__mgef0764",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__d97cxah7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__4tphefy7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__hmldvpm2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__0sdzfnfz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__1qhrm4tp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__ib9j050b",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__ymgdbkre",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__7dxlw6wk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__aeqcqkfa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.pr_437",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__hrxknpoa",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__xwviazi8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__eq2t7cw0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__5u3yb4dc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__jrw1tml3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__6gfxaj0e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__ozhlj5jk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__k8yyxz57",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__jyuoq9gl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__d063c1f4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__dddtj48s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__75cqiiku",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__mn8171fl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__bjf0rr5u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__ape0cbzb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__ra54y0tq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__kh7gk9le",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__y2vsigzo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_file__7yi8dsns",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__mkemzpwf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__4qst8j4w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__u1sa3vrw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__dip0sy1i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__r41l9vve",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__vdg3zspc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__q1j9t2mi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__mx6c0ndx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__nmuajq34",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__fx2c0ur5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__zyccmzkb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__uhntuv2p",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "jd__tenacity.0d40e76f.func_basic__hwyzze0l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__rizvz76q",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__plme5jh2",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_invert_if__s2lhonxu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.combine_module__535wueez",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__wwjfs3l1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_class_rm_funcs__3b0kzr6z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__wylorf7f",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__sflpfty5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__wqiayeg5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__jj1q4uh6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__jrfyctc3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_remove_assign__eb0dnb6d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_ctrl_shuffle__lxglrf6v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_basic__cu9n5lkt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__1xt89hhu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__eofu7mbj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_6093",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__gjog9x86",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_remove_loop__6qj1u4v8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_class_rm_funcs__igtm7kyn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.func_pm_class_rm_funcs__jvflqg93",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_6107",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__uwiuayml",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__cr3ytkrg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_5947",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_6065",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__o993dgfr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_6176",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_6046",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_5969",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__p1g97y43",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__mc946nmf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__b1knf251",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__mql4ka0r",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__5py5l9eu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__3qg8gxw1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.pr_6430",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__lgb4ejah",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__bvbn0gpe",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__60cap35g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__h5cvi8n8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__4bk2n7og",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__bdfrqykb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__m6txo517",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__vt93kwbv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__jb2cb66p",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__03o4fz9t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "Cog-Creators__Red-DiscordBot.33e0eac7.lm_rewrite__aicq62vq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__gsg9jf4a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__x36wmlww",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__7q7zuw39",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__klhoyyyb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__xoey1m7e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__6to9ui9z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__nmuahjx1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_ctrl_shuffle__qr98o5at",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__yvg7jx28",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__f8v7fr1y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__uxmeqk7t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__s2lyq271",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__y5jsfigs",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_ctrl_invert_if__8cp6cg0l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_op_break_chains__ceb4s3n3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__xpskzaux",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__32keaobz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_module__ig0idy72",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_remove_cond__yqkah0ut",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_op_swap__2oa3rxsd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.combine_file__cczk49sy",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__2ibnkhja",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__44bm97i0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_remove_cond__ehyhh6nv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__1qj0kt0s",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__1isabk4u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__2ihfp01v",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__49nqqhsl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_remove_wrapper__q7zhg0en",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__1v9vxrsf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_remove_assign__2p7boc8z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__4igsgfuj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__f4yzqltf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__7f2ommea",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__6hb5khg9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__3wwei82g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__8aboj0fv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__f4wpz3g8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__4ulsgec6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__6l7stksw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__azoa22jb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_basic__heyl0n8e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__1qygh96d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__ec2c657e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__nqrq3e2w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__emy9fwdt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__cz6032c7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__co6ebskz",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__7c2h2v8g",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__6uazsa7t",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__9ntd2uez",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_remove_cond__oyi7r6tv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.func_pm_ctrl_invert_if__qc51myvl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__gc3339d9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__oxyjpfcm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__m8r30z3m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__mlk3s0bv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__k97shf45",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__faljerzf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__k8lm0lu6",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__ywwqbayh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__p6nhrdra",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__qgspafvp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__ywdy8qwo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__5f9fk6kc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__xhv4u3cd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__i9rqrg4k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__ft2smsu3",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.pr_350",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__mgngjn90",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__kf2lc26i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.pr_485",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.pr_291",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__rzqygw20",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__op57tovi",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.combine_file__pcl6bxf8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.combine_file__cgrkaq6d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__rc44bodp",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.combine_file__bjts5roo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__2poee5m0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_ctrl_invert_if__os37r0ej",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.combine_file__f7px3uhn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.combine_file__ie71twzc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__sajz1lzn",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_wrapper__xr92831y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__apu68fhb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__capwt2ad",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__b2s58hq1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_ctrl_invert_if__bv6pmfw5",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_loop__q0fmi7se",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_assign__6ren7glx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__zctj4eba",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.combine_file__9pxesytc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_op_break_chains__4i60d2xd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "agronholm__typeguard.b6a7e438.lm_rewrite__o4cq9mv4",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__1p5svq9p",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_class_rm_funcs__zwxps2tf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__0d083wie",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_remove_assign__jeg94vb0",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__51wwbgvu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__tnj2recr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_pm_op_break_chains__rivx4klg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.func_basic__fzne83qw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__15ywjori",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__4cguxii1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__2824enf1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__5ehs3a8k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__4zo2q3e1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__347uaom8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__6amwxvwd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__7dg3yyhh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__cuqe4e2u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__79qjjjgt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__5aclwhtg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__295g9vu1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__5oopm5gg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__4be0rtfm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__7rnylf7k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__bq4mwewb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__40o65itj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__7hvgiwui",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__evou8gzk",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__jcmvm7q8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__a42gosjd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__maqfg84a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__fvldk72l",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__lfia8nsq",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__iv8vwrta",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__a8fgop3m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__lz9si8kb",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__9ri9kxp1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__7xw9wdrh",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__9ah6ud8m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__v8gi6dpt",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__j257cp4m",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__lv1ja7kx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__6m8itscw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__g9ut0thl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.pr_885",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__u73j8hla",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__l6huv6dl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__7kn53zq9",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.pr_938",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__oznb1t9z",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__xzlhv2ka",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__ws3v7w3a",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.pr_972",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__xcll3qbj",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__tws7nl2y",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__q5645uax",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__z80h29fm",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.pr_906",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__uj1u030d",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__zpj9kmzx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__wk4t9iku",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__w37ixb90",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__xw792nme",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__vwrospz1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__762052u8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "pdfminer__pdfminer.six.1a8bd2f7.lm_rewrite__0ya3bz6x",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__5zghcl1w",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__5x4jvjgf",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__9dca7cdg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__6ttcowg7",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__rin3w3we",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__bjl887iw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__bplftd4e",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__hpvytlvc",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__1i9gep13",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__7gqfh6ju",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__pim7hbhr",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__hfvq1fj1",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__rciejlip",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_class_rm_base__p2zchbyw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__nknw7slu",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__f7lheywo",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__jnvikixw",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__md7w9ci8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_ctrl_shuffle__2oy6fbsg",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__e6q4r13i",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__gisn1d5k",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__rmvmrjvl",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__25ljeyka",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_ctrl_invert_if__mopbemnv",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__rb9kh6ya",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__i0gooebd",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.combine_file__tn5q5tqx",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_basic__em6pyfo8",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  },
+  {
+    "instance_id": "cknd__stackprinter.219fcc52.func_pm_ctrl_shuffle__mqsew38u",
+    "model_name": "",
+    "exit_status": "",
+    "patch_len": 0
+  }
+]
