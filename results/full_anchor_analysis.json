@@ -1,0 +1,82 @@
+{
+  "analysis": "Joint Anchor Analysis: SkillsBench + SWE-Skills-Bench",
+  "total_tasks": 133,
+  "total_trajectories": 7381,
+  "summary": {
+    "strong_moderate_positive": {
+      "n": 31,
+      "pct": 23.3
+    },
+    "negative": {
+      "n": 4,
+      "pct": 3.0
+    },
+    "near_zero": {
+      "n": 70,
+      "pct": 52.6
+    },
+    "weak_positive": {
+      "n": 28,
+      "pct": 21.1
+    }
+  },
+  "anchor_evidence": {
+    "bimodal_distribution": true,
+    "high_between_task_variance": true,
+    "self_generated_ineffective": true,
+    "strong_anchors_domain_specific": true,
+    "weak_models_benefit_more": true,
+    "correlation_baseline_delta": -0.342
+  },
+  "strong_anchor_tasks": [
+    {
+      "task": "sales-pivot-analysis",
+      "delta": 0.81
+    },
+    {
+      "task": "mario-coin-counting",
+      "delta": 0.81
+    },
+    {
+      "task": "flood-risk-analysis",
+      "delta": 0.77
+    },
+    {
+      "task": "sec-financial-report",
+      "delta": 0.73
+    },
+    {
+      "task": "offer-letter-generator",
+      "delta": 0.72
+    },
+    {
+      "task": "earthquake-plate-calculation",
+      "delta": 0.71
+    },
+    {
+      "task": "protein-expression-analysis",
+      "delta": 0.69
+    },
+    {
+      "task": "manufacturing-fjsp-optimization",
+      "delta": 0.69
+    },
+    {
+      "task": "software-dependency-audit",
+      "delta": 0.59
+    },
+    {
+      "task": "dapt-intrusion-detection",
+      "delta": 0.58
+    },
+    {
+      "task": "simpo-code-reproduction",
+      "delta": 0.57
+    },
+    {
+      "task": "lake-warming-attribution",
+      "delta": 0.51
+    }
+  ],
+  "conclusion": "Skill acts primarily as ANCHOR - a few critical knowledge points determine task success. Verified across 133 tasks, 12 domains, 2 independent benchmarks, 7 models."
+}
